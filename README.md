@@ -8,36 +8,34 @@ https://labweek2022.on.fleek.co/
 
 LabWeek 2022 is happening October 20th to November 4th, in Lisbon.
 
-## Decentralized Event
+## Decentralized Conference
 
-A decentralized event is a series of related events happening around
+A decentralized conference is a series of related events happening around
 the same place and time, put on by a community. The goal is to enable people
 and groups to host their own events, loosely coordinating with the rest of the
 community.
 
-Anyone can submit new tracks or sessions!
+Events can be run in many formats: roundtables, talks with slides, hack sessions, whiteboard sessions, or more. Anyone can submit subevents, just follow the instructions below!
 
-## Submitting tracks or sessions
+## Submitting subevents
 
-### Add a session to an existing track
-Sessions can be run in many formats: roundtables, talks with slides, hack sessions, whiteboard sessions, or more. 
+There are 2 templates you can choose from to submit a subevent:
+1. Use _template-short-event if your event doesn't have structured times throughout. It's short and sweet.
+2. Use _template-long-event if your event has a lot of breakout times for different speakers, sessions, OR is going to be multiple days long. This template has timeslots you can fill out to let attendees know what to expect and when.
 
-1. Go to `/events` and find the .toml file for that track.
-2. Edit the file to include details of your proposed session.
-3. Create a PR to this repo, and respond to feedback.
-4. Respond to feedback from the track leader, who will decide whether to merge & publish your session.
+### Creating an Event
 
-### Add a new track
-Tracks are a group of sessions with a common theme.
+1. Select the short or long template depending on your event.
+2. Create a new file and name it your-event-name.toml
+3. Fill in the template with details for your event.
+4. Create a PR to this repo to add this new file.
+5. The Spaceport team will review and merge your event into the website. 
 
-1. Make a copy of `events/_template-event.toml` or `events/_template-track.toml` into `events/your-event.toml`
-2. Edit the file to include all the details about your event.
-3. File a pull-request in this repo, and respond to feedback.
-4. The organizers will decide whether to merge & publish your event.
+A quick note: If you are submitting an event that is private, it may not show up on the website since most attendees will not be able to attend. If you'd like it to appear in the schedule for some reason, please leave a comment in your PR for the Spaceport team to review.
 
-### What venue do I put?
+### Editing an Event
 
-Leave it blank for now, we'll try to assign rooms closer to the event.
+If you've already created your event but want to add or change details in the .toml file, create a PR with your edit requests, along with any comments. The Spaceport team will review and merge your changes to the website.
 
 ### CSV dump of talks
 
