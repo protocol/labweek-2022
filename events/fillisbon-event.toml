@@ -16,7 +16,7 @@ website = "https://hub.fil.org/fil-lisbon"
 date = "2022-10-31"
 
 # how many days the event lasts (1 - N)
-days = 4
+days = 5
 
 # the event times (shows up in the event card)
 times = "To be confirmed"
