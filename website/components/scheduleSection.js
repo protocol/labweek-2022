@@ -11,7 +11,7 @@ export default function ScheduleSection({ events, config }) {
 
   useEffect(() => {
     if (scrollContainer.current) {
-      scrollContainer.current.scrollTo(850, 0);
+      scrollContainer.current.scrollTo(780, 0);
     }
   });
 
