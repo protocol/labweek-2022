@@ -40,7 +40,7 @@ export default function Countdown({targetDate, className}) {
   
   return (
     <div className={`relative z-2 w-full px-6 min-h-[10vh] ${className}`}>
-      <div className="container max-w-8xl mx-auto">
+      <div className="container max-w-6xl mx-auto">
         <div className="bg-blue-500 rounded-lg text-white py-8">
           <div className="grid grid-cols-2 mx-auto w-60 lg:w-3/4 gap-6 lg:gap-28 lg:grid-cols-4">
             <Counter value={timeLeft.days} label="DAYS" />
