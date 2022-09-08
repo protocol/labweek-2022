@@ -63,7 +63,7 @@ function BlockCard({ event }) {
         👤 {event.attendees} - {event.difficulty}
       </div>
       <div className="text-gray-900 text-sm mt-3">
-        {event.dri}
+        {event.org}
       </div>
 
       <div className="event-tags">
@@ -88,7 +88,7 @@ function TrackCard({ event }) {
         👤 {event.attendees} - {event.difficulty}
       </div>
       <div className="text-gray-900 text-sm mt-3 text-ellipsis overflow-hidden">
-        {event.dri}
+        {event.org}
       </div>
 
       <div className="event-tags">
@@ -184,7 +184,7 @@ export function EventModal({ children, event }) {
               <ul className="list-disc ml-4">
                 <li><b>Date</b>: {dateStr(event.date, event.days)}</li>
                 <li><b>Times</b>: {event.times}</li>
-                <li><b>Track Chair(s)</b>: {event.dri}</li>
+                <li><b>Organization</b>: {event.org}</li>
                 <li><b>Attendees</b>: {event.attendees} ({event.difficulty})</li>
               </ul>
               <div className="event-tags">
