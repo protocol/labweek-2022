@@ -10,14 +10,14 @@ export default function Header({config}) {
       lg:border-slate-900/10 dark:border-slate-50/[0.06] bg-white/80
       supports-backdrop-blur:bg-white/80 dark:bg-transparent">
       <div className="container h-16 max-w-8xl mx-auto">
-        <Navbar className="bg-transparent dark:bg-transparent"
+        <Navbar className="bg-transparent dark:bg-transparent px-2 lg:px-0"
           fluid={true}
           rounded={true}
         >
           <Navbar.Brand href='/'>
             <img
               src={config.devent.logo}
-              className="mr-3 h-6 sm:h-9"
+              className="mr-3 h-6 sm:h-9 ml-4 lg:ml-0"
               alt={config.devent.name}
             />
             <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
