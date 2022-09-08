@@ -23,7 +23,7 @@ const Lockup = (props) => {
 export default function Hero({ config }) {
   return (
     <div className="relative text-gray-300 w-full px-6 lg:px-10">
-      <div className="container max-w-8xl mx-auto lg:flex ">
+      <div className="container max-w-6xl mx-auto lg:flex ">
         <div className="absolute inset-0 overflow-hidden">
           <img className="absolute bottom-0 left-1/2 transform -translate-x-1/4" src={config.devent.bgimg} style={{ minWidth: "1600px" }} />
         </div>

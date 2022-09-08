@@ -9,28 +9,31 @@ export default function Header({config}) {
       flex-none lg:z-50 lg:border-b
       lg:border-slate-900/10 dark:border-slate-50/[0.06] bg-white/80
       supports-backdrop-blur:bg-white/80 dark:bg-transparent">
-      <div className="container h-16 max-w-8xl mx-auto">
-        <Navbar className="bg-transparent dark:bg-transparent px-2 lg:px-0"
+      <div className="container h-16 max-w-6xl mx-auto">
+        <Navbar className="bg-white lg:bg-transparent dark:bg-transparent px-2 lg:px-0"
           fluid={true}
           rounded={true}
         >
           <Navbar.Brand href='/'>
-            <img
+            {/* <img
               src={config.devent.logo}
               className="mr-3 h-6 sm:h-9 ml-4 lg:ml-0"
               alt={config.devent.name}
-            />
+            /> */}
             <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
               {config.devent.name}
             </span>
           </Navbar.Brand>
           <div className="flex md:order-2">
-            <Button href='/resources' target="_blank">Resources</Button>
+            <Button href={config.devent.rsvpLink} target="_blank">RSVP</Button>
             <Navbar.Toggle />
           </div>
           <Navbar.Collapse>
             <Navbar.Link href="/schedule">
               Schedule
+            </Navbar.Link>
+            <Navbar.Link href="/schedule">
+              Resources
             </Navbar.Link>
             <Navbar.Link href="/#faq">
               FAQ
