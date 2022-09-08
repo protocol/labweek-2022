@@ -13,10 +13,10 @@ dri = "Rachel Horn"
 website = "https://hub.fil.org/fil-lisbon"
 
 # the start date of the event
-date = "2022-10-30"
+date = "2022-10-31"
 
 # how many days the event lasts (1 - N)
-days = 6
+days = 2
 
 # the event times (shows up in the event card)
 times = "To be confirmed"
