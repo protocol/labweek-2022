@@ -64,6 +64,8 @@ teams = [
   ["LibP2P", "", "./teams/libp2p.png" ],
   ["Drand", "", "./teams/drand.png" ],
   ["Lotus", "", "./teams/lotus.jpeg" ],
+  ["Compute Over Data", "", "./teams/compute-over-data.png" ],
+  ["Talent Protocol", "", "./teams/talent-protocol.png" ],
 ]
 
 # this is a Frequently Asked Questions section.
