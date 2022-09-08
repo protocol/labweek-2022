@@ -22,12 +22,12 @@ const Lockup = (props) => {
 
 export default function Hero({ config }) {
   return (
-    <div className="relative text-gray-300 w-full px-6 lg:px-10">
-      <div className="container max-w-6xl mx-auto lg:flex ">
+    <div className="relative text-gray-300 w-full px-6 lg:px-10 min-h-[70vh] lg:flex lg:items-center">
+      <div className="container max-w-6xl mx-auto lg:h-full">
         <div className="absolute inset-0 overflow-hidden">
           <img className="absolute bottom-0 left-1/2 transform -translate-x-1/4" src={config.devent.bgimg} style={{ minWidth: "1600px" }} />
         </div>
-        <div className="relative w-full pt-10 pb-28 lg:pt-20 lg:pb-40">
+        <div className="relative w-full pt-10 pb-28 lg:pt-20">
           <div className="relative z-1 mx-auto min-h-full lg:ml-0 flex flex-col gap-y-3">
             <Lockup name={config.devent.name} logo={config.devent.logo} tagline={config.devent.tagline} />
             <div className='basis-1/3 my-5'>
