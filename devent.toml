@@ -8,7 +8,7 @@ location="Lisbon, Portugal"
 
 # the dates the devent runs
 dateStart = "2022-10-20"
-dateEnd = "2022-11-2"
+dateEnd = "2022-11-4"
 
 # a pithy tag line you want to show in the "hero/splash" part of the landing page
 tagline="""
