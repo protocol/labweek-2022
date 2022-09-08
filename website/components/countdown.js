@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-export default function Countdown({targetDate}) {
+export default function Countdown({targetDate, className}) {
     
   const calculateTimeLeft = (targetDate) => {
     const difference = +new Date(targetDate) - +new Date();
@@ -26,7 +26,8 @@ export default function Countdown({targetDate}) {
   });
   
   const Counter = (props) => {
-    const formattedValue = props.value < 10 ? `0${props.value}` : `${props.value}`
+    const value = props.value || 0
+    const formattedValue = value < 10 ? `0${value}` : `${value}`
     return (
       <div className="w-20 text-center font-exo">
         <div className="text-5xl mb-2 font-bold">{formattedValue}</div>
@@ -36,7 +37,7 @@ export default function Countdown({targetDate}) {
   }
   
   return (
-    <div className="relative z-2 w-full px-20 min-h-[10vh] mt-28 -mb-10">
+    <div className={`relative z-2 w-full px-20 min-h-[10vh] ${className}`}>
       <div className="container max-w-8xl mx-auto">
         <div className="bg-blue-500 rounded-lg text-white py-8">
           <div className="flex gap-12 justify-center ">
