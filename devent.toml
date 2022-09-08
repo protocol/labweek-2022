@@ -47,7 +47,7 @@ org="Protocol Labs"
 orglink="https://protocol.ai"
 
 # url for this event repo
-repo="https://github.com/pathfindertools/labweek-2022"
+repo="https://github.com/protocol/labweek-2022"
 
 # list the participating teams.
 # the format here is:
@@ -55,12 +55,15 @@ repo="https://github.com/pathfindertools/labweek-2022"
 #   ["Team Name", "https://team.org", "https://team.org/team-logo.jpg"],
 # ]
 teams = [
-  ["Number Zero", "", "https://bafybeicftvbmvctgso22rtgvx43bql3g55p3x4a25bfnfkqqv3nwyfzewq.ipfs.dweb.link/number-zero-logo.png" ],
+  ["Consensus Lab", "http://consensus-lab.com/", "./teams/consensus-lab.png" ],
+  ["Drand", "", "./teams/drand.png" ],
+  ["LibP2P", "", "./teams/libp2p.png" ],
+  ["Filecoin Foundation", "https://fil.org/", "./teams/filecoin-foundation.png" ],
+  ["IPFS", "https://ipfs.io", "./teams/ipfs.jpeg" ],
+  ["Lotus", "", "./teams/lotus.jpeg" ],
+  ["PL Launchpad", "https://pl-launchpad.io", "./teams/pl-launchpad.png" ],
+  ["Spaceport", "", "./teams/spaceport.jpeg" ],
   ["Protocol Labs", "https://protocol.ai", "https://media.graphassets.com/e8bIG2apSUauy2dqK35W" ],
-  ["PL Research", "https://research.protocol.ai", "https://research.protocol.ai/images/pl_research_logo.svg" ],
-  ["Fission", "https://fission.codes", "https://kit.fission.app/images/logo-dark-colored.svg" ],
-  ["Ceramic", "https://ceramic.network", "https://user-images.githubusercontent.com/3909429/177210536-e0834b0f-e313-456f-8bf5-1e5f27b0898a.png" ],
-  ["Fluence", "https://fluence.network", "https://gateway.pinata.cloud/ipfs/QmY1iFhZ6Lde3Tpcwd7ygEDPSJfPuSyGV97iiH2VEj16jB" ],
 ]
 
 # this is a Frequently Asked Questions section.
@@ -119,8 +122,8 @@ All scheduled events are [optional](/#faq).
 [footer]
 
 [footer.links]
-"IPFS" = "https://ipfs.io"
-"Event Github" = "https://github.com/pathfindertools/labweek-2022"
+"Protocol Labs" = "https://protocol.ai/"
+"Event Github" = "https://github.com/protocol/labweek-2022"
 
 [footer.legal]
 "Privacy Policy" = "#"
