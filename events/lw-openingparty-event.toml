@@ -6,7 +6,7 @@ org = "Spaceport"
 
 # the github handle of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
-dri = "@androowoo"
+dri = "Androo Woo"
 
 # the website of the event
 # make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
@@ -19,7 +19,7 @@ date = "2022-10-24"
 days = 1
 
 # the event times (shows up in the event card)
-times = ""
+times = "To be confirmed"
 
 # the event venue name (will show up on the event card - TODO)
 venueName = "Estufa Fria"
