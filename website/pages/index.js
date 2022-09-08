@@ -10,13 +10,13 @@ export default function Index({ events, config }) {
   return (
     <Layout config={config}>
       <Hero config={config} />
-        <div className="container max-w-8xl mx-auto -mt-3 mb-3">
-          <span className="font-medium">Tickets:</span> IPFS Camp events are independent and do their own ticketing.
-          Check their websites for information on ticketing.
-        </div>
+      {/* <div className="container max-w-8xl mx-auto">
+        <span className="font-medium">Tickets:</span> IPFS Camp events are independent and do their own ticketing.
+        Check their websites for information on ticketing.
+      </div> */}
       <ScheduleSection config={config} events={events} />
       <Teams config={config} />
-      <Countdown targetDate="2022/10/20 01:00" />
+      <Countdown targetDate="2022/10/20 01:00" className="mt-28 -mb-10"  />
       <FAQ config={config} />
     </Layout>
   )

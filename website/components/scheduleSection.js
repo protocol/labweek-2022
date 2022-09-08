@@ -1,3 +1,4 @@
+import { useRef, useEffect } from 'react'
 import ScrollContainer from 'react-indiana-drag-scroll'
 
 import { ScheduleTable } from "./scheduletable.js"
@@ -6,9 +7,17 @@ import Markdown from './markdown.js'
 import annotateEvents from '../lib/annotateEvents.js'
 
 export default function ScheduleSection({ events, config }) {
+  const scrollContainer = useRef(null);
+
+  useEffect(() => {
+    if (scrollContainer.current) {
+      scrollContainer.current.scrollTo(850, 0);
+    }
+  });
+
   return (
     <article>
-      <div className='w-full py-10 min-h-[10vh]' id='schedule'>
+      <div className='w-full pt-28 pb-28 min-h-[10vh]' id='schedule'>
         <div className="container mx-auto max-w-8xl pb-10 px-20">
           <header className="flex flex-row">
             <h1 className="text-4xl font-bold">
@@ -23,15 +32,13 @@ export default function ScheduleSection({ events, config }) {
             {config.schedule?.description && <Markdown>{config.schedule.description}</Markdown>}
           </div>
         </div>
-        <div className="sm:w-full container mx-auto max-w-8xl">
-          <ScrollContainer className="scroll-container">
-            <div className="flex-none min-h-full w-full">
-              <div className="content">
-                <ScheduleTable events={annotateEvents(events, config)} config={config} />
-              </div>
+        <ScrollContainer innerRef={scrollContainer} className="scroll-container">
+          <div className="flex-none min-h-full w-full">
+            <div className="content">
+              <ScheduleTable events={annotateEvents(events, config)} config={config} />
             </div>
-          </ScrollContainer>
-        </div>
+          </div>
+        </ScrollContainer>
         <AddEventModal config={config} />
       </div>
     </article>
