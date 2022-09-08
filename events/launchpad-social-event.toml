@@ -47,5 +47,9 @@ tags = [""]
 
 # a description of the event.
 # will show up when the user clicks the event card.
-description = """
+description = """Join [ the PL Launchpad ](https://pl-launchpad.io/) Social Hour in Lisbon ! We are excited to meet all of you, share our latest updates, more about the future cohorts happening in the next months, meet the team and our current and Alumni residents.
+We will be providing drinks and food for everybody in a unique location. Come enjoy a cocktail dinner and drinks and great conversations!
+Protocol Labs Launchpad is a hiring & onboarding program designed for accelerating technical growth in the Web3 space.
+
+Launchpad aims to hire exceptional talent from diverse engineering and tech operations backgrounds into a six-week, full-time residency designed to train, develop, and team-match talent with Web3 opportunities across the Protocol Labs Network.
 """
