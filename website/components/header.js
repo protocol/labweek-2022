@@ -32,7 +32,7 @@ export default function Header({config}) {
             <Navbar.Link href="/schedule">
               Schedule
             </Navbar.Link>
-            <Navbar.Link href="/schedule">
+            <Navbar.Link href="https://coda.io/@stellarevents/labweek22">
               Resources
             </Navbar.Link>
             <Navbar.Link href="/#faq">
