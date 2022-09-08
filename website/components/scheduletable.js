@@ -1,6 +1,6 @@
 import dayjs from 'dayjs'
 
-import { EventCard, BlankCard } from './event.js'
+import { EventCard } from './event.js'
 import genDates from '../lib/genDates.js'
 import dayOffset from '../lib/dayOffset.js'
 import Link from 'next/link.js'
@@ -35,9 +35,6 @@ export function ScheduleTable({ events, config }) {
           </div>
         ))}
         {events.map((e, i) => (<EventCardWrapper e={e} i={i} />))}
-        <div className={`col-start-5 col-end-9 col-span-${numDays} shrink-0 h-full`}>
-          <BlankCard />
-        </div>
       </div>
 
       <div className="invisible"> {/* trick tailwindcss to generate the required columns */}

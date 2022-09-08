@@ -1,5 +1,6 @@
 import { useRef, useEffect } from 'react'
 import ScrollContainer from 'react-indiana-drag-scroll'
+import { BlankCard } from './event.js'
 
 import { ScheduleTable } from "./scheduletable.js"
 import { AddEventModal } from "./event.js"
@@ -18,7 +19,7 @@ export default function ScheduleSection({ events, config }) {
   return (
     <article>
       <div className='w-full pt-56 pb-56 min-h-[10vh]' id='schedule'>
-        <div className="container mx-auto max-w-6xl pb-10">
+        <div className="container mx-auto max-w-6xl pb-10 px-6 lg:px-0">
           <header className="flex flex-row">
             <h1 className="text-4xl font-bold">
               Schedule
@@ -39,6 +40,9 @@ export default function ScheduleSection({ events, config }) {
             </div>
           </div>
         </ScrollContainer>
+        <div className={`bg-gray-100 p-10 pt-0`}>
+          <BlankCard />
+        </div>
         <AddEventModal config={config} />
       </div>
     </article>
