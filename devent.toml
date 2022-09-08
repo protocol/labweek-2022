@@ -55,15 +55,15 @@ repo="https://github.com/protocol/labweek-2022"
 #   ["Team Name", "https://team.org", "https://team.org/team-logo.jpg"],
 # ]
 teams = [
+  ["Protocol Labs", "https://protocol.ai", "https://media.graphassets.com/e8bIG2apSUauy2dqK35W" ],
   ["Consensus Lab", "http://consensus-lab.com/", "./teams/consensus-lab.png" ],
-  ["Drand", "", "./teams/drand.png" ],
-  ["LibP2P", "", "./teams/libp2p.png" ],
   ["Filecoin Foundation", "https://fil.org/", "./teams/filecoin-foundation.png" ],
   ["IPFS", "https://ipfs.io", "./teams/ipfs.jpeg" ],
-  ["Lotus", "", "./teams/lotus.jpeg" ],
-  ["PL Launchpad", "https://pl-launchpad.io", "./teams/pl-launchpad.png" ],
   ["Spaceport", "", "./teams/spaceport.jpeg" ],
-  ["Protocol Labs", "https://protocol.ai", "https://media.graphassets.com/e8bIG2apSUauy2dqK35W" ],
+  ["PL Launchpad", "https://pl-launchpad.io", "./teams/pl-launchpad.png" ],
+  ["LibP2P", "", "./teams/libp2p.png" ],
+  ["Drand", "", "./teams/drand.png" ],
+  ["Lotus", "", "./teams/lotus.jpeg" ],
 ]
 
 # this is a Frequently Asked Questions section.
