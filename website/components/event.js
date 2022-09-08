@@ -169,12 +169,12 @@ export function EventModal({ children, event }) {
               <ul className="list-disc ml-4">
                 <li><b>Date</b>: {dateStr(event.date, event.days)}</li>
                 <li><b>Times</b>: {event.times}</li>
-                <li><b>Track Chair(s)</b>: {event.dri}</li>
+                <li><b>Hosted by</b>: {event.dri}</li>
                 <li><b>Attendees</b>: {event.attendees} ({event.difficulty})</li>
               </ul>
               <div className="event-tags">
                 {event.tags.map((tag, i) => (
-                  <Tag key={i}>{tag}</Tag>
+                  (tag && <Tag key={i}>{tag}</Tag>)
                 ))}
               </div>
               <p className="text-base leading-relaxed prose">
@@ -266,7 +266,7 @@ export function AddEventModal({ config }) {
                   <a className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
                      href={config.devent.repo} target="_blank">{config.devent.repo}</a></li>
                 <li><b>Step 2</b>: Address any comments until your PR is merged.</li>
-                <li><b>Step 3</b>: Profit! ⭐️💙</li>
+                <li><b>Step 3</b>: Blastoff! ⭐️💙</li>
               </ol>
             </Modal.Body>
             <Modal.Footer>
