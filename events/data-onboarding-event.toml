@@ -19,7 +19,7 @@ date = "2022-10-28"
 days = 1
 
 # the event times (shows up in the event card)
-times = ""
+times = "10:00"
 
 # the event venue name (will show up on the event card - TODO)
 venueName = "Time Out Market"
@@ -47,5 +47,5 @@ tags = ["Talks", "Workshops"]
 
 # a description of the event.
 # will show up when the user clicks the event card.
-description = """
+description = """The Data Onboarding Summit is an event aimed at sharing case studies, best-practices, and tools for onboarding petabyte-scale data to the Filecoin network. We will host storage clients and providers to learn about the benefits of decentralized storage and how Filecoin can be leveraged.
 """
