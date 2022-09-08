@@ -169,7 +169,7 @@ export function EventModal({ children, event }) {
               <ul className="list-disc ml-4">
                 <li><b>Date</b>: {dateStr(event.date, event.days)}</li>
                 <li><b>Times</b>: {event.times}</li>
-                <li><b>Hosted by</b>: {event.dri}</li>
+                <li><b>Hosted by</b>: {event.org}</li>
                 <li><b>Attendees</b>: {event.attendees} ({event.difficulty})</li>
               </ul>
               <div className="event-tags">

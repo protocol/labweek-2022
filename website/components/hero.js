@@ -40,7 +40,7 @@ export default function Hero({ config }) {
 
               {config.devent.rsvpLink &&
                 <div className="space-x-5 mb-10">
-                  <Button href={config.devent.rsvpLink} className="mt-8" target="_blank">RSVP</Button>
+                  <Button href={config.devent.rsvpLink} className="mt-8" target="_blank">Get Updates</Button>
                 </div>}
               {config.devent.recapLink &&
                 <div className="space-x-5 mb-10">
