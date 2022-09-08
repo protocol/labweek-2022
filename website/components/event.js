@@ -7,14 +7,29 @@ import classNames from 'classnames'
 import Markdown from './markdown'
 
 export function Card({ children, color, onClick }) {
+
+  var borderColor = 'bg-gray-400'
+  var bgColor = 'bg-white'
+
+  if (color) {
+    borderColor = 'bg-' + color + '-400'
+    bgColor = 'bg-' + color + '-100'
+  }
+
   return (
-    <div className={`relative border-${color}-400 border rounded-lg h-full whitespace-normal overflow-hidden` } onClick={onClick}>
-      <div className='block p-3 sm:px-3 sm:py-2 h-full hover:bg-white hover:bg-gradient-to-r hover:from-blue-500/10 hover:via-cyan-500/10 hover:to-green-500/10'>
+    <div className={classNames(
+        borderColor, 
+        'eventcard', 
+        'p-0.5 shadow-md h-full whitespace-normal hover:bg-gradient-to-r hover:from-blue-500 hover:via-cyan-500 hover:to-green-500'
+      )} onClick={onClick}>
+      <div className={classNames(
+          bgColor, 
+          'block p-3 sm:px-3 sm:py-2 h-full hover:bg-white hover:bg-gradient-to-r hover:from-blue-500/10 hover:via-cyan-500/10 hover:to-green-500/10'
+        )}>
         <div className="text-xs text-gray-600">
           { children }
         </div>
       </div>
-      <div className={`absolute bottom-0 left-0 right-0 h-2 bg-${color}-400`} />
     </div>
   )
 }
@@ -38,22 +53,22 @@ export function EventCard({ event }) {
 function BlockCard({ event }) {
   return (
     <Card color={event.color}>
-      <h5 className="text-lg font-bold text-gray-900 mb-3">
+      <h5 className="text-lg font-bold text-gray-900">
         {event.name}
       </h5>
-      <div className="mb-2">
+      <div>
         {event.times}
       </div>
-      <div className="mb-2">
+      <div>
         👤 {event.attendees} - {event.difficulty}
       </div>
-      <div className="text-gray-900 text-lg font-bold my-3">
+      <div className="text-gray-900 text-sm mt-3">
         {event.dri}
       </div>
 
       <div className="event-tags">
         {event.tags.map((tag, i) => (
-          (tag !== "" && <Tag key={i}>{tag}</Tag>)
+          (tag && <Tag>{tag}</Tag>)
         ))}
       </div>
     </Card>
@@ -63,7 +78,7 @@ function BlockCard({ event }) {
 function TrackCard({ event }) {
   return (
     <Card color={event.color}>
-      <h5 className="text-lg font-bold text-gray-900 mb-3">
+      <h5 className="text-lg font-bold text-gray-900">
         {event.name}
       </h5>
       <div>
@@ -72,13 +87,13 @@ function TrackCard({ event }) {
       <div>
         👤 {event.attendees} - {event.difficulty}
       </div>
-      <div className="text-gray-900 text-lg font-bold my-3 text-ellipsis overflow-hidden">
+      <div className="text-gray-900 text-sm mt-3 text-ellipsis overflow-hidden">
         {event.dri}
       </div>
 
       <div className="event-tags">
         {event.tags.map((tag, i) => (
-          <Tag key={i}>{tag}</Tag>
+          <Tag>{tag}</Tag>
         ))}
       </div>
     </Card>
@@ -169,12 +184,12 @@ export function EventModal({ children, event }) {
               <ul className="list-disc ml-4">
                 <li><b>Date</b>: {dateStr(event.date, event.days)}</li>
                 <li><b>Times</b>: {event.times}</li>
-                <li><b>Hosted by</b>: {event.org}</li>
+                <li><b>Track Chair(s)</b>: {event.dri}</li>
                 <li><b>Attendees</b>: {event.attendees} ({event.difficulty})</li>
               </ul>
               <div className="event-tags">
                 {event.tags.map((tag, i) => (
-                  (tag && <Tag key={i}>{tag}</Tag>)
+                  (tag && <Tag>{tag}</Tag>)
                 ))}
               </div>
               <p className="text-base leading-relaxed prose">
@@ -283,7 +298,7 @@ export function AddEventModal({ config }) {
 
 export function Tag({ children }) {
   return (
-    <button className="px-6 py-2 mr-1 my-1 bg-gray-200 text-gray-900 rounded-full text-xs cursor-default">
+    <button className="px-1.5 py-0.5 mr-1 my-1 border border-gray-400 text-gray-400 rounded-full text-xs cursor-default">
       {children}
     </button>
   )
