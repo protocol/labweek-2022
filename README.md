@@ -33,6 +33,9 @@ There are 2 templates you can choose from to submit a subevent:
 
 A quick note: If you are submitting an event that is private, it may not show up on the website since most attendees will not be able to attend. If you'd like it to appear in the schedule for some reason, please leave a comment in your PR for the Spaceport team to review.
 
+### Editing an Event
+
+If you've already created your event but want to add or change details in the .toml file, create a PR with your edit requests, along with any comments. The Spaceport team will review and merge your changes to the website.
 
 ### CSV dump of talks
 
