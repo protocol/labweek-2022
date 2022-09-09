@@ -2,7 +2,7 @@
 
 A decentralized conference hosted by Protocol Labs. We are using this github repository and website to coordinate event listings. The website is published to:
 
-https://labweek2022.on.fleek.co/
+https://labweek2022.plnetwork.io
 
 ## LabWeek 2022 Location and Dates
 
@@ -19,7 +19,7 @@ Events can be run in many formats: roundtables, talks with slides, hack sessions
 
 # Getting started
 
-Please read (this guide)[https://bit.ly/LabWeek22HostEvents] to Hosting Events for LabWeek22 before proceeding if you have questions on venues, times, and registration: 
+Please read [this guide](https://bit.ly/LabWeek22HostEvents) to Hosting Events for LabWeek22 before proceeding if you have questions on venues, times, and registration: 
 
 ## Submitting subevents
 
