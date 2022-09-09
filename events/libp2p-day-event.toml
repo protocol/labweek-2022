@@ -22,10 +22,10 @@ days = 1
 times = "To be confirmed"
 
 # the event venue name (will show up on the event card - TODO)
-venueName = "Time Out Market"
+venueName = ""
 
 # the event venue address (will show up on a map -- TODO)
-venueAddress = "Av. 24 de Julho 49, 1200-479 Lisboa, Portugal"
+venueAddress = ""
 
 # the max number of attendees of the event
 attendees = ""
