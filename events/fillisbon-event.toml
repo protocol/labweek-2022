@@ -10,7 +10,7 @@ dri = "Rachel Horn"
 
 # the website of the event
 # make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
-website = "https://hub.fil.org/fil-lisbon"
+website = "https://fil-lisbon.io"
 
 # the start date of the event
 date = "2022-10-31"
