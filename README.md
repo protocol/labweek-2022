@@ -1,4 +1,4 @@
-# LabWeek 2022
+# LabWeek22
 
 A decentralized conference hosted by Protocol Labs. We are using this github repository and website to coordinate event listings. The website is published to:
 
@@ -16,6 +16,10 @@ and groups to host their own events, loosely coordinating with the rest of the
 community.
 
 Events can be run in many formats: roundtables, talks with slides, hack sessions, whiteboard sessions, or more. Anyone can submit subevents, just follow the instructions below!
+
+# Getting started
+
+Please read (this guide)[https://bit.ly/LabWeek22HostEvents] to Hosting Events for LabWeek22 before proceeding if you have questions on venues, times, and registration: 
 
 ## Submitting subevents
 
