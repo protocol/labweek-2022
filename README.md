@@ -19,7 +19,7 @@ Events can be run in many formats: roundtables, talks with slides, hack sessions
 
 # Getting started
 
-Please read this guide to Hosting Events for LabWeek22 before proceeding if you have questions on venues, times, and registraion: https://bit.ly/LabWeek22HostEvents
+Please read (this guide)[https://bit.ly/LabWeek22HostEvents] to Hosting Events for LabWeek22 before proceeding if you have questions on venues, times, and registration: 
 
 ## Submitting subevents
 
