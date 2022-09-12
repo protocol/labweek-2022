@@ -165,7 +165,7 @@ export function EventModal({ children, event }) {
       if (newUrlHash === event.hash) {
         open()
       } else if (oldUrlHash === event.hash) {
-        close(event)
+        close()
       }
     })
     setHashChangeEventRegistered(true)
