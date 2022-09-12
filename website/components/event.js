@@ -129,7 +129,11 @@ function getLocationHash () {
  */
 function setLocationHash (hash) {
   if (typeof window !== 'undefined') {
-    window.location.hash = hash
+    if(history?.pushState) {
+      history.pushState(null, null, hash);
+    } else {
+      window.location.hash = hash
+    }
   }
 }
 
