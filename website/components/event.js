@@ -129,7 +129,11 @@ function getLocationHash () {
  */
 function setLocationHash (hash) {
   if (typeof window !== 'undefined') {
-    window.location.hash = hash
+    if(history?.pushState) {
+      history.pushState(null, null, hash);
+    } else {
+      window.location.hash = hash
+    }
   }
 }
 
@@ -161,7 +165,7 @@ export function EventModal({ children, event }) {
       if (newUrlHash === event.hash) {
         open()
       } else if (oldUrlHash === event.hash) {
-        close()
+        close(event)
       }
     })
     setHashChangeEventRegistered(true)
