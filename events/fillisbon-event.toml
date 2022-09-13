@@ -22,7 +22,7 @@ days = 5
 times = "To be confirmed"
 
 # the event venue name (will show up on the event card - TODO)
-venueName = "LX Factory"
+venueName = "[LX Factory](https://goo.gl/maps/RqP3B78vFktLzbkRA)"
 
 # the event venue address (will show up on a map -- TODO)
 venueAddress = "R. Rodrigues de Faria 103, 1300-501 Lisboa, Portugal"
