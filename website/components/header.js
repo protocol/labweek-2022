@@ -35,7 +35,7 @@ export default function Header({config}) {
             <Navbar.Link href="https://coda.io/@stellarevents/labweek22">
               Resources
             </Navbar.Link>
-            <Navbar.Link href="/#faq">
+            <Navbar.Link href="/#frequently-asked-questions">
               FAQ
             </Navbar.Link>
           </Navbar.Collapse>
