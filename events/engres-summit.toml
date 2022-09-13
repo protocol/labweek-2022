@@ -22,7 +22,7 @@ days = 2
 times = "To be confirmed"
 
 # the event venue name (will show up on the event card - TODO)
-venueName = ""
+venueName = "To be confirmed"
 
 # the event venue address (will show up on a map -- TODO)
 venueAddress = ""
