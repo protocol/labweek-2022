@@ -22,7 +22,7 @@ days = 1
 times = "To be confirmed"
 
 # the event venue name (will show up on the event card - TODO)
-venueName = "Estufa Fria"
+venueName = "[Estufa Fria](https://goo.gl/maps/YKZASeCakmiXPCgNA)"
 
 # the event venue address (will show up on a map -- TODO)
 venueAddress = "Parque Eduardo VII, 1070-051 Lisboa, Portugal"
