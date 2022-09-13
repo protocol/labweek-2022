@@ -22,7 +22,7 @@ days = 1
 times = "11:00 - 19:00 Local time"
 
 # the event venue name (will show up on the event card - TODO)
-venueName = "Convento do Beato"
+venueName = "[Convento do Beato](https://goo.gl/maps/2yDdwVSHfgs1mYhL7)"
 
 # the event venue address (will show up on a map -- TODO)
 venueAddress = ""
