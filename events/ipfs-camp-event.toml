@@ -22,7 +22,7 @@ days = 3
 times = "To be confirmed"
 
 # the event venue name (will show up on the event card - TODO)
-venueName = "Convento do Beato"
+venueName = "[Convento do Beato](https://goo.gl/maps/2yDdwVSHfgs1mYhL7)"
 
 # the event venue address (will show up on a map -- TODO)
 venueAddress = "Alameda do Beato 40, 1950-042 Lisboa, Portugal"
