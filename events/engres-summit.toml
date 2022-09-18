@@ -2,11 +2,11 @@
 name = "EngRes Summit"
 
 # the name of the group organizing the event
-org = ""
+org = "Starfleet"
 
 # the github handle of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
-dri = ""
+dri = "Karla De Castro"
 
 # the website of the event
 # make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
@@ -22,7 +22,7 @@ days = 2
 times = "To be confirmed"
 
 # the event venue name (will show up on the event card - TODO)
-venueName = "To be confirmed"
+venueName = "Epic Sana"
 
 # the event venue address (will show up on a map -- TODO)
 venueAddress = ""
