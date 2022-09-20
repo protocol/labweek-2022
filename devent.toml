@@ -7,7 +7,7 @@ name="LabWeek22"
 location="Lisbon, Portugal"
 
 # the dates the devent runs
-dateStart = "2022-10-20"
+dateStart = "2022-10-24"
 dateEnd = "2022-11-4"
 
 # a pithy tag line you want to show in the "hero/splash" part of the landing page
@@ -81,7 +81,7 @@ teams = [
 
   The Protocol Labs Network includes over 150 independent teams, working together to drive breakthroughs in computing. Our work spans the entire innovation pipeline, from the earliest research ideation to deploying end-user products. We invite like-minded teams and individuals to collaborate with us.
 """
-"What is LabWeek22" = """
+"What is LabWeek22?" = """
   LabWeek22 is our first-ever decentralized conference. Teams in the network will spin up dozens of events over a 10-day period, including research-focused seminars, engineering workshops, summits, unconferences, and happy hours. These events will span a wide array of topics, including decentralized storage, public goods funding, cryptoeconomics, DeSci, and more.
 """
 "Who is it for?" = """
