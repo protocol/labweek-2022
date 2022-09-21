@@ -1,0 +1,59 @@
+# the name of your track or event
+name = "Filecoin Platform @ Web Summit"
+
+# the name of the group organizing the event
+org = "Filecoin Foundation"
+
+# the github handle of the directly responsible individual for this event
+# (this person will coordinate with devent organizers)
+dri = "Florencia Barreiro"
+
+# the website of the event
+# make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
+website = "https://fil-lisbon.io/"
+
+# the start date of the event
+date = "2022-11-02"
+
+# how many days the event lasts (1 - N)
+days = 3
+
+# the event times (shows up in the event card)
+times = "To be confirmed"
+
+# the event venue name (will show up on the event card - TODO)
+venueName = "[Altice Arena](https://goo.gl/maps/yriqEURuPozDAnms5)"
+
+# the event venue address (will show up on a map -- TODO)
+venueAddress = "Parque das Nações
+Rossio dos Olivais, Lote 2.13.01A
+1990-231 Lisboa, Portugal"
+
+# the max number of attendees of the event
+attendees = ""
+
+
+# these is unsued:
+# tickets = ""
+
+# the "difficulty" of the event -- one of:
+# ["Beginner", "Intermediate", "Advanced", "All Welcome"]
+difficulty = "All Welcome"
+
+# tags for the event, will show up as labels.
+# pick 1-4
+tags = ["Conference"]
+
+# a color, to group key events visually. use sparingly
+# color=""
+
+# the position in the schedule table, leave commented if you don't need to control this
+# "top" or "bottom"
+# position = ""
+
+# a description of the event.
+# will show up when the user clicks the event card.
+description = """
+This is a day of technical talks and workshops about projects across computing and innovation systems. 
+Check out the line up on the website. Social gathering 17:00 - 19:00.
+"""
