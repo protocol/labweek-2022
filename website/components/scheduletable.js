@@ -24,6 +24,11 @@ export function ScheduleTable({ events, config }) {
 
   const numDays = Number(dayOffset(startDate, endDate) + 1)
   const days = genDates(startDate, numDays)
+  
+  const topEvents = events.filter(item => item.position === "top")
+  const bottomEvents = events.filter(item => item.position === "bottom")
+  const defaultEvents = events.filter(item => item.position != "top" && item.position != "bottom")
+  const sortedEvents = [...topEvents, ...defaultEvents, ...bottomEvents]
 
   return (
     <>
@@ -34,7 +39,7 @@ export function ScheduleTable({ events, config }) {
             <p className="flex-1 mx-2 text-right">{d.format('MMM DD')}</p>
           </div>
         ))}
-        {events.map((e, i) => (<EventCardWrapper e={e} i={i} />))}
+        {sortedEvents.map((e, i) => (<EventCardWrapper e={e} i={i} />))}
       </div>
 
       <div className="invisible"> {/* trick tailwindcss to generate the required columns */}
