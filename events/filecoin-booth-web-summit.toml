@@ -41,11 +41,11 @@ difficulty = "All Welcome"
 tags = ["Party"]
 
 # a color, to group key events visually. use sparingly
-# color=""
+color="blue"
 
 # the position in the schedule table, leave blank if you don't need to control this
 # "top" or "bottom"
-# position = ""
+position = "top"
 
 # a description of the event.
 # will show up when the user clicks the event card.

@@ -45,6 +45,10 @@ tags = ["Talks", "Workshops"]
 # a color, to group key events visually. use sparingly
 color="blue"
 
+# the position in the schedule table, leave blank if you don't need to control this
+# "top" or "bottom"
+position = "top"
+
 # a description of the event.
 # will show up when the user clicks the event card.
 description = """

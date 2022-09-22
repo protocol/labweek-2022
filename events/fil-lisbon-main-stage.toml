@@ -39,7 +39,7 @@ difficulty = "All Welcome"
 tags = ["Conference"]
 
 # a color, to group key events visually. use sparingly
-# color=""
+color="blue"
 
 # the position in the schedule table, leave blank if you don't need to control this
 # "top" or "bottom"
