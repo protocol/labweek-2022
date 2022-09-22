@@ -1,0 +1,54 @@
+# the name of your track or event
+name = "Funding the Commons"
+
+# the name of the group organizing the event
+org = "Network Goods"
+
+# the github handle of the directly responsible individual for this event
+# (this person will coordinate with devent organizers)
+dri = "@benillies"
+
+# the website of the event
+# make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
+website = "fundingthecommons.io"
+
+# the start date of the event
+date = "2022-10-27"
+
+# how many days the event lasts (1 - N)
+days = 1
+
+# the event times (shows up in the event card)
+times = "To be confirmed"
+
+# the event venue name (will show up on the event card - TODO)
+venueName = "Suspenso"
+
+# the event venue address (will show up on a map -- TODO)
+venueAddress = "R. de Santiago 19, 1100-001 Lisboa, Portugal"
+
+# the max number of attendees of the event
+attendees = "200"
+
+
+# these is unsued:
+# tickets = "N/A"
+
+# the "difficulty" of the event -- one of:
+# ["Beginner", "Intermediate", "Advanced", "All Welcome"]
+difficulty = "All Welcome"
+
+# tags for the event, will show up as labels.
+# pick 1-4
+tags = ["Talks", "Workshops", "Keynote", "Panel"]
+
+# a color, to group key events visually. use sparingly
+# color="blue"
+
+# a description of the event.
+# will show up when the user clicks the event card.
+description = """
+Funding the Commons - Lab Week will focus on high quality, impactful conversation around new and evolving funding mechanisms
+and entities for public goods projects. Attendees can expect an internal update from the Network Goods team, engagning keynote
+presentations, opportunities for interactivity and a social hour to close out our day.
+"""
