@@ -10,7 +10,7 @@ dri = "ZX Zhang"
 
 # the website of the event
 # make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
-website = "https://www.cryptoeconday.io/"
+website = "https://www.cryptoeconday.io/event-schedule/cryptoeconday-lisbon"
 
 # the start date of the event
 date = "2022-11-01"
