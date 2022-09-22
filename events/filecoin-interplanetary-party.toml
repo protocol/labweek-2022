@@ -25,7 +25,7 @@ times = ""
 venueName = "Suspenso"
 
 # the event venue address (will show up on a map -- TODO)
-venueAddress = ""
+venueAddress = "R. de Santiago 19, 1100-001 Lisboa, Portugal"
 
 # the max number of attendees of the event
 attendees = ""
