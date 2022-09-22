@@ -36,7 +36,7 @@ attendees = ""
 
 # the "difficulty" of the event -- one of:
 # ["Beginner", "Intermediate", "Advanced", "All Welcome"]
-difficulty = "All Welcome"
+difficulty = "Private"
 
 # tags for the event, will show up as labels.
 # pick 1-4
