@@ -43,7 +43,7 @@ color="blue"
 
 # the position in the schedule table, leave blank if you don't need to control this
 # "top" or "bottom"
-# position = "top"
+position = "bottom"
 
 # a description of the event.
 # will show up when the user clicks the event card.
