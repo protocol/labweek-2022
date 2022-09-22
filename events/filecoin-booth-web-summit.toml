@@ -25,9 +25,10 @@ times = ""
 venueName = "Altice Arena"
 
 # the event venue address (will show up on a map -- TODO)
-venueAddress = "Parque das Nações
+venueAddress = """Parque das Nações
 Rossio dos Olivais, Lote 2.13.01A
 1990-231 Lisboa, Portugal"
+"""
 
 # the max number of attendees of the event
 attendees = ""
