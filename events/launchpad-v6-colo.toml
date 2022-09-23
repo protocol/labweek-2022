@@ -40,7 +40,7 @@ difficulty = "Private"
 
 # tags for the event, will show up as labels.
 # pick 1-4
-tags = [""]
+tags = ["Hackathon"]
 
 # a color, to group key events visually. use sparingly
 # color=""
