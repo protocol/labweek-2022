@@ -56,9 +56,11 @@ function BlockCard({ event }) {
       <h5 className="text-lg font-bold text-gray-900">
         {event.name}
       </h5>
+      {event.times !== "To be confirmed" && 
       <div>
         {event.times}
       </div>
+      }
       <div>
         👤 {event.attendees} - {event.difficulty}
       </div>
