@@ -27,8 +27,9 @@ export function ScheduleTable({ events, config }) {
   
   const topEvents = events.filter(item => item.position === "top")
   const bottomEvents = events.filter(item => item.position === "bottom")
-  const defaultEvents = events.filter(item => item.position != "top" && item.position != "bottom")
-  const sortedEvents = [...topEvents, ...defaultEvents, ...bottomEvents]
+  const publicEvents = events.filter(item => item.position != "top" && item.position != "bottom" && item.difficulty !== "Private")
+  const privateEvents = events.filter(item => item.position != "top" && item.position != "bottom" && item.difficulty === "Private")
+  const sortedEvents = [...topEvents, ...publicEvents, ...privateEvents, ...bottomEvents]
 
   return (
     <>
