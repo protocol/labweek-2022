@@ -2,7 +2,9 @@
 // force save all colors
 const colors = require('./node_modules/tailwindcss/colors');
 const colorSaveList = [];
-const colorExtend = {};
+const colorExtend = {
+  'primary': '#156ff7',
+};
 const deprecatedColors = ['lightBlue', 'trueGray', 'warmGray', 'coolGray', 'blueGray'];
 
 for (const key in colors) {
