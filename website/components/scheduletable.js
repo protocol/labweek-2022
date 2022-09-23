@@ -25,11 +25,14 @@ export function ScheduleTable({ events, config }) {
   const numDays = Number(dayOffset(startDate, endDate) + 1)
   const days = genDates(startDate, numDays)
   
-  const topEvents = events.filter(item => item.position === "top")
-  const bottomEvents = events.filter(item => item.position === "bottom")
-  const publicEvents = events.filter(item => item.position != "top" && item.position != "bottom" && item.difficulty !== "Private")
-  const privateEvents = events.filter(item => item.position != "top" && item.position != "bottom" && item.difficulty === "Private")
-  const sortedEvents = [...topEvents, ...publicEvents, ...privateEvents, ...bottomEvents]
+  const publicEvents = events.filter(item => item.difficulty !== "Private")
+  const privateEvents = events.filter(item => item.difficulty === "Private")
+  const sortedEvents = [...publicEvents, ...privateEvents]
+  const prioritizedEvents = sortedEvents.sort((a, b) => {
+    const aPriority = a.priority || 10
+    const bPriority = b.priority || 10
+    return aPriority - bPriority
+  })
 
   return (
     <>
@@ -40,7 +43,7 @@ export function ScheduleTable({ events, config }) {
             <p className="flex-1 mx-2 text-right">{d.format('MMM DD')}</p>
           </div>
         ))}
-        {sortedEvents.map((e, i) => (<EventCardWrapper e={e} i={i} />))}
+        {prioritizedEvents.map((e, i) => (<EventCardWrapper e={e} i={i} />))}
       </div>
 
       <div className="invisible"> {/* trick tailwindcss to generate the required columns */}
