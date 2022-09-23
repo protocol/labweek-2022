@@ -2,11 +2,11 @@
 name = "Launchpad v6 Colo Week"
 
 # the name of the group organizing the event
-org = ""
+org = "Launchpad Team"
 
 # the github handle of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
-dri = ""
+dri = "Hana Ahriz"
 
 # the website of the event
 # make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
@@ -22,10 +22,10 @@ days = 3
 times = "To be confirmed"
 
 # the event venue name (will show up on the event card - TODO)
-venueName = ""
+venueName = "[Vintage Hotel Meeting room / Mama Shelter Hotel](https://goo.gl/maps/kbjjDL99aPkiNaxUA)"
 
 # the event venue address (will show up on a map -- TODO)
-venueAddress = ""
+venueAddress = "Rnet 10236, R. do Vale de Pereiro 19, 1250-270 Lisboa, Portugal"
 
 # the max number of attendees of the event
 attendees = ""
