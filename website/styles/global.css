@@ -16,3 +16,7 @@
 .markdown ul li {
   margin-top: 6px;
 }
+
+.markdown p:not(:first-child) {
+  margin-top: 20px;
+}
