@@ -128,8 +128,8 @@ All scheduled events are [optional](/#faq).
 "Event Github" = "https://github.com/protocol/labweek-2022"
 
 [footer.legal]
-"Privacy Policy" = "#"
-"Terms & Conditions" = "#"
+"Privacy Policy" = "https://protocol.ai/legal/#privacy-policy"
+"Terms & Conditions" = "https://protocol.ai/legal/#terms-of-service "
 
 [footer.social]
 twitter = "ipfs"
