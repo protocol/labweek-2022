@@ -19,13 +19,13 @@ date = "2022-10-31"
 days = 2
 
 # the event times (shows up in the event card)
-times = ""
+times = "To be confirmed"
 
 # the event venue name (will show up on the event card - TODO)
-venueName = "LX Factory"
+venueName = "[LX Factory](https://goo.gl/maps/RqP3B78vFktLzbkRA)"
 
 # the event venue address (will show up on a map -- TODO)
-venueAddress = ""
+venueAddress = "R. Rodrigues de Faria 103, 1300-501 Lisboa, Portugal"
 
 # the max number of attendees of the event
 attendees = ""
