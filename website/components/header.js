@@ -29,10 +29,10 @@ export default function Header({config}) {
             <Navbar.Toggle />
           </div>
           <Navbar.Collapse>
-            <Navbar.Link href="/schedule">
+            <Navbar.Link href="/#schedule">
               Schedule
             </Navbar.Link>
-            <Navbar.Link href="https://coda.io/@stellarevents/labweek22">
+            <Navbar.Link href="/#attendee-resources">
               Resources
             </Navbar.Link>
             <Navbar.Link href="/#frequently-asked-questions">

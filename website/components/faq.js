@@ -16,16 +16,13 @@ export default function FAQ({ config }) {
   const title = "Frequently Asked Questions"
 
   return (
-    <div className={`w-full px-6 pb-20 pt-28 lg:px-20 lg:pb-40 lg:pt-56 min-h-[10vh] bg-gradient-to-br from-blue-600 to-teal-500`} id={ slugify(title) }>
-      
-      
+    <div className={`w-full px-6 pb-20 pt-20 lg:px-20 lg:pb-20 lg:pt-20 min-h-[10vh] bg-gradient-to-br from-blue-600 to-teal-500`} id={ slugify(title) }>
       <div className='container max-w-6xl mx-auto bg-white rounded-lg lg:p-16'>
-        <div className="container max-w-6xl mx-auto py-10 lg:pb-16">
+        <div className="container max-w-6xl mx-auto py-6 lg:pb-16 lg:pt-0">
           <h1 className="text-3xl text-center font-bold">{title}</h1>
         </div>
         <div className="w-full">
           <div className="container max-w-6xl mx-auto">
-            
             <Accordion>
               {Object.keys(faq).map((q, i) => (
                 <Accordion.Panel open={true} key={i}>
