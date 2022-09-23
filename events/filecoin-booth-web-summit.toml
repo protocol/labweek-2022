@@ -19,10 +19,10 @@ date = "2022-11-2"
 days = 3
 
 # the event times (shows up in the event card)
-times = ""
+times = "To be confirmed"
 
 # the event venue name (will show up on the event card - TODO)
-venueName = "Altice Arena"
+venueName = "[Altice Arena](https://goo.gl/maps/yriqEURuPozDAnms5)"
 
 # the event venue address (will show up on a map -- TODO)
 venueAddress = """Parque das Nações
