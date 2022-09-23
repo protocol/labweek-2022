@@ -22,10 +22,10 @@ days = 1
 times = "18:00 - 21:00 Local time"
 
 # the event venue name (will show up on the event card - TODO)
-venueName = ""
+venueName = "[Go a Lisboa](https://goo.gl/maps/ftZvfeagzgNCXxr87)"
 
 # the event venue address (will show up on a map -- TODO)
-venueAddress = ""
+venueAddress = "Rooftop Bar, Calçada Livramento 17, 1350-188 Lisboa, Portugal"
 
 # the max number of attendees of the event
 attendees = ""
@@ -40,7 +40,7 @@ difficulty = "All Welcome"
 
 # tags for the event, will show up as labels.
 # pick 1-4
-tags = [""]
+tags = ["Happy Hour"]
 
 # a color, to group key events visually. use sparingly
 # color=""
