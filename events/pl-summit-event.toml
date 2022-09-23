@@ -25,7 +25,7 @@ times = "11:00 - 19:00 Local time"
 venueName = "[Convento do Beato](https://goo.gl/maps/2yDdwVSHfgs1mYhL7)"
 
 # the event venue address (will show up on a map -- TODO)
-venueAddress = ""
+venueAddress = "Alameda do Beato 40, 1950-042 Lisboa, Portugal"
 
 # the max number of attendees of the event
 attendees = ""
