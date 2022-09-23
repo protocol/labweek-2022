@@ -47,7 +47,6 @@ color="purple"
 
 # a description of the event.
 # will show up when the user clicks the event card.
-description = """" ETHLisbon is an Ethereum-focused hackathon bringing together the best Web 3.0 builders to the crypto capital of Europe. Stop by the booth sponsored by Protocol Labs and join us for 3 days of non-stop building.
-
-"
+description = """
+ETHLisbon is an Ethereum-focused hackathon bringing together the best Web 3.0 builders to the crypto capital of Europe. Stop by the booth sponsored by Protocol Labs and join us for 3 days of non-stop building.
 """
