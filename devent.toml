@@ -34,11 +34,11 @@ rsvpLink="https://airtable.com/shrsicDt1IpeIKVIg"
 # recapLink="https://blog.ipfs.io/ipfs-ping-2022-recap/"
 
 # a link to a logo image for the event
-logo="logo-gradient.svg"
+logo="logo-hex.svg"
 
 # a link to a large res image for the hero/splash background.
 # you likely want to use the devent location/city or something meaningful to the community
-bgimg="chasm.png"
+bgimg="chasm.jpg"
 
 # the organizers of the devent (usually a group)
 org="Protocol Labs"

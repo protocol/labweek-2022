@@ -18,7 +18,7 @@ export default function ScheduleSection({ events, config }) {
 
   return (
     <article>
-      <div className='w-full pt-56 pb-28 min-h-[10vh]' id='schedule'>
+      <div className='w-full pt-10 lg:pt-56 pb-28 min-h-[10vh]' id='schedule'>
         <div className="container mx-auto max-w-6xl pb-10 px-6 lg:px-0">
           <header className="flex flex-row">
             <h1 className="text-4xl font-bold">

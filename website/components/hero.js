@@ -34,7 +34,7 @@ export default function Hero({ config }) {
               <div className="text-2xl text-black">
                 {dateRangeStr(config.devent.dateStart, config.devent.dateEnd)}{config.devent.location && ` • ${config.devent.location}`}
               </div>
-              <div className="text-md text-black prose leading-7">
+              <div className="text-md text-black leading-7 lg:max-w-xl w-half pr-20 lg:pr-0">
                 <Markdown >{config.devent.description}</Markdown>
               </div>
 
