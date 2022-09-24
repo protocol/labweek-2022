@@ -30,7 +30,6 @@ venueAddress = ""
 # the max number of attendees of the event
 attendees = ""
 
-
 # these is unsued:
 # tickets = ""
 
@@ -44,10 +43,6 @@ tags = ["Conference"]
 
 # a color, to group key events visually. use sparingly
 # color=""
-
-# the position in the schedule table, leave commented if you don't need to control this
-# "top" or "bottom"
-# position = ""
 
 # a description of the event.
 # will show up when the user clicks the event card.

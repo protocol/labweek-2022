@@ -44,11 +44,11 @@ tags = ["Party"]
 # a color, to group key events visually. use sparingly
 color="blue"
 
-# the position in the schedule table, leave blank if you don't need to control this
-# "top" or "bottom"
-position = "top"
-
 # a description of the event.
 # will show up when the user clicks the event card.
 description = """
 """
+
+# the priority in the schedule table, leave commented if you don't need to control this
+# 1 will appear at the top, higher numbers appear closer to bottom
+priority = 2

@@ -45,13 +45,13 @@ tags = ["Talks", "Workshops"]
 # a color, to group key events visually. use sparingly
 color="green"
 
-# the position in the schedule table, leave blank if you don't need to control this
-# "top" or "bottom"
-position = "top"
-
 # a description of the event.
 # will show up when the user clicks the event card.
 description = """
 IPFS Camp 2022 is a gathering for the entire IPFS community: devs, operators, implementers, researchers – and you! 
 Join us for talks, workshops, discussion circles, hacking time, and more, all focused on celebrating and advancing IPFS.
 """
+
+# the priority in the schedule table, leave commented if you don't need to control this
+# 1 will appear at the top, higher numbers appear closer to bottom
+priority = 2

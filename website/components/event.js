@@ -56,9 +56,11 @@ function BlockCard({ event }) {
       <h5 className="text-lg font-bold text-gray-900">
         {event.name}
       </h5>
+      {event.times !== "To be confirmed" && 
       <div>
         {event.times}
       </div>
+      }
       <div>
         👤 {event.attendees} - {event.difficulty}
       </div>
@@ -68,7 +70,7 @@ function BlockCard({ event }) {
 
       <div className="event-tags">
         {event.tags.map((tag, i) => (
-          (tag && <Tag>{tag}</Tag>)
+          (tag && <Tag key={i}>{tag}</Tag>)
         ))}
       </div>
     </Card>
@@ -93,7 +95,7 @@ function TrackCard({ event }) {
 
       <div className="event-tags">
         {event.tags.map((tag, i) => (
-          <Tag>{tag}</Tag>
+          <Tag key={i}>{tag}</Tag>
         ))}
       </div>
     </Card>
@@ -193,7 +195,7 @@ export function EventModal({ children, event }) {
               </ul>
               <div className="event-tags">
                 {event.tags.map((tag, i) => (
-                  (tag && <Tag>{tag}</Tag>)
+                  (tag && <Tag key={i}>{tag}</Tag>)
                 ))}
               </div>
               <p className="text-base leading-relaxed prose">

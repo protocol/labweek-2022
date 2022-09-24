@@ -47,13 +47,13 @@ tags = ["Conference"]
 # a color, to group key events visually. use sparingly
 # color=""
 
-# the position in the schedule table, leave commented if you don't need to control this
-# "top" or "bottom"
-# position = ""
-
 # a description of the event.
 # will show up when the user clicks the event card.
 description = """
 This is a day of technical talks and workshops about projects across computing and innovation systems. 
 Check out the line up on the website. Social gathering 17:00 - 19:00.
 """
+
+# the priority in the schedule table, leave commented if you don't need to control this
+# 1 will appear at the top, higher numbers appear closer to bottom
+# priority = 1

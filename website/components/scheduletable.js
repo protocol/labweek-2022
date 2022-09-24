@@ -25,21 +25,25 @@ export function ScheduleTable({ events, config }) {
   const numDays = Number(dayOffset(startDate, endDate) + 1)
   const days = genDates(startDate, numDays)
   
-  const topEvents = events.filter(item => item.position === "top")
-  const bottomEvents = events.filter(item => item.position === "bottom")
-  const defaultEvents = events.filter(item => item.position != "top" && item.position != "bottom")
-  const sortedEvents = [...topEvents, ...defaultEvents, ...bottomEvents]
+  const publicEvents = events.filter(item => item.difficulty !== "Private")
+  const privateEvents = events.filter(item => item.difficulty === "Private")
+  const sortedEvents = [...publicEvents, ...privateEvents]
+  const prioritizedEvents = sortedEvents.sort((a, b) => {
+    const aPriority = a.priority || 10
+    const bPriority = b.priority || 10
+    return aPriority - bPriority
+  })
 
   return (
     <>
       <div className={`schedule-days mx-20 pr-20 no-flex grid grid-flow-col-dense grid-cols-${numDays} gap-4 w-[${numDays * 250}px]`}>
         {days.map((d, i) => (
-          <div className={`flex col-start-${(i + 1)} col-span-1 text-center p-3 bg-sky-900 text-white text-xl shrink-0`}>
+          <div className={`flex col-start-${(i + 1)} col-span-1 text-center p-3 bg-sky-900 text-white text-xl shrink-0`} key={i}>
             <p className="flex-1 mx-2 text-left">{d.format('ddd')}</p>
             <p className="flex-1 mx-2 text-right">{d.format('MMM DD')}</p>
           </div>
         ))}
-        {sortedEvents.map((e, i) => (<EventCardWrapper e={e} i={i} />))}
+        {prioritizedEvents.map((e, i) => (<EventCardWrapper e={e} i={i}  key={i} />))}
       </div>
 
       <div className="invisible"> {/* trick tailwindcss to generate the required columns */}
