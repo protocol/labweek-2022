@@ -3,7 +3,6 @@ import { useState, useEffect } from 'react'
 import { Modal, Button } from 'flowbite-react'
 import dayjs from 'dayjs'
 import classNames from 'classnames'
-
 import Markdown from './markdown'
 
 export function Card({ children, color, onClick }) {
@@ -190,6 +189,9 @@ export function EventModal({ children, event }) {
               <ul className="list-disc ml-4">
                 <li><b>Date</b>: {dateStr(event.date, event.days)}</li>
                 <li><b>Times</b>: {event.times}</li>
+                {event.venueName &&
+                  <li><b>Venue</b>: <span className="inline-block"><Markdown>{event.venueName}</Markdown></span></li>
+                }
                 <li><b>Organization</b>: {event.org}</li>
                 <li><b>Attendees</b>: {event.attendees} ({event.difficulty})</li>
               </ul>
