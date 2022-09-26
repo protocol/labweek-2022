@@ -28,7 +28,7 @@ venueName = "[Hub Criativo do Beato](https://g.page/HubCriativoBeato?share)"
 venueAddress = "Rua da Manutenção 71, 1900-319 Lisboa, Portugal"
 
 # the max number of attendees of the event
-attendees = "500"
+attendees = ""
 
 
 # these is unsued:
