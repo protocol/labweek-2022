@@ -19,7 +19,7 @@ date = "2022-11-02"
 days = 2
 
 # the event times (shows up in the event card)
-times = "8:30 - 17:30"
+times = "Wednesday: 8:30 - 17:30, Thursday: 9:00 - 14:30"
 
 # the event venue name (will show up on the event card - TODO)
 venueName = "[Time Out Market](https://g.page/timeoutmarketlisboa?share)"
