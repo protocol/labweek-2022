@@ -38,7 +38,7 @@ export default function Resources({ config }) {
               ))}
             </Accordion>
             <h1 className="text-3xl font-bold mb-4 mt-12">Event Host Resources</h1>
-            <p>Thinking of hosting your own event? Have questions about the one you're currently planning? .</p>
+            <p>Thinking of hosting your own event? Have questions about the one you're currently planning?</p>
             <a
               href="https://coda.io/d/LabWeek22-Guide_de-5ADr85CH/Event-Host-Guide_su9so#_luAE1" type="button"
               className="inline-block px-5 py-3 mt-8 text-lg font-medium text-white bg-primary hover:bg-blue-400 px-8 py-3 rounded-lg rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
