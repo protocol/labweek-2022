@@ -19,7 +19,7 @@ date = "2022-11-3"
 days = 2
 
 # the event times (shows up in the event card)
-times = "11:00 - 02:00"
+times = "21:00 - 02:00"
 
 # the event venue name (will show up on the event card - TODO)
 venueName = "[Hub Criativo do Beato](https://g.page/HubCriativoBeato?share)"
