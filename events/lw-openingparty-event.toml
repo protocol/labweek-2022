@@ -19,7 +19,7 @@ date = "2022-10-24"
 days = 1
 
 # the event times (shows up in the event card)
-times = "To be confirmed"
+times = "19:00 - 22:00"
 
 # the event venue name (will show up on the event card - TODO)
 venueName = "[Estufa Fria](https://goo.gl/maps/YKZASeCakmiXPCgNA)"
@@ -52,4 +52,4 @@ description = """
 
 # the priority in the schedule table, leave commented if you don't need to control this
 # 1 will appear at the top, higher numbers appear closer to bottom
-priority = 2
+priority = 3
