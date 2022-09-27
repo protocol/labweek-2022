@@ -25,7 +25,7 @@ export default function Resources({ config }) {
             <p className="text-xl mb-12">LabWeek22 is an open conference with dozens of independently hosted events. Attendees can choose which days to attend and arrange your own travel and accommodations. Below are some helpful resources as you plan our LabWeek22 adventure.</p>
             <Accordion>
               {Object.keys(resources).map((q, i) => (
-                <Accordion.Panel open={false} key={i}>
+                <Accordion.Panel open={true} key={i}>
                   <Accordion.Title arrowIcon={undefined}>
                     <Markdown children={q} />
                   </Accordion.Title>
