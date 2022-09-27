@@ -96,7 +96,7 @@ teams = [
 "Who is it for?" = """
   LabWeek22 brings together teams and individuals within the Protocol Labs Network, working together to collaborate on a wide array of topics and areas. Many of these events are open to all interested individuals and collaborators; please see the schedule and register to participate.
 """
-"All events are optional?!" = """
+"All events are optional?" = """
   Yes! This is a choose-your-own-adventure event, so please choose the events, sessions, arrival and departure dates, and activities that are interesting and relevant for you.
 
   A bunch of us are actively working on putting together a fantastic schedule. We want your suggestions, feedback, and additions as Pull Requests & Issues here. Please jump in to help make this thing a thing that helps you.
@@ -152,7 +152,7 @@ We highly recommend you begin the visa process as soon as you know your travel d
 If you run into issues with your visa application, please reach out to immigration@protocol.ai.
 """
 "Childcare" = """
-For attendees traveling with children, we’ve put together a list of [family-friendly accommodations, childcare services, and kid-friendly activities in Lisbon](https://coda.io/d/LabWeek22-Guide_de-5ADr85CH/Childcare_suG30#_luxnW). There will not be a centralized option for dropping off children during the conference, so please use the recommendations to help you plan ahead.
+For attendees traveling with children, we’ve put together a list of [family-friendly accommodations, childcare services, and kid-friendly activities in Lisbon](https://coda.io/@stellarevents/labweek22/childcare-12). There will not be a centralized option for dropping off children during the conference, so please use the recommendations to help you plan ahead.
 
 If you need further support, please reach out to labweek22@protocol.ai.
 """
