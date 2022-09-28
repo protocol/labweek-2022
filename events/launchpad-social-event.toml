@@ -10,7 +10,7 @@ dri = "Hana Ahriz"
 
 # the website of the event
 # make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
-website = ""
+website = "https://www.eventbrite.com/e/protocol-labs-launchpad-social-hour-4-tickets-428430877287"
 
 # the start date of the event
 date = "2022-10-26"
@@ -19,7 +19,7 @@ date = "2022-10-26"
 days = 1
 
 # the event times (shows up in the event card)
-times = "18:00 - 21:00 Local time"
+times = "19:00 - 22:00"
 
 # the event venue name (will show up on the event card - TODO)
 venueName = "[Go a Lisboa](https://goo.gl/maps/ftZvfeagzgNCXxr87)"
@@ -40,7 +40,7 @@ difficulty = "All Welcome"
 
 # tags for the event, will show up as labels.
 # pick 1-4
-tags = ["Happy Hour"]
+tags = ["Dinner"]
 
 # a color, to group key events visually. use sparingly
 # color=""
