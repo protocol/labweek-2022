@@ -10,7 +10,7 @@ dri = "Filipe Macedo"
 
 # the website of the event
 # make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
-website = "https://denites.com/pastevents/"
+website = "https://lu.ma/discodenites"
 
 # the start date of the event
 date = "2022-11-3"
