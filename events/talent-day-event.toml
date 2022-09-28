@@ -1,0 +1,60 @@
+# the name of your track or event
+name = "Talent Day @ Talent House Lisbon"
+
+# the name of the group organizing the event
+org = "Talent Protocol"
+
+# the github handle of the directly responsible individual for this event
+# (this person will coordinate with devent organizers)
+dri = "Filipe Macedo"
+
+# the website of the event
+# make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
+website = "https://lu.ma/talentbrunchLisbon"
+
+# the start date of the event
+date = "2022-10-27"
+
+# how many days the event lasts (1 - N)
+days = 1
+
+# the event times (shows up in the event card)
+times = "9:00 - 21:00"
+
+# the event venue name (will show up on the event card - TODO)
+venueName = "[Look Lisbon](https://goo.gl/maps/nQCZf7hSuW66gzwk7)"
+
+# the event venue address (will show up on a map -- TODO)
+venueAddress = "4 Rua Pedras Negras, Lisbon, Portugal"
+
+# the max number of attendees of the event
+attendees = "50"
+
+
+# these is unsued:
+# tickets = ""
+
+# the "difficulty" of the event -- one of:
+# ["Beginner", "Intermediate", "Advanced", "All Welcome"]
+difficulty = "All Welcome"
+
+# tags for the event, will show up as labels.
+# pick 1-4
+tags = ["Networking"]
+
+# a color, to group key events visually. use sparingly
+# color=""
+
+# a description of the event.
+# will show up when the user clicks the event card.
+description = """
+"​Talent Day by Protocol Labs marks the start of Talent House #5 in Lisbon and aims to incentivize the creation of interesting and useful connections between different communities.
+
+​Join Protocol Labs, Celo, and Talent Protocol on October 27th in Lisbon for a day of delicious food and inspiring conversations with fellow web3 builders.
+
+​This is a private event for 50 people maximum. Attendees will be selected based on their profile, not first come first served."
+"""
+
+# the priority in the schedule table, leave commented if you don't need to control this
+# 1 will appear at the top, higher numbers appear closer to bottom
+# priority = 
