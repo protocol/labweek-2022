@@ -1,5 +1,5 @@
 # the name of your track or event
-name = "DeNites Disco Night"
+name = "Disco DeNites"
 
 # the name of the group organizing the event
 org = "DeNites"
@@ -47,7 +47,10 @@ tags = ["Party"]
 
 # a description of the event.
 # will show up when the user clicks the event card.
-description = """
+description = """"DeNites are community-led events to connect local people with web3 projects in the most entertaining way possible.
+
+On November 3rd we'll throw our biggest party ever!
+And this time the goal is to party hard. Lisbon style."
 """
 
 # the priority in the schedule table, leave commented if you don't need to control this
