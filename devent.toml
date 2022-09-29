@@ -56,7 +56,7 @@ repo="https://github.com/protocol/labweek-2022"
 # ]
 teams = [
   ["Protocol Labs", "https://protocol.ai", "https://media.graphassets.com/e8bIG2apSUauy2dqK35W"],
-  ["Consensus Lab", "http://consensus-lab.com/", "./teams/consensus-lab.jpg"],
+  ["ConsensusLab", "https://consensuslab.world/", "./teams/consensus-lab.jpg"],
   ["Filecoin Foundation", "https://fil.org/", "./teams/filecoin-foundation.png"],
   ["Berty", "https://berty.tech", "./teams/berty.png"],
   ["ChainSafe", "https://chainsafe.io/", "./teams/chainsafe.jpeg"],
