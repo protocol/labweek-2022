@@ -10,7 +10,7 @@ dri = "Jamie Nicholson"
 
 # the website of the event
 # make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
-website = "https://ipfs-althing.io"
+website = ""
 
 # the start date of the event
 date = "2022-10-25"
@@ -52,4 +52,4 @@ description = """
 
 # the priority in the schedule table, leave commented if you don't need to control this
 # 1 will appear at the top, higher numbers appear closer to bottom
-# priority = 1
+# priority =
