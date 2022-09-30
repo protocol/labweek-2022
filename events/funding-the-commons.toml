@@ -13,7 +13,7 @@ dri = "Ben Illies"
 website = "https://fundingthecommons.io"
 
 # the start date of the event
-date = "2022-10-27"
+date = "2022-10-26"
 
 # how many days the event lasts (1 - N)
 days = 1
@@ -28,7 +28,7 @@ venueName = ""
 venueAddress = ""
 
 # the max number of attendees of the event
-attendees = "200"
+attendees = "500"
 
 
 # these is unsued:
