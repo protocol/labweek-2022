@@ -1,5 +1,5 @@
 # the name of your track or event
-name = "Filecoin's Interplanetary Party"
+name = "The Filecoin Interplanetary Party"
 
 # the name of the group organizing the event
 org = "Filecoin Foundation"
@@ -44,5 +44,4 @@ color="blue"
 # a description of the event.
 # will show up when the user clicks the event card.
 description = """
-Kick off FIL Lisbon with the entire Filecoin community and celebrating two years since our mainnet launch, with space-y vibes!
-"""
+Kick off FIL Lisbon with the entire Filecoin community and to celebrate two years since our mainnet launch, with space-y vibes!"""
