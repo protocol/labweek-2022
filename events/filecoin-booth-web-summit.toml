@@ -1,5 +1,5 @@
 # the name of your track or event
-name = "Filecoin Platform @ Web Summit"
+name = "Filecoin Station @ Web Summit"
 
 # the name of the group organizing the event
 org = "Filecoin Foundation"
@@ -39,14 +39,14 @@ difficulty = "All Welcome"
 
 # tags for the event, will show up as labels.
 # pick 1-4
-tags = ["Party"]
+tags = ["Web Summit Booth"]
 
 # a color, to group key events visually. use sparingly
 color="blue"
 
 # a description of the event.
 # will show up when the user clicks the event card.
-description = """
+description = """Daily talks at Filecoin's Web Summit Station, times and topics coming soon...along with a Web Summit discount code for Filecoin Ecosystem!
 """
 
 # the priority in the schedule table, leave commented if you don't need to control this
