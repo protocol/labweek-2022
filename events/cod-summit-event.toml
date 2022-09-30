@@ -1,8 +1,8 @@
 # the name of your track or event
-name = "COD Summit²"
+name = "CoD Summit² "
 
 # the name of the group organizing the event
-org = "Compute Over Data"
+org = "Compute over Data"
 
 # the github handle of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
@@ -10,7 +10,7 @@ dri = "David Aronchick"
 
 # the website of the event
 # make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
-website = ""
+website = "https://www.codsummit.io"
 
 # the start date of the event
 date = "2022-11-02"
@@ -19,10 +19,10 @@ date = "2022-11-02"
 days = 2
 
 # the event times (shows up in the event card)
-times = "Wednesday: 8:30 - 17:30, Thursday: 9:00 - 14:30"
+times = "8:30 - 19:00"
 
 # the event venue name (will show up on the event card - TODO)
-venueName = "[Time Out Market](https://g.page/timeoutmarketlisboa?share)"
+venueName = "Wednesday: [Time Out Market](https://g.page/timeoutmarketlisboa?share) Thursday: To be confirmed"
 
 # the event venue address (will show up on a map -- TODO)
 venueAddress = "Av. 24 de Julho 49, 1200-479 Lisboa, Portugal"
@@ -47,4 +47,4 @@ tags = ["Conference"]
 
 # a description of the event.
 # will show up when the user clicks the event card.
-description = """Bringing together the Compute Working group to talk about the latest advancements in distribute compute and efficient data processing."""
+description = """The Compute over Data summit is a two day conference November 2-3 in Lisbon, Portugal. We will be gathering to talk about the future of computation across the spectrum. Areas covered consist of distributed datasets, both edge and data centers, and technologies such as WASM, reproducible builds, and consensus. Most of all, we want to convene to help bring about the next generation of platforms that make using data and compute together easier and more efficient."""
