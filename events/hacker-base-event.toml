@@ -1,8 +1,8 @@
 # the name of your track or event
-name = "FIL Lisbon x Fission Codes x ETH Lisbon Hacker Base"
+name = "Filecoin Foundation x Fission Codes x Lightshift Hacker Base"
 
 # the name of the group organizing the event
-org = "Filecoin Foundation"
+org = "Filecoin Foundation, Fission"
 
 # the github handle of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
@@ -22,7 +22,7 @@ days = 12
 times = "To be confirmed"
 
 # the event venue name (will show up on the event card - TODO)
-venueName = "[GarageM](https://goo.gl/maps/LB4TsVA1dkEjaKTo7)"
+venueName = "[Garagem Lisboa](https://goo.gl/maps/LB4TsVA1dkEjaKTo7)"
 
 # the event venue address (will show up on a map -- TODO)
 venueAddress = "Jardim 9 de Abril, 1200-736 Lisboa, Portugal"
@@ -40,7 +40,7 @@ difficulty = "All Welcome"
 
 # tags for the event, will show up as labels.
 # pick 1-4
-tags = ["Hackathon"]
+tags = ["Co-working Space"]
 
 # a color, to group key events visually. use sparingly
 color="fuchsia"
