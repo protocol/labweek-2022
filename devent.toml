@@ -167,7 +167,7 @@ Até logo!
 # schedule section config
 [schedule]
 description="""
-All scheduled events are [optional](/#faq). Each event is hosted independently and ticketed separately. To register for tickets to the LabWeek22 events you'd like to attend please click on the event and visit its website. Many events are coming together, and the schedule will be updated frequently. Come back often for the latest updates.
+Each event is hosted independently and ticketed separately. To register for tickets to the LabWeek22 events you'd like to attend please click on the event and visit its website. Many events are coming together, and the schedule will be updated frequently. Come back often for the latest updates.
 """
 
 # this is a footer section, with any footer links you may want.
