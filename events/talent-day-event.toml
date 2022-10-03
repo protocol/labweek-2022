@@ -48,11 +48,11 @@ tags = ["Networking"]
 # a description of the event.
 # will show up when the user clicks the event card.
 description = """
-"​Talent Day by Protocol Labs marks the start of Talent House #5 in Lisbon and aims to incentivize the creation of interesting and useful connections between different communities.
+​Talent Day by Protocol Labs marks the start of Talent House #5 in Lisbon and aims to incentivize the creation of interesting and useful connections between different communities.
 
 ​Join Protocol Labs, Celo, and Talent Protocol on October 27th in Lisbon for a day of delicious food and inspiring conversations with fellow web3 builders.
 
-​This is a private event for 50 people maximum. Attendees will be selected based on their profile, not first come first served."
+​This is a private event for 50 people maximum. Attendees will be selected based on their profile, not first come first served.
 """
 
 # the priority in the schedule table, leave commented if you don't need to control this
