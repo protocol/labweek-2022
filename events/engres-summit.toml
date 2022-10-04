@@ -1,5 +1,5 @@
 # the name of your track or event
-name = "EngRes Summit"
+name = "EngRes WG Summit"
 
 # the name of the group organizing the event
 org = "Starfleet"
@@ -19,7 +19,7 @@ date = "2022-10-25"
 days = 2
 
 # the event times (shows up in the event card)
-times = "To be confirmed"
+times = "9am - 1pm"
 
 # the event venue name (will show up on the event card - TODO)
 venueName = "[Epic Sana](https://g.page/EPICSANAMarquesHotel?share)"
@@ -28,7 +28,7 @@ venueName = "[Epic Sana](https://g.page/EPICSANAMarquesHotel?share)"
 venueAddress = "Av. Fontes Pereira de Melo 8, 1069-310 Lisboa, Portugal"
 
 # the max number of attendees of the event
-attendees = ""
+attendees = "200"
 
 
 # these is unsued:
@@ -47,7 +47,7 @@ color="cyan"
 
 # a description of the event.
 # will show up when the user clicks the event card.
-description = """
+description = "Working meetings for the PL EngRes WG teams to share progress from 2022 and align on roadmaps for 2023."
 """
 
 # the priority in the schedule table, leave commented if you don't need to control this
