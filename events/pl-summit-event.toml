@@ -10,7 +10,7 @@ dri = "Juan Benet"
 
 # the website of the event
 # make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
-website = ""
+website = "https://lu.ma/plsummit22"
 
 # the start date of the event
 date = "2022-10-24"
@@ -49,7 +49,8 @@ color="orange"
 
 # a description of the event.
 # will show up when the user clicks the event card.
-description = """
+description = """Join us for PL Summit - the kickoff to Lab Week, our first ever decentralized conference!
+​The Protocol Labs network will meet at Convento do Beato to hear Juan Benet's vision for the future of the network, learn more about the progress and impact being made by network teams, and prepare for a fun-filled week of learning, collaboration, and connection.
 """
 
 # the priority in the schedule table, leave commented if you don't need to control this
