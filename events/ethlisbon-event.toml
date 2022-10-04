@@ -22,10 +22,10 @@ days = 3
 times = "To be confirmed"
 
 # the event venue name (will show up on the event card - TODO)
-venueName = ""
+venueName = "[Academia de Ciências de Lisboa](https://goo.gl/maps/uHJgeGseG2iSQxN76)"
 
 # the event venue address (will show up on a map -- TODO)
-venueAddress = ""
+venueAddress = "R. Academia das Ciências 19, 1200-168 Lisboa, Portugal"
 
 # the max number of attendees of the event
 attendees = ""
