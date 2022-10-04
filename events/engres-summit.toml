@@ -19,7 +19,7 @@ date = "2022-10-25"
 days = 2
 
 # the event times (shows up in the event card)
-times = "9am - 1pm"
+times = "9:00 - 13:00"
 
 # the event venue name (will show up on the event card - TODO)
 venueName = "[Epic Sana](https://g.page/EPICSANAMarquesHotel?share)"
@@ -47,8 +47,8 @@ color="cyan"
 
 # a description of the event.
 # will show up when the user clicks the event card.
-description = "Working meetings for the PL EngRes WG teams to share progress from 2022 and align on roadmaps for 2023."
-"""
+description = """Working meetings for the PL EngRes WG teams to share progress from 2022 and align on roadmaps for 2023."""
+
 
 # the priority in the schedule table, leave commented if you don't need to control this
 # 1 will appear at the top, higher numbers appear closer to bottom
