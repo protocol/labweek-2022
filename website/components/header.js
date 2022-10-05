@@ -25,7 +25,9 @@ export default function Header({config}) {
             </span>
           </Navbar.Brand>
           <div className="flex md:order-2">
-            <Button href={config.devent.rsvpLink} target="_blank">Get Updates</Button>
+            {config.devent.rsvpLink &&
+              <Button href={config.devent.rsvpLink} target="_blank">Register</Button>
+            }
             <Navbar.Toggle />
           </div>
           <Navbar.Collapse>
