@@ -48,11 +48,7 @@ tags = ["Workshop"]
 # a description of the event.
 # will show up when the user clicks the event card.
 description = """
-Lurk is a Turing-complete language for recursive zk-SNARKs. This event will feature talks from:
-- Chhi'mèd Künzang, creator of the Lurk language
-- John Burnham, CEO of Yatima, Inc.
-- Marcin Grzybowski, Lead Engineer for the Glow programming language
-- Kelly Olson, Co-founder of Supranational
+Lurk is a Turing-complete language for recursive zk-SNARKs. This event will feature talks from Chhi'mèd Künzang (creator of the Lurk language), John Burnham (CEO of Yatima, Inc.), Marcin Grzybowski (Lead Engineer for the Glow programming language), Kelly Olson (Co-founder of Supranational).
 
 Event will end with a lightly catered social hour for attendees. 
 """
