@@ -16,7 +16,7 @@ website = "https://lu.ma/discodenites"
 date = "2022-11-3"
 
 # how many days the event lasts (1 - N)
-days = 2
+days = 1
 
 # the event times (shows up in the event card)
 times = "21:00 - 02:00"
