@@ -19,7 +19,7 @@ date = "2022-10-31"
 days = 2
 
 # the event times (shows up in the event card)
-times = "To be confirmed"
+times = "10:30 - 19:30"
 
 # the event venue name (will show up on the event card - TODO)
 venueName = "[LX Factory](https://goo.gl/maps/RqP3B78vFktLzbkRA)"
