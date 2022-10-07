@@ -47,7 +47,7 @@ color="fuchsia"
 
 # a description of the event.
 # will show up when the user clicks the event card.
-description = """Co-working space and lightning talks for developers and the web3 community
+description = """We've got the perfect home base for your stay in Lisbon. Visit our co-working space to catch a lightning talk or participate in workshops with developers and the web3 community.
 """
 
 # the priority in the schedule table, leave commented if you don't need to control this
