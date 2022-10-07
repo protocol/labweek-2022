@@ -6,7 +6,7 @@ org = "Coinfeeds"
 
 # the github handle of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
-dri = "Moyi Dang & Bhavya"
+dri = "Moyi Dang"
 
 # the website of the event
 # make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
@@ -19,13 +19,13 @@ date = "2022-11-02"
 days = 1
 
 # the event times (shows up in the event card)
-times = "To be confirmed"
+times = "14:00 - 16:00"
 
 # the event venue name (will show up on the event card - TODO)
-venueName = ""
+venueName = "[Suspenso - Jardin Room](https://g.page/Suspenso_Lisboa?share)"
 
 # the event venue address (will show up on a map -- TODO)
-venueAddress = ""
+venueAddress = "R. de Santiago 19, 1100-001 Lisboa, Portugal"
 
 # the max number of attendees of the event
 attendees = ""
@@ -40,7 +40,7 @@ difficulty = "All Welcome"
 
 # tags for the event, will show up as labels.
 # pick 1-4
-tags = ["Workshop"]
+tags = ["Workshop","Happy Hour"]
 
 # a color, to group key events visually. use sparingly
 # color=""
@@ -48,6 +48,7 @@ tags = ["Workshop"]
 # a description of the event.
 # will show up when the user clicks the event card.
 description = """
+Join us at LabWeek for a workshop on the importance of social data for crypto investments and NFTs in particular. This type of metric has been a key early indicator for project sucess, and we'll demonstrate this with several NFT communities.
 """
 
 # the priority in the schedule table, leave commented if you don't need to control this
