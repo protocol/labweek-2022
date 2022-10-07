@@ -3,6 +3,7 @@ import FAQ from "../components/faq.js"
 import Countdown from "../components/countdown"
 import Hero from "../components/hero.js"
 import Layout from "../components/layout.js"
+import Map from "../components/map.js"
 import Teams from "../components/teams.js"
 import ScheduleSection from '../components/scheduleSection.js';
 import Resources from "../components/resources.js"
@@ -14,6 +15,7 @@ export default function Index({ events, config }) {
       <ScheduleSection config={config} events={events} />
       <Teams config={config} />
       <Countdown targetDate={`${config?.devent?.dateStart} 01:00`} className="mt-28 -mb-10"  />
+      <Map />
       <Resources config={config} />
       <FAQ config={config} />
     </Layout>
