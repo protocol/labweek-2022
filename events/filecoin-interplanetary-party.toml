@@ -19,7 +19,7 @@ date = "2022-10-30"
 days = 1
 
 # the event times (shows up in the event card)
-times = "To be confirmed"
+times = "21:00 - 1:00"
 
 # the event venue name (will show up on the event card - TODO)
 venueName = "[Suspenso](https://g.page/Suspenso_Lisboa?share)"
