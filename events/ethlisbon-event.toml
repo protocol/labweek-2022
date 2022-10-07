@@ -6,7 +6,7 @@ org = "Ethereum Community"
 
 # the github handle of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
-dri = "Diogo"
+dri = "Diogo Almeida"
 
 # the website of the event
 # make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
@@ -19,7 +19,7 @@ date = "2022-10-28"
 days = 3
 
 # the event times (shows up in the event card)
-times = "To be confirmed"
+times = "14:00 (registration) on Oct 28th"
 
 # the event venue name (will show up on the event card - TODO)
 venueName = "[Academia de Ciências de Lisboa](https://goo.gl/maps/uHJgeGseG2iSQxN76)"

@@ -47,7 +47,7 @@ tags = ["Party"]
 
 # a description of the event.
 # will show up when the user clicks the event card.
-description = """As part of LabWeek22 by Protocal Labs, Zama is throwing a party on Thursday 27th of October. The idea is to connect web3 entrepreneurs and builders, meet the Zama team, discuss privacy, crypto—graphy and blockchain... And have a good time!!!!
+description = """As part of LabWeek22 by Protocal Labs, Zama is throwing a party on Thursday, October 27th. The idea is to connect web3 entrepreneurs and builders, meet the Zama team, discuss privacy, crypto—graphy and blockchain... And have a good time!!!!
 """
 
 # the priority in the schedule table, leave commented if you don't need to control this
