@@ -27,11 +27,12 @@ export default function ScheduleSection({ events, config }) {
             <a className="text-xs pl-4 self-end text-blue-600" href="/events.json">View as JSON</a>
           </header>
           <div className='mt-3'>
-            <div className="mr-20 text-gray-400 float-right">
-              Click &amp; Drag &rarr;
-            </div>
             {config.schedule?.description && <Markdown>{config.schedule.description}</Markdown>}
           </div>
+        </div>
+        <div className="bg-gray-100 py-10 pb-0 text-center">
+          <img className="inline-block mr-3" src="/click-drag.svg" />
+          Click and drag the schedule to navigate
         </div>
         <ScrollContainer innerRef={scrollContainer} className="scroll-container bg-gray-100 py-10">
           <div className="flex-none min-h-full w-full">
