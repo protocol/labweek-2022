@@ -13,7 +13,7 @@ export default function Index({ events, config }) {
       <Hero config={config} />
       <ScheduleSection config={config} events={events} />
       <Teams config={config} />
-      <Countdown targetDate="2022/10/20 01:00" className="mt-28 -mb-10"  />
+      <Countdown targetDate={`${config?.devent?.dateStart} 01:00`} className="mt-28 -mb-10"  />
       <Resources config={config} />
       <FAQ config={config} />
     </Layout>
