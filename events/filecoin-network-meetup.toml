@@ -1,5 +1,5 @@
 # the name of your track or event
-name = "Filecoin Network Meetup@"
+name = "Filecoin Network Meetup"
 
 # the name of the group organizing the event
 org = "Filecoin Foundation & Starfleet"
@@ -28,7 +28,7 @@ venueName = "[Broteria](https://goo.gl/maps/Un1j8y3LQVHf8TaL9)"
 venueAddress = "R. de São Pedro de Alcântara 3, 1250-237 Lisboa, Portugal"
 
 # the max number of attendees of the event
-attendees = ""
+attendees = "80"
 
 
 # these is unsued:
