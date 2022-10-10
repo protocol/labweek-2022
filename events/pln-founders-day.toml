@@ -43,7 +43,7 @@ difficulty = "Private"
 tags = ["Team Retreat", "Workshops"]
 
 # a color, to group key events visually. use sparingly
-# color="purple"
+color="orange"
 
 # a description of the event.
 # will show up when the user clicks the event card.
