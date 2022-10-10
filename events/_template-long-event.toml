@@ -44,6 +44,9 @@ tags = ["Talks", "Workshops"]
 # a color, to group key events visually. use sparingly
 # color="purple"
 
+# A small logomark for the corner of the event (logomark image can be placed in "/website/public/logomarks")
+# logomark = "/logomarks/filecoin.png"
+
 # a description of the track.
 # will show up when the user clicks the event card.
 description = """

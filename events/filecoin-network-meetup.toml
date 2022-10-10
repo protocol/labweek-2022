@@ -30,7 +30,6 @@ venueAddress = "R. de São Pedro de Alcântara 3, 1250-237 Lisboa, Portugal"
 # the max number of attendees of the event
 attendees = "80"
 
-
 # these is unsued:
 # tickets = "Waitlist"
 
@@ -44,6 +43,9 @@ tags = ["Workshops"]
 
 # a color, to group key events visually. use sparingly
 # color=""
+
+# A small logomark for the corner of the event
+logomark = "/logomarks/filecoin.png"
 
 # a description of the event.
 # will show up when the user clicks the event card.
