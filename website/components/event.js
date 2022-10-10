@@ -76,7 +76,7 @@ function BlockCard({ event }) {
           </div>
           {event.logomark &&
             <div className="logomark w-12">
-              <img className="w-full h-12 object-contain" src={event.logomark} />
+              <img height="48" className="w-full h-12 object-contain" src={event.logomark} />
             </div>
           }
         </div>
@@ -108,7 +108,7 @@ function TrackCard({ event }) {
             ))}
           </div>
           <div className="logomark w-12">
-            <img className="w-full h-12 object-contain" src="/logomarks/filecoin.png" />
+            <img height="48" className="w-full h-12 object-contain" src="/logomarks/filecoin.png" />
           </div>
         </div>
     </Card>
