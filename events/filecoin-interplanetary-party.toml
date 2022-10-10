@@ -39,7 +39,7 @@ difficulty = "All Welcome"
 tags = ["Party"]
 
 # a color, to group key events visually. use sparingly
-color="blue"
+color="yellow"
 
 # A small logomark for the corner of the event
 logomark = "/logomarks/filecoin.png"
