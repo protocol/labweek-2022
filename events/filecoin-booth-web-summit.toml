@@ -44,6 +44,9 @@ tags = ["Web Summit Booth"]
 # a color, to group key events visually. use sparingly
 color="blue"
 
+# A small logomark for the corner of the event
+logomark = "/logomarks/filecoin.png"
+
 # a description of the event.
 # will show up when the user clicks the event card.
 description = """Daily talks at Filecoin's Web Summit Station, times and topics coming soon...along with a Web Summit discount code for Filecoin Ecosystem!

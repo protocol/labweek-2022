@@ -25,7 +25,7 @@ export function Card({ children, color, onClick }) {
           bgColor, 
           'block p-3 sm:px-3 sm:py-2 h-full hover:bg-white hover:bg-gradient-to-r hover:from-blue-500/10 hover:via-cyan-500/10 hover:to-green-500/10'
         )}>
-        <div className="text-xs text-gray-600">
+        <div className="flex flex-col h-full text-xs text-gray-600">
           { children }
         </div>
       </div>
@@ -52,26 +52,34 @@ export function EventCard({ event }) {
 function BlockCard({ event }) {
   return (
     <Card color={event.color}>
-      <h5 className="text-lg font-bold text-gray-900">
-        {event.name}
-      </h5>
-      {event.times !== "To be confirmed" && 
-      <div>
-        {event.times}
-      </div>
-      }
-      <div>
-        👤 {event.attendees} - {event.difficulty}
-      </div>
-      <div className="text-gray-900 text-sm mt-3">
-        {event.org}
-      </div>
-
-      <div className="event-tags">
-        {event.tags.map((tag, i) => (
-          (tag && <Tag key={i}>{tag}</Tag>)
-        ))}
-      </div>
+        <div className="flex-1">
+          <h5 className="text-lg font-bold text-gray-900">
+            {event.name}
+          </h5>
+          {event.times !== "To be confirmed" && 
+          <div>
+            {event.times}
+          </div>
+          }
+          <div>
+            👤 {event.attendees} - {event.difficulty}
+          </div>
+          <div className="text-gray-900 text-sm mt-3">
+            {event.org}
+          </div>
+        </div>
+        <div className="flex-1 flex items-end">
+          <div className="event-tags w-full">
+            {event.tags.map((tag, i) => (
+              (tag && <Tag key={i}>{tag}</Tag>)
+            ))}
+          </div>
+          {event.logomark &&
+            <div className="logomark w-12">
+              <img className="w-full h-12 object-contain" src={event.logomark} />
+            </div>
+          }
+        </div>
     </Card>
   )
 }
@@ -79,24 +87,30 @@ function BlockCard({ event }) {
 function TrackCard({ event }) {
   return (
     <Card color={event.color}>
-      <h5 className="text-lg font-bold text-gray-900">
-        {event.name}
-      </h5>
-      <div>
-        {event.times}
+      <div className="flex-1">
+        <h5 className="text-lg font-bold text-gray-900">
+          {event.name}
+        </h5>
+        <div>
+          {event.times}
+        </div>
+        <div>
+          👤 {event.attendees} - {event.difficulty}
+        </div>
+        <div className="text-gray-900 text-sm mt-3 text-ellipsis overflow-hidden">
+          {event.org}
+        </div>
       </div>
-      <div>
-        👤 {event.attendees} - {event.difficulty}
-      </div>
-      <div className="text-gray-900 text-sm mt-3 text-ellipsis overflow-hidden">
-        {event.org}
-      </div>
-
-      <div className="event-tags">
-        {event.tags.map((tag, i) => (
-          <Tag key={i}>{tag}</Tag>
-        ))}
-      </div>
+      <div className="flex-1 flex items-end">
+          <div className="event-tags w-full">
+            {event.tags.map((tag, i) => (
+              (tag && <Tag key={i}>{tag}</Tag>)
+            ))}
+          </div>
+          <div className="logomark w-12">
+            <img className="w-full h-12 object-contain" src="/logomarks/filecoin.png" />
+          </div>
+        </div>
     </Card>
   )
 }
