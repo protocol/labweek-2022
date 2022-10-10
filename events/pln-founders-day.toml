@@ -55,4 +55,4 @@ Founder's Day will be a 1/2 day event with 1) the opportunity for you all to l
 
 # the priority in the schedule table, leave commented if you don't need to control this
 # 1 will appear at the top, higher numbers appear closer to bottom
-# priority = 1
+priority = 2
