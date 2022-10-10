@@ -43,7 +43,7 @@ difficulty = "All Welcome"
 tags = ["Talks", "Workshops", "Keynote", "Panel"]
 
 # a color, to group key events visually. use sparingly
-# color=""
+color="orange"
 
 # a description of the event.
 # will show up when the user clicks the event card.
