@@ -43,7 +43,7 @@ difficulty = "All Welcome"
 tags = ["Co-working Space"]
 
 # a color, to group key events visually. use sparingly
-color="fuchsia"
+color="blue"
 
 # a description of the event.
 # will show up when the user clicks the event card.
