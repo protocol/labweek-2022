@@ -1,12 +1,12 @@
 # the name of your track or event
-name = "Lurk + Yatima + Supranational Workshop"
+name = "Lurk, Lurk Applications, and Lurk Hardware Acceleration"
 
 # the name of the group organizing the event
-org = "Starfleet, Yatima, and Supranational"
+org = "Outercore (Lurk Lab), Yatima, and Supranational"
 
 # the github handle of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
-dri = "John Burnham, Sam Burnham, Jonathan Gross, Kelly Olson"
+dri = "@jpeg07"
 
 # the website of the event
 # make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
@@ -22,10 +22,10 @@ days = 1
 times = "13:00 - 17:00"
 
 # the event venue name (will show up on the event card - TODO)
-venueName = ""
+venueName = "Brotéria Café"
 
 # the event venue address (will show up on a map -- TODO)
-venueAddress = ""
+venueAddress = "Rua de São Pedro de Alcântara, Lisbon, Portugal"
 
 # the max number of attendees of the event
 attendees = ""
@@ -48,7 +48,9 @@ tags = ["Workshop"]
 # a description of the event.
 # will show up when the user clicks the event card.
 description = """
-technical tutorial/talk + Q&A of Lurk, ~ 1 hr	
+Lurk is a Turing-complete language for recursive zk-SNARKs. This event will feature talks from Chhi'mèd Künzang (creator of the Lurk language), John Burnham (CEO of Yatima, Inc.), Marcin Grzybowski (Lead Engineer for the Glow programming language), Kelly Olson (Co-founder of Supranational).
+
+Event will end with a lightly catered social hour for attendees. 
 """
 
 # the priority in the schedule table, leave commented if you don't need to control this
