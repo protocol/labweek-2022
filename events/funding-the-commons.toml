@@ -10,7 +10,7 @@ dri = "Ben Illies"
 
 # the website of the event
 # make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
-website = "https://fundingthecommons.io"
+website = "https://www.eventbrite.com/e/funding-the-commons-lab-week-2022-tickets-423752213277"
 
 # the start date of the event
 date = "2022-10-26"
