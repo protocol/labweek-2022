@@ -67,7 +67,7 @@ teams = [
   ["Cryptonet Labs", "https://www.cryptonetlabs.it/en/", "./teams/cryptonetlabs.png"],
   ["Crypto Nomads", "https://www.cryptonomadsclub.xyz/", "./teams/cryptonomads.png"],
   ["Denites", "https://www.denites.com/", "./teams/denites.png"],
-  ["DIA Data", "https://www.diadata.org", "./teams/mint.png"],
+  ["DIA Data", "https://www.diadata.org", "./teams/diadata.png"],
   ["Drand", "https://drand.love", "./teams/drand.jpg"],
   ["EFF", "https://www.eff.org/", "./teams/eff.png"],
   ["ETH Lisbon", "https://www.ethlisbon.org/", "./teams/ETHlisbon.png"],
