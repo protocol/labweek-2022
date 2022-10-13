@@ -22,7 +22,7 @@ days = 1
 times = "9:00 - 22:00"
 
 # the event venue name (will show up on the event card - TODO)
-venueName = "Estufa Fria"
+venueName = "[Estufa Fria](https://goo.gl/maps/YKZASeCakmiXPCgNA)"
 
 # the event venue address (will show up on a map -- TODO)
 venueAddress = "Parque Eduardo VII, 1070-051 1070-051 Lisboa Portugal"
@@ -60,4 +60,4 @@ By inviting industry professionals and visioners to build a comprehensive and mi
 
 # the priority in the schedule table, leave commented if you don't need to control this
 # 1 will appear at the top, higher numbers appear closer to bottom
-# priority = 1
+# priority =
