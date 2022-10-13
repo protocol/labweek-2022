@@ -22,10 +22,10 @@ days = 2
 times = "10:00 - 17:00"
 
 # the event venue name (will show up on the event card - TODO)
-venueName = "[Epic Sana Marques](https://g.page/EPICSANAMarquesHotel?share)"
+venueName = "Private"
 
 # the event venue address (will show up on a map -- TODO)
-venueAddress = "Av. Fontes Pereira de Melo 8, 1069-310 Lisboa, Portugal"
+venueAddress = ""
 
 # the max number of attendees of the event
 attendees = ""
