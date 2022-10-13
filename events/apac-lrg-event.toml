@@ -19,10 +19,10 @@ date = "2022-10-27"
 days = 1
 
 # the event times (shows up in the event card)
-times = "To be confirmed"
+times = "Private"
 
 # the event venue name (will show up on the event card - TODO)
-venueName = ""
+venueName = "Private"
 
 # the event venue address (will show up on a map -- TODO)
 venueAddress = ""
