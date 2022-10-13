@@ -1,0 +1,59 @@
+# the name of your track or event
+name = "Open Metaverse meetup with MONA Galleries"
+
+# the name of the group organizing the event
+org = "Filecoin Foundation"
+
+# the github handle of the directly responsible individual for this event
+# (this person will coordinate with devent organizers)
+dri = "Florencia Barrerio & Heath Owen"
+
+# the website of the event
+# make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
+website = "https://openmetaverse.eventbrite.com"
+
+# the start date of the event
+date = "2022-10-25"
+
+# how many days the event lasts (1 - N)
+days = 1
+
+# the event times (shows up in the event card)
+times = "18:00 - 23:00"
+
+# the event venue name (will show up on the event card - TODO)
+venueName = "[Hacker Base @ Garagem Lisboa](https://goo.gl/maps/LB4TsVA1dkEjaKTo7)"
+
+# the event venue address (will show up on a map -- TODO)
+venueAddress = "Garagem Lisboa, Jardim 9 de Abril, 1200-736 Lisboa, Portugal"
+
+# the max number of attendees of the event
+attendees = ""
+
+
+# these is unsued:
+# tickets = ""
+
+# the "difficulty" of the event -- one of:
+# ["Beginner", "Intermediate", "Advanced", "All Welcome"]
+difficulty = "All Welcome"
+
+# tags for the event, will show up as labels.
+# pick 1-4
+tags = ["Meetup"]
+
+# a color, to group key events visually. use sparingly
+# color="yellow"
+
+# A small logomark for the corner of the event (logomark image can be placed in "/website/public/logomarks")
+# logomark = "/logomarks/filecoin.png"
+
+# a description of the event.
+# will show up when the user clicks the event card.
+description = """
+Bring your IRL avatar to the Filecoin Foundation Hacker Base for an interactive open metaverse experience with Mona. Mona is making metaverse building and exploration open to everyone with their free platform accessible from your web browser, and now they’re bringing the metaverse to Lisbon. Join experts from Peregrine, a web3-focused experiential content team, to discover building in the metaverse through interactive demos, virtual reality tours, and finish up with happy hour to bring you back to our physical world.
+"""
+
+# the priority in the schedule table, leave commented if you don't need to control this
+# 1 will appear at the top, higher numbers appear closer to bottom
+# priority = 
