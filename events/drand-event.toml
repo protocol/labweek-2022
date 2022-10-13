@@ -36,7 +36,7 @@ attendees = ""
 
 # the "difficulty" of the event -- one of:
 # ["Beginner", "Intermediate", "Advanced", "All Welcome"]
-difficulty = "All Welcome"
+difficulty = "Private"
 
 # tags for the event, will show up as labels.
 # pick 1-4
@@ -48,4 +48,5 @@ tags = ["Conference"]
 # a description of the event.
 # will show up when the user clicks the event card.
 description = """
+The League of Entropy together with drand clients will be meet to discuss latest developments, future plans and the immediate roadmap of the team. If you're interested joining, please get in touch by joining our Slack workspace, which can be found at https://drand.love.
 """
