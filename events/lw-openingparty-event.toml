@@ -50,9 +50,9 @@ color="yellow"
 
 # a description of the event.
 # will show up when the user clicks the event card.
-description = """"​​Join us for PL Summit - the kickoff to Lab Week, our first ever decentralized conference!
+description = """​​Join us for PL Summit - the kickoff to Lab Week, our first ever decentralized conference!
 
-In the evening, we'll meet at Estufa Fria in the evening for the Lab Week opening party. We'll have cocktails, light bites, and music to kick the week off in style."
+In the evening, we'll meet at Estufa Fria in the evening for the Lab Week opening party. We'll have cocktails, light bites, and music to kick the week off in style.
 """
 
 # the priority in the schedule table, leave commented if you don't need to control this
