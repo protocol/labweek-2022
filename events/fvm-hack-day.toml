@@ -22,7 +22,7 @@ days = 1
 times = "11:00 - 18:00"
 
 # the event venue name (will show up on the event card - TODO)
-venueName = "[Jardim 9 de Abril](https://goo.gl/maps/jAmK1gQdLYTpp5QM6)"
+venueName = "[Palácio Cruz Vermelha (Red Cross)](https://goo.gl/maps/jAmK1gQdLYTpp5QM6)"
 
 # the event venue address (will show up on a map -- TODO)
 venueAddress = "Jardim 9 de Abril, 1200-736 Lisboa, Portugal"
@@ -43,7 +43,7 @@ difficulty = "All Welcome"
 tags = ["Workshop", "Happy hour"]
 
 # a color, to group key events visually. use sparingly
-color="orange"
+color=""
 
 # a description of the event.
 # will show up when the user clicks the event card.
