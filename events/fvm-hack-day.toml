@@ -1,0 +1,57 @@
+# the name of your track or event
+name = "FVM Hack Day"
+
+# the name of the group organizing the event
+org = "Filecoin Virtual Machine"
+
+# the github handle of the directly responsible individual for this event
+# (this person will coordinate with devent organizers)
+dri = "trruckerfling"
+
+# the website of the event
+# make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
+website = "https://lu.ma/FVM-Lisbon-OHD"
+
+# the start date of the event
+date = "2022-10-29"
+
+# how many days the event lasts (1 - N)
+days = 1
+
+# the event times (shows up in the event card)
+times = "11:00 - 18:00"
+
+# the event venue name (will show up on the event card - TODO)
+venueName = "[Jardim 9 de Abril](https://goo.gl/maps/jAmK1gQdLYTpp5QM6)"
+
+# the event venue address (will show up on a map -- TODO)
+venueAddress = "Jardim 9 de Abril, 1200-736 Lisboa, Portugal"
+
+# the max number of attendees of the event
+attendees = "50"
+
+
+# these is unsued:
+# tickets = ""
+
+# the "difficulty" of the event -- one of:
+# ["Beginner", "Intermediate", "Advanced", "All Welcome"]
+difficulty = "All Welcome"
+
+# tags for the event, will show up as labels.
+# pick 1-4
+tags = ["Workshop", "Happy hour"]
+
+# a color, to group key events visually. use sparingly
+color="orange"
+
+# a description of the event.
+# will show up when the user clicks the event card.
+description = """Learn and hack at FVM’s first-ever Open Hack Day!
+
+The Filecoin Virtual Machine brings general programmability to the Filecoin blockchain. We will be sharing about how to deploy EVM out-of-the-box to FVM, to unlock compute over data use cases. Meet the FVM community, hack and hangout with us. There’s lunch and a happy hour so register today!
+"""
+
+# the priority in the schedule table, leave commented if you don't need to control this
+# 1 will appear at the top, higher numbers appear closer to bottom
+# priority = 
