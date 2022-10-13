@@ -1,8 +1,8 @@
 # the name of your track or event
-name = "Lurk, Lurk Applications, and Lurk Hardware Acceleration"
+name = "Lurk Day: Lurk, Applications, Nova, and Hardware Acceleration"
 
 # the name of the group organizing the event
-org = "Outercore (Lurk Lab), Yatima, and Supranational"
+org = "PL Outercore, Lurk Lab, Yatima, and Supranational"
 
 # the github handle of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
@@ -19,7 +19,7 @@ date = "2022-10-28"
 days = 1
 
 # the event times (shows up in the event card)
-times = "13:00 - 17:00"
+times = "13:00 - 18:30"
 
 # the event venue name (will show up on the event card - TODO)
 venueName = "Brotéria Café"
@@ -48,8 +48,8 @@ tags = ["Workshops","Happy Hour"]
 # a description of the event.
 # will show up when the user clicks the event card.
 description = """
-Lurk is a Turing-complete language for recursive zk-SNARKs. This event will feature talks from Chhi'mèd Künzang (creator of the Lurk language), John Burnham (CEO of Yatima, Inc.), Marcin Grzybowski (Lead Engineer for the Glow programming language), Kelly Olson (Co-founder of Supranational).
-
+Lurk is a Turing-complete language for recursive zk-SNARKs. This event will feature talks from Chhi'mèd Künzang (Protocol Labs and Lurk Lab), John Burnham (Yatima, Inc.), Marcin Grzybowski (Mutual Knowledge Systems), Srinath Setty (Microsoft Research), and Kelly Olson (Supranational).
+ 
 Event will end with a lightly catered social hour for attendees. 
 """
 
