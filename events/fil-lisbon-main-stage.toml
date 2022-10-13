@@ -44,7 +44,7 @@ color="blue"
 # a description of the event.
 # will show up when the user clicks the event card.
 description = """
-Fil Lisbon Main Stage is a two-day event with insightful talks from top-notch speakers, panel discussions from the world's foremost Filecoin ecosystem participants and Web3 co-builders. Our unmatched speaker lineup will dive into Filecoin and Web3, taking you through the Filecoin world of FVM, NFTs, the metaverse, and beyond to be a part of the Web3 wave.
+Fil Lisbon Main Stage is a two-day event with insightful talks from top-notch speakers, panel discussions from the world's foremost Filecoin ecosystem participants and Web3 co-builders. Our unmatched speaker lineup will dive into Filecoin and Web3, taking you through the Filecoin world of FVM, NFTs, the metaverse, and beyond to be a part of the Web3 wave.  Live streaming available.  Please register to receive details.
 """
 
 # the priority in the schedule table, leave commented if you don't need to control this
