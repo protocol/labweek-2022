@@ -43,7 +43,7 @@ difficulty = "All Welcome"
 tags = ["Talks", "Panels"]
 
 # a color, to group key events visually. use sparingly
-# color="red"
+# color=""
 
 # A small logomark for the corner of the event (logomark image can be placed in "/website/public/logomarks")
 # logomark = "https://www.notion.so/iosgvc/Media-Kit-feb9601084594dab891b3e125a3e09ce"
