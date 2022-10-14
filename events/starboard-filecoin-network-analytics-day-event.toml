@@ -50,7 +50,7 @@ logomark = "/logomarks/Spaceport-icon-black.png"
 
 # a description of the event.
 # will show up when the user clicks the event card.
-description = "Descriptions:
+description = "
                What informs the Filecoin Network’s most important decisions? Join us as we dive into the network analytics that continually define and shape Filecoin.
                On the Filecoin Network Analytics Day, you will hear insightful talks and discussions covering important topics on Filecoin network analytics, including:
                The importance of network analytics to Web3 governance and improvement
