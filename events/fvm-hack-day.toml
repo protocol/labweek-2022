@@ -43,7 +43,10 @@ difficulty = "All Welcome"
 tags = ["Workshop", "Happy hour"]
 
 # a color, to group key events visually. use sparingly
-color=""
+color="blue"
+
+# A small logomark for the corner of the event
+logomark = "/logomarks/filecoin.png"
 
 # a description of the event.
 # will show up when the user clicks the event card.
