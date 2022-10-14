@@ -45,6 +45,9 @@ tags = ["Team Retreat", "Workshops", "Dinner"]
 # a color, to group key events visually. use sparingly
 color="orange"
 
+# A small logomark for the corner of the event
+logomark = "/logomarks/Protocol Labs.jpeg"
+
 # a description of the event.
 # will show up when the user clicks the event card.
 description = """
