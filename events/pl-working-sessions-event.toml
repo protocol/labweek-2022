@@ -19,7 +19,7 @@ date = "2022-10-26"
 days = 3
 
 # the event times (shows up in the event card)
-times = "To be confirmed"
+times = "9:00 - 18:00"
 
 # the event venue name (will show up on the event card - TODO)
 venueName = "[Palacio de Tancos](https://goo.gl/maps/2YS3dYGoMkbLGszDA)"
@@ -44,6 +44,9 @@ tags = ["Co-working Space"]
 
 # a color, to group key events visually. use sparingly
 # color=""
+
+# A small logomark for the corner of the event
+logomark = "/logomarks/Protocol Labs.jpeg"
 
 # a description of the event.
 # will show up when the user clicks the event card.
