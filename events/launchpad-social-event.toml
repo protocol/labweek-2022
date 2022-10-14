@@ -43,7 +43,7 @@ difficulty = "All Welcome"
 tags = ["Dinner"]
 
 # a color, to group key events visually. use sparingly
-# color=""
+color="yellow"
 
 # A small logomark for the corner of the event
 logomark = "/logomarks/LP-icon-nobkgrnd_vncehp.png"
