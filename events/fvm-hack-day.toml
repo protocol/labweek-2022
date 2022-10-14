@@ -22,7 +22,7 @@ days = 1
 times = "11:00 - 18:00"
 
 # the event venue name (will show up on the event card - TODO)
-venueName = "[Palácio Cruz Vermelha (Red Cross)](https://goo.gl/maps/jAmK1gQdLYTpp5QM6)"
+venueName = "[GarageM](https://goo.gl/maps/LB4TsVA1dkEjaKTo7)"
 
 # the event venue address (will show up on a map -- TODO)
 venueAddress = "Jardim 9 de Abril, 1200-736 Lisboa, Portugal"
