@@ -19,7 +19,7 @@ date = "2022-11-3"
 days = 1
 
 # the event times (shows up in the event card)
-times = "21:00 - 02:00"
+times = "20:00 - 02:00"
 
 # the event venue name (will show up on the event card - TODO)
 venueName = "[Hub Criativo do Beato](https://g.page/HubCriativoBeato?share)"
@@ -44,6 +44,9 @@ tags = ["Party"]
 
 # a color, to group key events visually. use sparingly
 color="yellow"
+
+# A small logomark for the corner of the event
+logomark = "/logomarks/denitessquare.jpg"
 
 # a description of the event.
 # will show up when the user clicks the event card.
