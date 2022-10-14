@@ -45,6 +45,9 @@ tags = ["Party"]
 # a color, to group key events visually. use sparingly
 color="yellow"
 
+# A small logomark for the corner of the event
+logomark = "/logomarks/Zama - Square.png"
+
 # a description of the event.
 # will show up when the user clicks the event card.
 description = """As part of LabWeek22 by Protocal Labs, Zama is throwing a party on Thursday, October 27th. The idea is to connect web3 entrepreneurs and builders, meet the Zama team, discuss privacy, crypto—graphy and blockchain... And have a good time!!!!
