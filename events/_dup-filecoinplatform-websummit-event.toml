@@ -19,7 +19,7 @@ date = "2022-11-02"
 days = 3
 
 # the event times (shows up in the event card)
-times = "To be confirmed"
+times = "9:00 - 17:00"
 
 # the event venue name (will show up on the event card - TODO)
 venueName = "[Altice Arena](https://goo.gl/maps/yriqEURuPozDAnms5)"
@@ -45,7 +45,10 @@ difficulty = "All Welcome"
 tags = ["Conference"]
 
 # a color, to group key events visually. use sparingly
-# color=""
+# color="blue"
+
+# A small logomark for the corner of the event
+logomark = "/logomarks/filecoin.png"
 
 # a description of the event.
 # will show up when the user clicks the event card.
