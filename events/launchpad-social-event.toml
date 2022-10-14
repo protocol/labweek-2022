@@ -45,6 +45,9 @@ tags = ["Dinner"]
 # a color, to group key events visually. use sparingly
 # color=""
 
+# A small logomark for the corner of the event
+logomark = "/logomarks/LP-icon-nobkgrnd_vncehp.png"
+
 # a description of the event.
 # will show up when the user clicks the event card.
 description = """Join [ the PL Launchpad ](https://www.eventbrite.com/e/protocol-labs-launchpad-social-hour-4-tickets-428430877287) Social Hour in Lisbon ! We are excited to meet all of you, share our latest updates, more about the future cohorts happening in the next months, meet the team and our current and Alumni residents.
