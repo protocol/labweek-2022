@@ -45,6 +45,9 @@ tags = ["Talks", "Workshops", "Keynote", "Panel"]
 # a color, to group key events visually. use sparingly
 color="orange"
 
+# A small logomark for the corner of the event
+logomark = "/logomarks/networkgoods_primary_black.png"
+
 # a description of the event.
 # will show up when the user clicks the event card.
 description = """
