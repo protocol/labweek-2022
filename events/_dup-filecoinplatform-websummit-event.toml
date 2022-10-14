@@ -1,5 +1,5 @@
 # the name of your track or event
-name = "Filecoin Platform @ Web Summit"
+name = "Filecoin Station @ Web Summit"
 
 # the name of the group organizing the event
 org = "Filecoin Foundation"
@@ -50,8 +50,7 @@ tags = ["Conference"]
 # a description of the event.
 # will show up when the user clicks the event card.
 description = """
-This is a day of technical talks and workshops about projects across computing and innovation systems. 
-Check out the line up on the website. Social gathering 17:00 - 19:00.
+Touch down at the Filecoin Web Summit Station to learn and network in a totally intergalactic fashion.
 """
 
 # the priority in the schedule table, leave commented if you don't need to control this
