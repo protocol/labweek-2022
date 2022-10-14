@@ -45,6 +45,9 @@ tags = ["Hackathon"]
 # a color, to group key events visually. use sparingly
 # color=""
 
+# A small logomark for the corner of the event
+logomark = "/logomarks/LP-icon-nobkgrnd_vncehp.png"
+
 # a description of the event.
 # will show up when the user clicks the event card.
 description = "PLN Launchpad is a six-week, full-time onboarding program designed to train, develop, and match technical talent at scale with opportunities in Web3 across the Protocol Labs Network (PLN). Apply or sign up at https://pl-launchpad.io/ "
