@@ -46,7 +46,7 @@ tags = ["Talks", "Workshops"]
 color="blue"
 
 # A small logomark for the corner of the event (logomark image can be placed in "/website/public/logomarks")
-logomark = "/logomarks/filecoin.png"
+logomark = "/logomarks/cryptonet.png"
 
 # a description of the event.
 # will show up when the user clicks the event card.
