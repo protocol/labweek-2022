@@ -19,7 +19,7 @@ date = "2022-11-01"
 days = 1
 
 # the event times (shows up in the event card)
-times = "9:00 - 22:00"
+times = "8:00 - 22:00"
 
 # the event venue name (will show up on the event card - TODO)
 venueName = "[Estufa Fria](https://goo.gl/maps/YKZASeCakmiXPCgNA)"
@@ -46,7 +46,7 @@ tags = ["Talks", "Panels"]
 # color=""
 
 # A small logomark for the corner of the event (logomark image can be placed in "/website/public/logomarks")
-# logomark = "https://www.notion.so/iosgvc/Media-Kit-feb9601084594dab891b3e125a3e09ce"
+logomark = "/logomarks/Isogventures.png"
 
 # a description of the event.
 # will show up when the user clicks the event card.
