@@ -45,6 +45,9 @@ tags = ["Workshops","Happy Hour"]
 # a color, to group key events visually. use sparingly
 # color=""
 
+# A small logomark for the corner of the event
+logomark = "/logomarks/Lurk.jpeg"
+
 # a description of the event.
 # will show up when the user clicks the event card.
 description = """
