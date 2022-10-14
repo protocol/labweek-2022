@@ -22,10 +22,10 @@ days = 1
 times = "11:00 - 20:30"
 
 # the event venue name (will show up on the event card - TODO)
-venueName = ""
+venueName = "[Hyatt Regency](https://goo.gl/maps/A1wy91hCDodZUGca7)"
 
 # the event venue address (will show up on a map -- TODO)
-venueAddress = ""
+venueAddress = "63 Rua da Junqueira Lisboa, 1300-344 Portugal"
 
 # the max number of attendees of the event
 attendees = ""
@@ -44,6 +44,9 @@ tags = ["Conference"]
 
 # a color, to group key events visually. use sparingly
 # color=""
+
+# A small logomark for the corner of the event
+logomark = "/logomarks/cryptoecon.png"
 
 # a description of the event.
 # will show up when the user clicks the event card.
