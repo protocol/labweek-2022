@@ -19,13 +19,13 @@ date = "2022-11-02"
 days = 1
 
 # the event times (shows up in the event card)
-times = "9:00 - 17:00"
+times = "10:00 - 20:00"
 
 # the event venue name (will show up on the event card - TODO)
-venueName = ""
+venueName = "[Hyatt Regency Lisbon](https://goo.gl/maps/UsArqjwDAsoCDpt58)"
 
 # the event venue address (will show up on a map -- TODO)
-venueAddress = ""
+venueAddress = "R. da Junqueira 63, 1300-343 Lisboa, Portugal"
 
 # the max number of attendees of the event
 attendees = ""
@@ -44,6 +44,9 @@ tags = ["Conference"]
 
 # a color, to group key events visually. use sparingly
 # color="orange"
+
+# A small logomark for the corner of the event
+logomark = "/logomarks/Lotus.png"
 
 # a description of the event.
 # will show up when the user clicks the event card.
