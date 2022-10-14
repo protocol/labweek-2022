@@ -19,7 +19,7 @@ date = "2022-10-27"
 days = 1
 
 # the event times (shows up in the event card)
-times = "19:00 - 2:00"
+times = "18:00 - 21:00"
 
 # the event venue name (will show up on the event card - TODO)
 venueName = "[Time Out Market Studio](https://g.page/timeoutmarketlisboa?share)"
@@ -44,6 +44,9 @@ tags = ["Party"]
 
 # a color, to group key events visually. use sparingly
 color="yellow"
+
+# A small logomark for the corner of the event
+logomark = "/logomarks/Mona-lm.jpg"
 
 # a description of the event.
 # will show up when the user clicks the event card.
