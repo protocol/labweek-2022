@@ -46,7 +46,7 @@ tags = ["Talks", "Workshops"]
 # color="purple"
 
 # A small logomark for the corner of the event (logomark image can be placed in "/website/public/logomarks")
-logomark = "/logomarks/Spaceport-icon-black.png"
+logomark = "/logomarks/starboard.jpg"
 
 # a description of the event.
 # will show up when the user clicks the event card.
