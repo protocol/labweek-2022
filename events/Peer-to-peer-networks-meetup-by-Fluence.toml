@@ -22,7 +22,7 @@ days = 1
 times = "18:00 - 22:00"
 
 # the event venue name (will show up on the event card - TODO)
-venueName = "Village Underground Lisboa"
+venueName = "[Village Underground Lisboa](https://g.page/villageundergroundlisboa?share)"
 
 # the event venue address (will show up on a map -- TODO)
 venueAddress = "Av. da Índia 52, 1300-299 Lisboa"
@@ -44,6 +44,9 @@ tags = ["Talks", "Networking"]
 
 # a color, to group key events visually. use sparingly
 # color=""
+
+# A small logomark for the corner of the event
+logomark = "/logomarks/fluence.jpeg"
 
 # a description of the event.
 # will show up when the user clicks the event card.
