@@ -45,6 +45,9 @@ tags = ["Hackathon"]
 # a color, to group key events visually. use sparingly
 color="purple"
 
+# A small logomark for the corner of the event
+logomark = "/logomarks/Eth Lisbon_3.png"
+
 # a description of the event.
 # will show up when the user clicks the event card.
 description = """
