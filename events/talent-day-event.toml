@@ -19,7 +19,7 @@ date = "2022-10-27"
 days = 1
 
 # the event times (shows up in the event card)
-times = "9:00 - 21:00"
+times = "10:00 - 15:30"
 
 # the event venue name (will show up on the event card - TODO)
 venueName = "[Look Lisbon](https://goo.gl/maps/nQCZf7hSuW66gzwk7)"
@@ -44,6 +44,9 @@ tags = ["Networking"]
 
 # a color, to group key events visually. use sparingly
 # color=""
+
+# A small logomark for the corner of the event
+logomark = "/logomarks/talentprotocol.jpg"
 
 # a description of the event.
 # will show up when the user clicks the event card.
