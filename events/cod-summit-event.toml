@@ -25,7 +25,7 @@ times = "8:30 - 19:00"
 venueName = "Wednesday: [Time Out Market](https://g.page/timeoutmarketlisboa?share) Thursday: [Hyatt Regency](https://goo.gl/maps/UsArqjwDAsoCDpt58)"
 
 # the event venue address (will show up on a map -- TODO)
-venueAddress = "Wednesday:  Av. 24 de Julho 49, 1200-479 Lisboa, Portugal", "Thursday:  R. da Junqueira 63, 1300-343
+venueAddress = "Wednesday:  Av. 24 de Julho 49, 1200-479 Lisboa, Portugal  Thursday:  R. da Junqueira 63, 1300-343
 Lisboa, Portugal"
 
 # the max number of attendees of the event
