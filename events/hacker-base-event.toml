@@ -45,6 +45,9 @@ tags = ["Co-working Space","Talks","Workshops"]
 # a color, to group key events visually. use sparingly
 color="blue"
 
+# A small logomark for the corner of the event
+logomark = "/logomarks/filecoin.png"
+
 # a description of the event.
 # will show up when the user clicks the event card.
 description = """We've got the perfect home base for your stay in Lisbon. Visit our co-working space to catch a lightning talk or participate in workshops with developers and the web3 community.
