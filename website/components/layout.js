@@ -16,7 +16,7 @@ export function Layout({ children, config }) {
         <meta property="og:title" content={config.devent.name} />
         <meta property="og:description" content={config.devent.description} />
         {config.devent.socialImage &&
-          <meta propert="og:image" content={`${config.devent.siteUrl}${config.devent.socialImage}`} />
+          <meta property="og:image" content={`${config.devent.siteUrl}${config.devent.socialImage}`} />
         }
 
         <BaseScript />
