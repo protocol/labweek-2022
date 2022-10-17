@@ -47,6 +47,9 @@ tags = ["Conference"]
 # a color, to group key events visually. use sparingly
 color="orange"
 
+# A small logomark for the corner of the event
+logomark = "/logomarks/pl-summit.png"
+
 # a description of the event.
 # will show up when the user clicks the event card.
 description = """Join us for PL Summit - the kickoff to Lab Week, our first ever decentralized conference!
