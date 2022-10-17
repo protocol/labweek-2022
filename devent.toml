@@ -70,7 +70,7 @@ teams = [
   ["Denites", "https://www.denites.com/", "./teams/denites.png"],
   ["DIA Data", "https://www.diadata.org", "./teams/diadata.png"],
   ["Drand", "https://drand.love", "./teams/drand.jpg"],
-  ["Espresso" "https://www.espressosys.com/", "./teams/Espresso.png"],
+  ["Espresso," "https://www.espressosys.com/", "./teams/Espresso.png"],
   ["EFF", "https://www.eff.org/", "./teams/eff.png"],
   ["ETH Lisbon", "https://www.ethlisbon.org/", "./teams/ETHlisbon.png"],
   ["Everstake", "https://everstake.one/", "./teams/everstake.png"],
