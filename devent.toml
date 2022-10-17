@@ -200,6 +200,8 @@ Até logo!
 [schedule]
 description="""
 Each event is hosted independently and ticketed separately. To register for tickets to the LabWeek22 events you'd like to attend please click on the event and visit its website. Many events are coming together, and the schedule will be updated frequently. Come back often for the latest updates.
+
+Events are color coded as follows: Blue is for FIL Lisbon related events, Green is for IPFS Camp related events, Purple is for ETH Lisbon related events, Orange is for important LabWeek22-specific events, and Yellow is for parties.
 """
 
 # this is a footer section, with any footer links you may want.
