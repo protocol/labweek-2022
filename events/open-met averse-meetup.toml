@@ -22,7 +22,7 @@ days = 1
 times = "13:00 - 18:00"
 
 # the event venue name (will show up on the event card - TODO)
-venueName = "[Hacker Base @ Garagem Lisboa](https://goo.gl/maps/LB4TsVA1dkEjaKTo7)"
+venueName = "[Garagem Lisboa](https://goo.gl/maps/LB4TsVA1dkEjaKTo7)"
 
 # the event venue address (will show up on a map -- TODO)
 venueAddress = "Garagem Lisboa, Jardim 9 de Abril, 1200-736 Lisboa, Portugal"
