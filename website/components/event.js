@@ -17,16 +17,16 @@ export function Card({ children, color, onClick }) {
 
   return (
     <div className={classNames(
-        borderColor, 
-        'eventcard', 
-        'p-0.5 shadow-md h-full whitespace-normal hover:bg-gradient-to-r hover:from-blue-500 hover:via-cyan-500 hover:to-green-500'
-      )} onClick={onClick}>
+      borderColor,
+      'eventcard',
+      'p-0.5 shadow-md h-full whitespace-normal hover:bg-gradient-to-r hover:from-blue-500 hover:via-cyan-500 hover:to-green-500'
+    )} onClick={onClick}>
       <div className={classNames(
-          bgColor, 
-          'block p-3 sm:px-3 sm:py-2 h-full hover:bg-white hover:bg-gradient-to-r hover:from-blue-500/10 hover:via-cyan-500/10 hover:to-green-500/10'
-        )}>
+        bgColor,
+        'block p-3 sm:px-3 sm:py-2 h-full hover:bg-white hover:bg-gradient-to-r hover:from-blue-500/10 hover:via-cyan-500/10 hover:to-green-500/10'
+      )}>
         <div className="flex flex-col h-full text-xs text-gray-600">
-          { children }
+          {children}
         </div>
       </div>
     </div>
@@ -39,79 +39,53 @@ export function EventCard({ event }) {
 
   return (
     <EventModal event={event}>
-      <div className={classNames('w-full', 'h-full', 'overflow-hidden', {'opacity-70': isWorkInProgress})}>
-        {event.timeslots
-          ? <TrackCard event={event} />
-          : <BlockCard event={event} />
-        }
+      <div className={classNames('w-full', 'h-full', 'overflow-hidden', { 'opacity-70': isWorkInProgress })}>
+        <Card color={event.color}>
+          <div className="flex-1">
+            <div className="flex gap-2">
+              <h5 className="flex-1 text-lg font-bold leading-6 text-gray-900">
+                {event.name}
+              </h5>
+              {event.isLive &&
+                <div className="w-12 mt-0.5 flex-none">
+                  <img width="48" height="18" src="/live-streaming.svg" />
+                </div>
+              }
+            </div>
+            <div className="text-sm mt-2">
+              {event.times !== "To be confirmed" &&
+                <div>
+                  {event.times}
+                </div>
+              }
+              {event.venueName && event.venueName != "Private" &&
+                <div>
+                  <Markdown>{event.venueName}</Markdown>
+                </div>
+              }
+              <div>
+                👤 {event.attendees && `${event.attendees} -`} {event.difficulty}
+              </div>
+              <div className="mt-3">
+                {event.org}
+              </div>
+            </div>
+          </div>
+          <div className="flex-1 flex items-end">
+            <div className="event-tags w-full">
+              {event.tags.map((tag, i) => (
+                (tag && <Tag key={i}>{tag}</Tag>)
+              ))}
+            </div>
+            {event.logomark &&
+              <div className="logomark w-12">
+                <img height="48" className="w-full h-12 object-contain" src={event.logomark} />
+              </div>
+            }
+          </div>
+        </Card>
       </div>
     </EventModal>
-  )
-}
-
-function BlockCard({ event }) {
-  return (
-    <Card color={event.color}>
-        <div className="flex-1">
-          <h5 className="text-lg font-bold text-gray-900">
-            {event.name}
-          </h5>
-          {event.times !== "To be confirmed" && 
-          <div>
-            {event.times}
-          </div>
-          }
-          <div>
-            👤 {event.attendees} - {event.difficulty}
-          </div>
-          <div className="text-gray-900 text-sm mt-3">
-            {event.org}
-          </div>
-        </div>
-        <div className="flex-1 flex items-end">
-          <div className="event-tags w-full">
-            {event.tags.map((tag, i) => (
-              (tag && <Tag key={i}>{tag}</Tag>)
-            ))}
-          </div>
-          {event.logomark &&
-            <div className="logomark w-12">
-              <img height="48" className="w-full h-12 object-contain" src={event.logomark} />
-            </div>
-          }
-        </div>
-    </Card>
-  )
-}
-
-function TrackCard({ event }) {
-  return (
-    <Card color={event.color}>
-      <div className="flex-1">
-        <h5 className="text-lg font-bold text-gray-900">
-          {event.name}
-        </h5>
-        <div>
-          {event.times}
-        </div>
-        <div>
-          👤 {event.attendees} - {event.difficulty}
-        </div>
-        <div className="text-gray-900 text-sm mt-3 text-ellipsis overflow-hidden">
-          {event.org}
-        </div>
-      </div>
-      <div className="flex-1 flex items-end">
-          <div className="event-tags w-full">
-            {event.tags.map((tag, i) => (
-              (tag && <Tag key={i}>{tag}</Tag>)
-            ))}
-          </div>
-          <div className="logomark w-12">
-            <img height="48" className="w-full h-12 object-contain" src="/logomarks/filecoin.png" />
-          </div>
-        </div>
-    </Card>
   )
 }
 
@@ -133,7 +107,7 @@ export function BlankCard() {
 /**
  * @see https://github.com/ipfs-shipyard/ipfs-thing-2022/issues/125
  */
-function getLocationHash () {
+function getLocationHash() {
   if (typeof window !== 'undefined') {
     return window.location.hash
   }
@@ -142,9 +116,9 @@ function getLocationHash () {
 /**
  * @see https://github.com/ipfs-shipyard/ipfs-thing-2022/issues/125
  */
-function setLocationHash (hash) {
+function setLocationHash(hash) {
   if (typeof window !== 'undefined') {
-    if(history?.pushState) {
+    if (history?.pushState) {
       history.pushState(null, null, hash);
     } else {
       window.location.hash = hash
@@ -262,7 +236,7 @@ function TimeslotTable({ timeslots }) {
               <td className="px-6 py-4 align-top">{timeslot.speakers && timeslot.speakers.join(", ")}</td>
               <td className="px-6 py-4">
                 <span className="font-bold">{timeslot.title}</span>
-                <br/>
+                <br />
                 <p>{timeslot.description}</p>
               </td>
             </tr>
@@ -301,7 +275,7 @@ export function AddEventModal({ config }) {
               <ol className="list-decimal ml-4 mt-3">
                 <li><b>Step 1</b>: Read & file a pull-request in this repo: <br />
                   <a className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
-                     href={config.devent.repo} target="_blank">{config.devent.repo}</a></li>
+                    href={config.devent.repo} target="_blank">{config.devent.repo}</a></li>
                 <li><b>Step 2</b>: Address any comments until your PR is merged.</li>
                 <li><b>Step 3</b>: Blastoff! ⭐️💙</li>
               </ol>
@@ -327,7 +301,7 @@ export function Tag({ children }) {
 }
 
 function bindKey(bindKey, handler) {
-  const kHandler = ({key}) => {
+  const kHandler = ({ key }) => {
     if (key === bindKey) handler()
   }
 
@@ -352,7 +326,7 @@ function dateStr(date, days) {
   }
 
   const d2 = d1.add(days - 1, 'day')
-  return d1.format("MMM DD") +' - '+ d2.format("MMM DD")
+  return d1.format("MMM DD") + ' - ' + d2.format("MMM DD")
 }
 
 export default EventCard
