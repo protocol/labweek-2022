@@ -46,7 +46,7 @@ tags = ["Hackathon"]
 color="purple"
 
 # A small logomark for the corner of the event
-logomark = "/logomarks/Eth Lisbon_3.png"
+logomark = "/logomarks/Logo ETH Lisbon - Colors_White.png.png"
 
 # a description of the event.
 # will show up when the user clicks the event card.
