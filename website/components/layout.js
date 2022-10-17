@@ -7,8 +7,21 @@ export function Layout({ children, config }) {
     <div className="flex flex-col min-h-screen bg-white dark:bg-gray-800">
       <Head>
         <title>{config.devent.name}</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta name="twitter:card" content="summary_large_image" />
+
+        <meta property="og:site_name" content={config.devent.name} />
+        <meta property="og:url" content={config.devent.siteUrl} />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content={config.devent.name} />
+        <meta property="og:description" content={config.devent.description} />
+        {config.devent.socialImage &&
+          <meta propert="og:image" content={`${config.devent.siteUrl}${config.devent.socialImage}`} />
+        }
+
         <BaseScript />
         <link href="https://fonts.googleapis.com/css2?family=Exo:wght@600&display=swap" rel="stylesheet"></link>
+        
         {/* Twitter conversion tracking base code */}
         <script
           dangerouslySetInnerHTML={{

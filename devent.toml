@@ -22,6 +22,8 @@ The Protocol Labs Network is gathering in Lisbon for our first ever decentralize
 We invite you to join us as we drive breakthroughs in computing to push humanity forward.
 """
 
+# Site url
+siteUrl="https://labweek2022.plnetwork.io/"
 
 # a link to the devent website (what domain do you expect to use?)
 link="https://labweek22.on.fleek.co"
@@ -39,6 +41,9 @@ logo="logo-hex.svg"
 # a link to a large res image for the hero/splash background.
 # you likely want to use the devent location/city or something meaningful to the community
 bgimg="chasm.jpg"
+
+# the social sharing image
+socialImage="labweek-social.png"
 
 # the organizers of the devent (usually a group)
 org="Protocol Labs"
