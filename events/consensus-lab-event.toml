@@ -52,3 +52,7 @@ logomark = "/logomarks/ConsensusLab-symbol-color.png"
 # will show up when the user clicks the event card.
 description = """Consensus lies at the heart of blockchain networks: while enabling the decentralisation we’re working towards, it also imposes scalability constraints. In the 15 months since its creation, ConsensusLab has been working on novel solutions to scaling blockchains in general and Filecoin in particular, ranging from our flagship InterPlanetary Consensus project to multi-threaded execution in FVM. Join us in Lisbon to get a sneak peek into the future of Filecoin and shape our directions, all during an afternoon of good talks, great discussions, and cold drinks.
 """
+
+# the priority in the schedule table, leave commented if you don't need to control this
+# 1 will appear at the top, higher numbers appear closer to bottom
+priority = 3
