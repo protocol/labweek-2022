@@ -114,7 +114,8 @@ teams = [
   ["Talent Protocol", "https://www.talentprotocol.com", "./teams/talent-protocol.png"],
   ["Textile", "https://linktr.ee/textileio", "./teams/Textile_Logo.png"],
   ["Yatima", "https://github.com/yatima-inc", "./teams/yatima.png"],
-  ["Zama", "https://www.zama.ai", "./teams/zama.png"]
+  ["Zama", "https://www.zama.ai", "./teams/zama.png"],
+  ["Third Storage", "https://thirdstorage.com", "./teams/thirdstorage.png"]
 ]
 
 # this is a Frequently Asked Questions section.
