@@ -52,3 +52,7 @@ logomark = "/logomarks/Protocol Labs.jpeg"
 # will show up when the user clicks the event card.
 description = """For those teams looking to meet in person while they’re in Lisbon, the PL Working Sessions space is available! It’s also available if you just need a place to work out of -- whether that's for an hour or for a day. Learn more about the spaces available [here](https://docs.google.com/presentation/d/1IP_Ob_KppK9Y1WUPqkmNl4cj27nEwhrY/edit#slide=id.g1619dd19493_0_64) and be sure to click the [link](https://bit.ly/PLWorkingSessionsReservations) to reserve your spot.
 """
+
+# the priority in the schedule table, leave commented if you don't need to control this
+# 1 will appear at the top, higher numbers appear closer to bottom
+priority = 4
