@@ -1,0 +1,59 @@
+# the name of your track or event
+name = "Sustainability, Social Impact, and Spirits"
+
+# the name of the group organizing the event
+org = "Filecoin Green and Filecoin Foundation's Social Impact Team"
+
+# the github handle of the directly responsible individual for this event
+# (this person will coordinate with devent organizers)
+dri = "@caitlin-moore"
+
+# the website of the event
+# make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
+website = "https://www.eventbrite.com/e/sustainability-social-impact-and-spirits-tickets-443326199597"
+
+# the start date of the event
+date = "2022-10-28"
+
+# how many days the event lasts (1 - N)
+days = 1
+
+# the event times (shows up in the event card)
+times = "17:00 - 19:00"
+
+# the event venue name (will show up on the event card - TODO)
+venueName = "The Vintage Hotel and Spa Lisbon Rooftop"
+
+# the event venue address (will show up on a map -- TODO)
+venueAddress = "2 Rua Rodrigo da Fonseca 1250-191 Lisboa Portugal"
+
+# the max number of attendees of the event
+attendees = "75"
+
+
+# these is unsued:
+# tickets = "Waitlist"
+
+# the "difficulty" of the event -- one of:
+# ["Beginner", "Intermediate", "Advanced", "All Welcome"]
+difficulty = "All Welcome"
+
+# tags for the event, will show up as labels.
+# pick 1-4
+tags = ["Happy Hour", "ReFi", "Social Impact"]
+
+# a color, to group key events visually. use sparingly
+# color="green"
+
+# A small logomark for the corner of the event (logomark image can be placed in "/website/public/logomarks")
+# logomark = "/logomarks/filecoin_green.png"
+
+# a description of the event.
+# will show up when the user clicks the event card.
+description = """
+Join Filecoin Green and the Filecoin Foundation's Social Impact team for an evening centered around the intersection of sustainability, social impact, and the decentralized web! 
+"""
+
+# the priority in the schedule table, leave commented if you don't need to control this
+# 1 will appear at the top, higher numbers appear closer to bottom
+# priority = 
