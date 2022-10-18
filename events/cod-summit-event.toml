@@ -52,3 +52,7 @@ logomark = "/logomarks/Compute+Over+Data+Working+Group+Logo.png"
 # a description of the event.
 # will show up when the user clicks the event card.
 description = """The Compute over Data summit is a two day conference November 2-3 in Lisbon, Portugal. We will be gathering to talk about the future of computation across the spectrum. Areas covered consist of distributed datasets, both edge and data centers, and technologies such as WASM, reproducible builds, and consensus. Most of all, we want to convene to help bring about the next generation of platforms that make using data and compute together easier and more efficient."""
+
+# the priority in the schedule table, leave commented if you don't need to control this
+# 1 will appear at the top, higher numbers appear closer to bottom
+priority = 3
