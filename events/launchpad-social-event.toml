@@ -56,3 +56,7 @@ Protocol Labs Launchpad is a hiring & onboarding program designed for accelerati
 
 Launchpad aims to hire exceptional talent from diverse engineering and tech operations backgrounds into a six-week, full-time residency designed to train, develop, and team-match talent with Web3 opportunities across the Protocol Labs Network.
 """
+
+# the priority in the schedule table, leave commented if you don't need to control this
+# 1 will appear at the top, higher numbers appear closer to bottom
+priority = 5
