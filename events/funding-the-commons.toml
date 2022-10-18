@@ -55,3 +55,7 @@ Funding the Commons - Lab Week will focus on high quality, impactful conversatio
 and entities for public goods projects. Attendees can expect an internal update from the Network Goods team, engagning keynote
 presentations, opportunities for interactivity and a social hour to close out our day.
 """
+
+# the priority in the schedule table, leave commented if you don't need to control this
+# 1 will appear at the top, higher numbers appear closer to bottom
+priority = 2
