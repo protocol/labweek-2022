@@ -11,7 +11,7 @@ export function Layout({ children, config }) {
         <meta name="twitter:card" content="summary_large_image" />
 
         <meta property="og:site_name" content={config.devent.name} />
-        <meta property="og:url" content={config.devent.siteUrl} />
+        <meta property="og:url" content="https://labweek.io" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content={config.devent.name} />
         <meta property="og:description" content={config.devent.description} />
