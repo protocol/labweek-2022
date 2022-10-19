@@ -1,16 +1,16 @@
 # the name of your track or event
-name = "Web3 Adoption with MetaPals"
+name = "A Helping Paw to the Metaverse"
 
 # the name of the group organizing the event
 org = "MetaPals"
 
 # the github handle of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
-dri = "@yourname"
+dri = "Joey Sim"
 
 # the website of the event
 # make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
-website = ""
+website = "https://lu.ma/metapals-a-helping-paw"
 
 # the start date of the event
 date = "2022-10-30"
@@ -19,7 +19,7 @@ date = "2022-10-30"
 days = 1
 
 # the event times (shows up in the event card)
-times = "16:00 - 20:00"
+times = "18:00 - 20:00"
 
 # the event venue name (will show up on the event card - TODO)
 venueName = "[Time Out Market](https://g.page/timeoutmarketlisboa?share)"
@@ -28,7 +28,7 @@ venueName = "[Time Out Market](https://g.page/timeoutmarketlisboa?share)"
 venueAddress = "Av. 24 de Julho 49, 1200-479 Lisboa, Portugal"
 
 # the max number of attendees of the event
-attendees = ""
+attendees = "200"
 
 
 # these is unsued:
@@ -40,7 +40,7 @@ difficulty = "All Welcome"
 
 # tags for the event, will show up as labels.
 # pick 1-4
-tags = ["Workshop"]
+tags = ["Workshop", "Talks"]
 
 # a color, to group key events visually. use sparingly
 # color=""
@@ -51,6 +51,8 @@ logomark = "/logomarks/Metapals.square.jpeg"
 # a description of the event.
 # will show up when the user clicks the event card.
 description = """
+"Wanna find out what's the most effective way to onboard the next generation of non-crypto users? Tip: they're cute, cuddly, and love treats! 🐶
+The MetaPals team, along with notable speakers hailing from different backgrounds, will chat about the current web3 landscape and the challenges they face in driving adoption and educating users on its features, functionalities, and benefits."
 """
 
 # the priority in the schedule table, leave commented if you don't need to control this
