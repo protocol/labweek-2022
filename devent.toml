@@ -81,7 +81,7 @@ teams = [
   ["Everstake", "https://everstake.one/", "./teams/everstake.png"],
   ["Filswan", "https://filswan.com", "./teams/filswan.png"],
   ["Fission", "https://fission.codes", "./teams/fission.png"],
-  ["Fluence", "https://fluence.network", "./teams/9700321-fluence_logo_new.svg"],
+  ["Fluence", "https://fluence.network", "./teams/fluencelogo.png"],
   ["Forkast", "https://forkast.news/", "./teams/forkast-default-thumbnail-compact.png"],
   ["HERDAO", "https://linktr.ee/H.E.R.DAO", "./teams/herdao.png"],
   ["Infura", "https://infura.io/", "./teams/infura.png"],
