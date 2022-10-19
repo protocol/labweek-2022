@@ -22,7 +22,7 @@ days = 1
 times = "17:00 - 19:00"
 
 # the event venue name (will show up on the event card - TODO)
-venueName = "The Vintage Hotel and Spa Lisbon Rooftop"
+venueName = "[The Vintage Hotel and Spa Lisbon Rooftop] (https://goo.gl/maps/MTmKPVaQagnDjXtD7)"
 
 # the event venue address (will show up on a map -- TODO)
 venueAddress = "2 Rua Rodrigo da Fonseca 1250-191 Lisboa Portugal"
@@ -40,7 +40,7 @@ difficulty = "All Welcome"
 
 # tags for the event, will show up as labels.
 # pick 1-4
-tags = ["Happy Hour", "ReFi", "Social Impact"]
+tags = ["Happy Hour"]
 
 # a color, to group key events visually. use sparingly
 # color="green"
