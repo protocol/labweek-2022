@@ -6,7 +6,7 @@ org = "MetaPals"
 
 # the github handle of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
-dri = ""
+dri = "Joey Sim"
 
 # the website of the event
 # make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
@@ -28,7 +28,7 @@ venueName = "[Time Out Market](https://g.page/timeoutmarketlisboa?share)"
 venueAddress = "Av. 24 de Julho 49, 1200-479 Lisboa, Portugal"
 
 # the max number of attendees of the event
-attendees = "200"
+attendees = ""
 
 
 # these is unsued:
@@ -40,7 +40,7 @@ difficulty = "All Welcome"
 
 # tags for the event, will show up as labels.
 # pick 1-4
-tags = ["Panel", "Talks"]
+tags = ["Panel","Talks"]
 
 # a color, to group key events visually. use sparingly
 # color=""
@@ -51,7 +51,7 @@ logomark = "/logomarks/Metapals.square.jpeg"
 # a description of the event.
 # will show up when the user clicks the event card.
 description = """Wanna find out what's the most effective way to onboard the next generation of non-crypto users? Tip: they're cute, cuddly, and love treats! 🐶
-The MetaPals team, along with notable speakers hailing from different backgrounds, will chat about the current web3 landscape and the challenges they face in driving adoption and educating users on its features, functionalities, and benefits.
+The MetaPals team, along with notable speakers hailing from different backgrounds, will chat about the current web3 landscape and the challenges they face in driving adoption and educating users on its features, functionalities, and benefits.
 """
 
 # the priority in the schedule table, leave commented if you don't need to control this
