@@ -6,7 +6,7 @@ org = "MetaPals"
 
 # the github handle of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
-dri = "Joey Sim"
+dri = ""
 
 # the website of the event
 # make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
@@ -50,8 +50,7 @@ logomark = "/logomarks/Metapals.square.jpeg"
 
 # a description of the event.
 # will show up when the user clicks the event card.
-description = """
-Wanna find out what's the most effective way to onboard the next generation of non-crypto users? Tip: they're cute, cuddly, and love treats! 🐶
+description = """Wanna find out what's the most effective way to onboard the next generation of non-crypto users? Tip: they're cute, cuddly, and love treats! 🐶
 The MetaPals team, along with notable speakers hailing from different backgrounds, will chat about the current web3 landscape and the challenges they face in driving adoption and educating users on its features, functionalities, and benefits.
 """
 
