@@ -22,10 +22,10 @@ days = 1
 times = "13:00 - 18:30"
 
 # the event venue name (will show up on the event card - TODO)
-venueName = "Brotéria Café"
+venueName = "[Brotéria Café](https://goo.gl/maps/BTYadfHPD9UimKet8)"
 
 # the event venue address (will show up on a map -- TODO)
-venueAddress = "Rua de São Pedro de Alcântara, Lisbon, Portugal"
+venueAddress = "R. de São Pedro de Alcântara 3, 1200-365 Lisboa, Portugal"
 
 # the max number of attendees of the event
 attendees = ""
