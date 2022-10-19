@@ -10,7 +10,7 @@ dri = "Aja Blanco & Meredith Tretiak"
 
 # the website of the event
 # make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
-website = ""
+website = "https://www.eventbrite.com/e/future-of-web3-video-tickets-444101789407"
 
 # the start date of the event
 date = "2022-11-02"
@@ -40,7 +40,7 @@ difficulty = "All Welcome"
 
 # tags for the event, will show up as labels.
 # pick 1-4
-tags = ["Conference"]
+tags = ["Networking","Conference"]
 
 # a color, to group key events visually. use sparingly
 # color=""
