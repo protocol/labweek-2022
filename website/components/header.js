@@ -5,7 +5,7 @@ import Button from './button'
 export default function Header({config}) {
   //<DarkThemeToggle />
   return (
-    <div className="header justify-self-start sticky top-0 z-40 w-full backdrop-blur
+    <div className="header justify-self-start sticky top-0 z-50 w-full backdrop-blur
       flex-none lg:z-50 lg:border-b
       lg:border-slate-900/10 dark:border-slate-50/[0.06] bg-white/80
       supports-backdrop-blur:bg-white/80 dark:bg-transparent">
@@ -36,6 +36,9 @@ export default function Header({config}) {
             </Navbar.Link>
             <Navbar.Link href="/#attendee-resources">
               Resources
+            </Navbar.Link>
+            <Navbar.Link href="/#map">
+              Map
             </Navbar.Link>
             <Navbar.Link href="/#frequently-asked-questions">
               FAQ
