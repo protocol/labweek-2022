@@ -1,5 +1,5 @@
 # the name of your track or event
-name = "Breakthroughs:  Gaming the Future"
+name = "Breakthroughs in Computing Speaker Series"
 
 # the name of the group organizing the event
 org = "Protocol Labs"
@@ -16,16 +16,16 @@ website = "https://breakthroughs-in-computing.labweek.io/"
 date = "2022-10-24"
 
 # how many days the event lasts (1 - N)
-days = 1
+days = 5
 
 # the event times (shows up in the event card)
-times = "16:00 - 18:00"
+times = "To be Confirmed"
 
 # the event venue name (will show up on the event card - TODO)
-venueName = "[Convento do Beato](https://goo.gl/maps/2yDdwVSHfgs1mYhL7)"
+venueName = "10/24[Convento do Beato](https://goo.gl/maps/2yDdwVSHfgs1mYhL7), 10/25 - 10/28 [SUD Lisboa](https://g.page/sudlisboa?share)"
 
 # the event venue address (will show up on a map -- TODO)
-venueAddress = "Alameda do Beato 40, 1950-042 Lisboa, Portugal"
+# venueAddress = ""
 
 # the max number of attendees of the event
 attendees = ""
@@ -50,10 +50,8 @@ logomark = "/logomarks/Protocol Labs.jpeg"
 
 # a description of the event.
 # will show up when the user clicks the event card.
-description = """
-Join us for a live virtual talk and conversation from Foresight Institute's Allison Duettmann on the technological reasons for existential hope. From brain computer interfaces to crypto-commerce to robotics, Allison sits at the intersection of many of these trends and is working to coordinate these factors towards flourishing futures. Allison will deliver a talk and then sit down with a conversation with Protocol Labs' Founder Juan Benet, and finally the audience will have the opportunity to ask questions and interact with the speakers.
-‍
-This event is part of the Breakthroughs in Computing Speaker Series, on how technology will shape society in the next 5 to 25 years. Hosted by Protocol Labs, this series runs every evening from Oct 24-27. It's designed to bring people together, sharing convivial drinks, thoughtful discussions, and new connections."
+description = """‍
+This event is part of the Breakthroughs in Computing Speaker Series, on how technology will shape society in the next 5 to 25 years. Hosted by Protocol Labs, this series runs every evening from Oct 24-28. It's designed to bring people together, sharing convivial drinks, thoughtful discussions, and new connections."
 """
 
 # the priority in the schedule table, leave commented if you don't need to control this
