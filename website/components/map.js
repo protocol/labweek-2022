@@ -19,46 +19,47 @@ const dateLabels = {
 }
 const allDates = ['10/24', '10/25', '10/26', '10/27', '10/28', '10/29', '10/30', '10/31', '11/1', '11/2', '11/3', '11/4']
 const allEvents = [
-  { name: "ETH Lisbon", longitude: -9.1499209, latitude: 38.7133453, dates:["10/28", "10/29", "10/30"]},
-  { name: "Filecoin Station @ Web Summit", longitude: -9.094018971, latitude: 38.76874033, dates:["11/2", "11/3", "11/4"]},
-  { name: "Filecoin Network Meetup", longitude: -9.143603613, latitude: 38.71354866, dates:["10/30"]},
-  { name: "Future of Web3 Video", longitude: -9.143603613, latitude: 38.71354866, dates:["11/2"]},
-  { name: "Lurk Day", longitude: -9.143681989, latitude: 38.71359181, dates:["10/28"]},
-  { name: "PL Summit", longitude: -9.106202827, latitude: 38.73508553, dates:["10/24"]},
-  { name: "Funding the Commons", longitude: -9.106202827, latitude: 38.73508553, dates:["10/26"]},
-  { name: "IPFS Camp", longitude: -9.106202827, latitude: 38.73508553, dates:["10/28, 10/29, 10/30"]},
-  { name: "Filecoin Protocol Session", longitude: -9.106202827, latitude: 38.73508553, dates:["10/28"]},
-  { name: "Decentralized Job Fair @ IPFS Camp", longitude: -9.106202827, latitude: 38.73508553, dates:["10/29"]},
-  { name: "libp2p Day", longitude: -9.106202827, latitude: 38.73508553, dates:["10/30"]},
-  { name: "Drand LoE & Friends Summit", longitude: -9.148399013, latitude: 38.72774919, dates:["10/27"]},
-  { name: "Lab Week Opening Party", longitude: -9.155071356, latitude: 38.72889193, dates:["10/24"]},
-  { name: "Zama Party", longitude: -9.1579765, latitude: 38.70668709, dates:["10/27"]},
-  { name: "FIL X Fission X Lightshift Hacker Base", longitude: -9.1626885, latitude: 38.7041147, dates:["10/24","10/25","10/26","10/27","10/28","10/29","10/30","10/31","11/1","11/2","11/3","11/4"]},
-  { name: "Open Metaverse meetup with Mona Galleries", longitude: -9.1626885, latitude: 38.7041147, dates:["10/25"]},
-  { name: "FVM Hack Day", longitude: -9.1626885, latitude: 38.7041147, dates:["10/29"]},
-  { name: "Launchpad Social", longitude: -9.171936129, latitude: 38.70667265, dates:["10/26"]},
-  { name: "Disco DeNites - LabWeek22 Closing Party", longitude: -9.107244458, latitude: 38.73040761, dates:["11/3"]},
-  { name: "Retrieval Markets Summit", longitude: -9.186751071, latitude: 38.69851087, dates:["10/27"]},
-  { name: "CryptoEcon Day", longitude: -9.186751071, latitude: 38.69851087, dates:["11/1"]},
+  { name: "CoD Summit²", longitude: -9.1459173, latitude: 38.7070745, dates:["11/2"]},
   { name: "CoD Summit²", longitude: -9.186751071, latitude: 38.69851087, dates:["11/3"]},
-  { name: "Lotus, Data Onboarding & Friends Summit", longitude: -9.186751071, latitude: 38.69851087, dates:["11/2"]},
-  { name: "Talent Day @ Talent House Lisbon", longitude: -9.133694558, latitude: 38.71055314, dates:["10/27"]},
-  { name: "FIL Lisbon Main Stage", longitude: -9.178862271, latitude: 38.70367791, dates:["10/31", "11/1"]},
-  { name: "PL Working Sessions", longitude: -9.1347514, latitude: 38.71295326, dates:["10/26", "10/27", "10/28"]},
-  { name: "PLN Founder Day", longitude: -9.1868113, latitude: 38.7036531, dates:["10/27"]},
-  { name: "The Filecoin Interplanetary Party", longitude: -9.131663342, latitude: 38.71132124, dates:["10/30"]},
   { name: "Coinfeeds Demo + Social Hour", longitude: -9.131663342, latitude: 38.71132124, dates:["11/2"]},
   { name: "Consensus Lab Summit", longitude: -9.1459173, latitude: 38.7070745, dates:["10/26"]},
+  { name: "CryptoEcon Day", longitude: -9.186751071, latitude: 38.69851087, dates:["11/1"]},
+  { name: "Decentralized Job Fair @ IPFS Camp", longitude: -9.106202827, latitude: 38.73508553, dates:["10/29"]},
+  { name: "Disco DeNites - LabWeek22 Closing Party", longitude: -9.107244458, latitude: 38.73040761, dates:["11/3"]},
+  { name: "Drand LoE & Friends Summit", longitude: -9.148399013, latitude: 38.72774919, dates:["10/27"]},
+  { name: "ETH Lisbon", longitude: -9.1499209, latitude: 38.7133453, dates:["10/28", "10/29", "10/30"]},
+  { name: "FIL Lisbon Main Stage", longitude: -9.178862271, latitude: 38.70367791, dates:["10/31", "11/1"]},
+  { name: "FIL X Fission X Lightshift Hacker Base", longitude: -9.1626885, latitude: 38.7041147, dates:["10/24","10/25","10/26","10/27","10/28","10/29","10/30","10/31","11/1","11/2","11/3","11/4"]},
+  { name: "Filecoin Network Meetup", longitude: -9.143603613, latitude: 38.71354866, dates:["10/30"]},
+  { name: "Filecoin Protocol Session", longitude: -9.106202827, latitude: 38.73508553, dates:["10/28"]},
+  { name: "Filecoin Station @ Web Summit", longitude: -9.094018971, latitude: 38.76874033, dates:["11/2", "11/3", "11/4"]},
+  { name: "Funding the Commons", longitude: -9.106202827, latitude: 38.73508553, dates:["10/26"]},
+  { name: "Future of Web3 Video", longitude: -9.143603613, latitude: 38.71354866, dates:["11/2"]},
+  { name: "FVM Hack Day", longitude: -9.1626885, latitude: 38.7041147, dates:["10/29"]},
+  { name: "IPFS Camp", longitude: -9.106202827, latitude: 38.73508553, dates:["10/28", "10/29", "10/30"]},
+  { name: "Lab Week Opening Party", longitude: -9.155071356, latitude: 38.72889193, dates:["10/24"]},
+  { name: "Launchpad Social", longitude: -9.171936129, latitude: 38.70667265, dates:["10/26"]},
+  { name: "libp2p Day", longitude: -9.106202827, latitude: 38.73508553, dates:["10/30"]},
+  { name: "Lotus, Data Onboarding & Friends Summit", longitude: -9.186751071, latitude: 38.69851087, dates:["11/2"]},
+  { name: "Lurk Day", longitude: -9.143681989, latitude: 38.71359181, dates:["10/28"]},
   { name: "Mona X ETH Lisbon", longitude: -9.1459173, latitude: 38.7070745, dates:["10/27"]},
+  { name: "Open Metaverse meetup with Mona Galleries", longitude: -9.1626885, latitude: 38.7041147, dates:["10/25"]},
+  { name: "Peer-to-peer networks meetup by Fluence", longitude: -9.178341087, latitude: 38.70070566, dates:["10/31"]},
+  { name: "PL Summit", longitude: -9.106202827, latitude: 38.73508553, dates:["10/24"]},
+  { name: "PL Working Sessions", longitude: -9.1347514, latitude: 38.71295326, dates:["10/26", "10/27", "10/28"]},
+  { name: "PLN Founder Day", longitude: -9.1868113, latitude: 38.7036531, dates:["10/27"]},
+  { name: "Retrieval Markets Summit", longitude: -9.186751071, latitude: 38.69851087, dates:["10/27"]},
+  { name: "Sustainability, Social Impact, and Spirits", longitude: -9.1505303, latitude: 38.7200022, dates:["10/28"]},
+  { name: "Talent Day @ Talent House Lisbon", longitude: -9.133694558, latitude: 38.71055314, dates:["10/27"]},
+  { name: "The Filecoin Interplanetary Party", longitude: -9.131663342, latitude: 38.71132124, dates:["10/30"]},
   { name: "Web3 Adoption with MetaPals", longitude: -9.1459173, latitude: 38.7070745, dates:["10/30"]},
-  { name: "CoD Summit²", longitude: -9.1459173, latitude: 38.7070745, dates:["11/2"]},
-  { name: "Peer-to-peer networks meetup by Fluence", longitude: -9.178341087, latitude: 38.70070566, dates:["10/31"]}
+  { name: "Zama Party", longitude: -9.1579765, latitude: 38.70668709, dates:["10/27"]},
 ]
 const allVenues = [
   { name: "Academia de Ciências de Lisboa", latitude: 38.7133453, longitude: -9.1499209, dates: ["10/28","10/29","10/30"], googleLink: "https://goo.gl/maps/mJrkWiq4fP11is8H6"},
   { name: "Altice Arena", latitude: 38.76874033, longitude: -9.094018971, dates: ["11/2","11/3","11/4"], googleLink: "https://goo.gl/maps/ZYuwQwdZC6ojBeaR7"},
-  { name: "Broteria", latitude: 38.71354866, longitude: -9.143603613, dates: ["10/30","11/2"], googleLink: "https://goo.gl/maps/Un1j8y3LQVHf8TaL9"},
   { name: "Broteria Cafe", latitude: 38.71359181, longitude: -9.143681989, dates: ["10/28"], googleLink: "https://goo.gl/maps/BTYadfHPD9UimKet8"},
+  { name: "Broteria", latitude: 38.71354866, longitude: -9.143603613, dates: ["10/30","11/2"], googleLink: "https://goo.gl/maps/Un1j8y3LQVHf8TaL9"},
   { name: "Convento do Beato", latitude: 38.73508553, longitude: -9.106202827, dates: ["10/24","10/26","10/28","10/29","10/30"], googleLink: "https://goo.gl/maps/2yDdwVSHfgs1mYhL7"},
   { name: "EPIC SANA", latitude: 38.72774919, longitude: -9.148399013, dates: ["10/27"], googleLink: "https://g.page/EPICSANAMarquesHotel?share"},
   { name: "Estufa Fria", latitude: 38.72889193, longitude: -9.155071356, dates: ["10/24"], googleLink: "https://goo.gl/maps/YKZASeCakmiXPCgNA"},
@@ -72,6 +73,7 @@ const allVenues = [
   { name: "Palacio de Tancos", latitude: 38.71295326, longitude: -9.1347514, dates: ["10/26","10/27","10/28"], googleLink: "https://goo.gl/maps/s8yCuy3x69RmVTno6"},
   { name: "Pestana Palace Lisboa", latitude: 38.7036531, longitude: -9.1868113, dates: ["10/27"], googleLink: "https://g.page/Pestana-Palace-Lisboa?share"},
   { name: "Suspenso", latitude: 38.71132124, longitude: -9.131663342, dates: ["10/30","11/2"], googleLink: "https://g.page/Suspenso_Lisboa?share"},
+  { name: "The Vintage Hotel & Spa Lisboa", latitude: 38.7200022, longitude: -9.1505303, dates: ["10/28"], googleLink: "https://goo.gl/maps/uFVjoX14tvijqZPu9"},
   { name: "Time Out Market", latitude: 38.7070745, longitude: -9.1459173, dates: ["10/26","10/27","10/30","11/2"], googleLink: "https://g.page/timeoutmarketlisboa?share"},
   { name: "Village Underground Lisboa", latitude: 38.70070566, longitude: -9.178341087, dates: ["10/31"], googleLink: "https://g.page/villageundergroundlisboa?share"},
 ]
@@ -129,14 +131,15 @@ export default function VenueMap() {
           return event.dates.includes(`${activeDate}`)
         })
       })
-      const venueFilteredEvents = dateFilteredEvents.filter(event => event.latitude === selectedVenue.latitude && event.longitude === selectedVenue.longitude)
-      const annotatedEvents = venueFilteredEvents.map(event => {
+      const venueFilteredEvents = [...dateFilteredEvents].filter(event => event.latitude === selectedVenue.latitude && event.longitude === selectedVenue.longitude)
+      const annotatedEvents = [...venueFilteredEvents].map(event => {
         const startDate = event.dates[0]
         const endDate = event.dates[event.dates.length - 1]
         event.dateRange = startDate !== endDate ? `${startDate}-${endDate}` : startDate
         return event
       })
-      selectedVenue.events = annotatedEvents
+      const sortedEvents = [...annotatedEvents].sort((a, b) => a.dates[0] - b.dates[0]);
+      selectedVenue.events = sortedEvents
       setPopupInfo(selectedVenue);
     }
 
@@ -177,7 +180,8 @@ export default function VenueMap() {
             zoom: 12,
             scrollZoom: false,
             bearing: 0,
-            pitch: 0
+            pitch: 0,
+            touchAction: 'pan-y',
           }}
           style={{ width: "100%", height: 600 }}
           mapStyle="mapbox://styles/mapbox/light-v9"
