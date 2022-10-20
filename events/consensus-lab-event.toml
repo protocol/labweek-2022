@@ -43,7 +43,7 @@ difficulty = "All Welcome"
 tags = ["Talks"]
 
 # a color, to group key events visually. use sparingly
-# color=""
+# color="blue"
 
 # A small logomark for the corner of the event
 logomark = "/logomarks/ConsensusLab-symbol-color.png"
