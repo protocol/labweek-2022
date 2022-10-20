@@ -22,7 +22,7 @@ days = 13
 times = "10:00 - 22:00"
 
 # the event venue name (will show up on the event card - TODO)
-venueName = "LXHostel"
+venueName = "[LXHostel](https://goo.gl/maps/81EaXsHt9cGSMDsKA)"
 
 # the event venue address (will show up on a map -- TODO)
 venueAddress = "R. Rodrigues de Faria 103, 1300-501 Lisboa"
@@ -42,7 +42,7 @@ difficulty = "All Welcome"
 tags = ["Talks", "Workshops", "Social", "Panels"]
 
 # a color, to group key events visually. use sparingly
-# color="purple"
+# color=""
 
 # A small logomark for the corner of the event (logomark image can be placed in "/website/public/logomarks")
 logomark = "/logomarks/agora-house.png"
