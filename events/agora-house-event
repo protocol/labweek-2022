@@ -1,0 +1,56 @@
+# the name of your track or event
+name = "Agora House"
+
+# the name of the group organizing the event
+org = "Agora"
+
+# the github handle of the directly responsible individual for this event
+# (this person will coordinate with devent organizers)
+dri = "@joshromanrogers"
+
+# the website of the event
+# make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
+website = "https://www.agorahouse.xyz/"
+
+# the start date of the event
+date = "2022-27-10"
+
+# how many days the event lasts (1 - N)
+days = 13
+
+# the event times (shows up in the event card)
+times = "10:00 - 22:00"
+
+# the event venue name (will show up on the event card - TODO)
+venueName = "[LXHostel](https://goo.gl/maps/81EaXsHt9cGSMDsKA)"
+
+# the event venue address (will show up on a map -- TODO)
+venueAddress = "R. Rodrigues de Faria 103, 1300-501 Lisboa"
+
+# the max number of attendees of the event
+attendees = "150"
+
+# these is unsued:
+# tickets = "Waitlist"
+
+# the "difficulty" of the event -- one of:
+# ["Beginner", "Intermediate", "Advanced", "All Welcome"]
+difficulty = "All Welcome"
+
+# tags for the event, will show up as labels.
+# pick 1-4
+tags = ["Talks", "Workshops", "Social", "Panels"]
+
+# a color, to group key events visually. use sparingly
+# color=""
+
+# A small logomark for the corner of the event (logomark image can be placed in "/website/public/logomarks")
+logomark = "/logomarks/agora-house.png"
+
+# a description of the track.
+# will show up when the user clicks the event card.
+description = """
+
+Located in the LX Factory, Agora House is a pop-up co-living and workspace for the Web3 community that travels to Lisbon for Lisbon Blockchain week. The house will host 35 residents, and has an application process to make sure we host a community of builders, thinkers and creators from across the blockchain space.
+
+"""
