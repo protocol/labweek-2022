@@ -1,0 +1,64 @@
+# the name of your track or event
+name = "Breakthroughs:  Digital Minds and AI"
+
+# the name of the group organizing the event
+org = "Protocol Labs"
+
+# the github handle of the directly responsible individual for this event
+# (this person will coordinate with devent organizers)
+dri = "Juan Benet"
+
+# the website of the event
+# make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
+website = "https://breakthroughs-in-computing.labweek.io/"
+
+# the start date of the event
+date = "2022-10-25"
+
+# how many days the event lasts (1 - N)
+days = 1
+
+# the event times (shows up in the event card)
+times = "17:30 - 19:30"
+
+# the event venue name (will show up on the event card - TODO)
+venueName = "[SUD Lisboa](https://g.page/sudlisboa?share)"
+
+# the event venue address (will show up on a map -- TODO)
+venueAddress = "Pavilhão Poente (ao lado do MAAT, Av. Brasília, 1300-598 Lisboa, Portugal"
+
+# the max number of attendees of the event
+attendees = ""
+
+
+# these is unsued:
+# tickets = ""
+
+# the "difficulty" of the event -- one of:
+# ["Beginner", "Intermediate", "Advanced", "All Welcome"]
+difficulty = "All Welcome"
+
+# tags for the event, will show up as labels.
+# pick 1-4
+tags = ["Talks"]
+
+# a color, to group key events visually. use sparingly
+color="orange"
+
+# A small logomark for the corner of the event (logomark image can be placed in "/website/public/logomarks")
+logomark = "/logomarks/Protocol Labs.jpeg"
+
+# a description of the event.
+# will show up when the user clicks the event card.
+description = """
+Join us for a live virtual conversation between University of Oxford philosopher Nick Bostrom and Protocol Labs' Founder Juan Benet on all things AI. Learn where the current developments in artificial intelligence and digital minds are leading society and how we step up to the challenges that will arise in this field. Nick will sit down with Juan for a wide-ranging conversation before the audience has the opportunity to ask questions and interact with the speakers.
+‍
+This event is part of the Breakthroughs in Computing Speaker Series, on how technology will shape society in the next 5 to 25 years. Hosted by Protocol Labs, this series runs every evening from Oct 24-27. It's designed to bring people together, sharing convivial drinks, thoughtful discussions, and new connections.
+"""
+
+# the priority in the schedule table, leave commented if you don't need to control this
+# 1 will appear at the top, higher numbers appear closer to bottom
+priority = 3
+
+# if event has a livestream uncomment the following line
+isLive = true
