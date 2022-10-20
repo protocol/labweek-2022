@@ -19,6 +19,7 @@ export function Layout({ children, config }) {
         }
 
         <BaseScript />
+        <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.css' rel='stylesheet' />
         <link href="https://fonts.googleapis.com/css2?family=Exo:wght@600&display=swap" rel="stylesheet"></link>
         
         {/* Twitter conversion tracking base code */}

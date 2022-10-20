@@ -20,3 +20,7 @@
 .markdown p:not(:first-child) {
   margin-top: 20px;
 }
+
+.mapboxgl-popup-close-button {
+  display: none;
+}
