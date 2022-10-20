@@ -52,4 +52,4 @@ description = """Working meetings for the PL EngRes WG teams to share progress f
 
 # the priority in the schedule table, leave commented if you don't need to control this
 # 1 will appear at the top, higher numbers appear closer to bottom
-priority = 5
+priority = 6
