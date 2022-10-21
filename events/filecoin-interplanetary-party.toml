@@ -42,9 +42,9 @@ tags = ["Party"]
 color="yellow"
 
 # A small logomark for the corner of the event
-logomark = "/logomarks/FIL Lisbon_3.png"
+logomark = "/logomarks/FF.circle.png"
 
 # a description of the event.
 # will show up when the user clicks the event card.
 description = """
-Kick off FIL Lisbon with the entire Filecoin community and to celebrate two years since our mainnet launch, with space-y vibes!"""
+Close up ETH Lisbon and kick off FIL Lisbon with the entire Ethereum and Filecoin community and celebrate two years since Filecoin mainnet launch, complete with outer space-y vibes!"""
