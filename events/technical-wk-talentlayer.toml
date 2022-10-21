@@ -1,0 +1,83 @@
+# the name of your track or event
+name = "Technical Workshop: Building Interoperable Gig Marketplaces with TalentLayer"
+
+# the name of the group organizing the event
+org = "TalentLayer"
+
+# the github handle of the directly responsible individual for this event
+# (this person will coordinate with devent organizers)
+dri = "Florencia Barreiro & Jenks Guo"
+
+# the website of the event
+# make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
+website = "https://hackerbase.eventbrite.com"
+
+# the start date of the event
+date = "2022-11-02"
+
+# how many days the event lasts (1 - N)
+days = 1
+
+# the event times (shows up in the event card)
+times = "10:00 - 12:00"
+
+# the event venue name (will show up on the event card - TODO)
+venueName = "[Hacker Base @ Garagem Lisboa](https://goo.gl/maps/LB4TsVA1dkEjaKTo7)"
+
+# the event venue address (will show up on a map -- TODO)
+venueAddress = "Garagem Lisboa, Jardim 9 de Abril, 1200-736 Lisboa, Portugal"
+
+# the max number of attendees of the event
+attendees = ""
+
+
+# these is unsued:
+# tickets = ""
+
+# the "difficulty" of the event -- one of:
+# ["Beginner", "Intermediate", "Advanced", "All Welcome"]
+difficulty = "All Welcome"
+
+# tags for the event, will show up as labels.
+# pick 1-4
+tags = ["Workshop"]
+
+# a color, to group key events visually. use sparingly
+# color=""
+
+# A small logomark for the corner of the event (logomark image can be placed in "/website/public/logomarks")
+# logomark = "/logomarks/talentlayer_icon_black.png"
+
+# a description of the event.
+# will show up when the user clicks the event card.
+description = """
+Join us for a workshop on how to build web-3 native work platforms with TalentLayer, the interoperable backend for work. 
+
+In the workshop, we'll cover: 
+- Why work reputation interoperability is important
+- How to build interoperable work platforms using TalentLayer
+- A technical walkthrough of implementing TalentLayer for an example platform; a gig marketplace
+- Q&A and discussion
+
+About TalentLayer
+
+TalentLayer is an interoperable infrastructure layer for work. Think of Lens Protocol, only for labor markets. Build interoperable gig platforms, payment streaming, DAO tools, and more; all with mutually-attested reviews written to a user's soul-bound TalentLayer ID. Now, your users can port their reputation across any integrated platform; owning their career and breaking down silos in how we work together. 
+
+TalentLayer provides builders with:
+- Escrow system (ERC-20, milestone-based payments, payment streaming, etc)
+- Dispute resolution integration via Kleros
+- Reputation management system
+- Interoperable jobs repository
+- Proposal system
+- More!
+
+Learn More:
+Website: https://talentlayer.org
+Github: https://github.com/TalentLayer/.github
+Docs: https://docs.indie.talentlayer.org/
+
+"""
+
+# the priority in the schedule table, leave commented if you don't need to control this
+# 1 will appear at the top, higher numbers appear closer to bottom
+# priority = 
