@@ -42,7 +42,7 @@ tags = ["Conference"]
 color="blue"
 
 # A small logomark for the corner of the event
-logomark = "/logomarks/FIL Lisbon_3.png"
+logomark = "/logomarks/FF.circle.png"
 
 # a description of the event.
 # will show up when the user clicks the event card.
