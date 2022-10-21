@@ -1,5 +1,5 @@
 # the name of your track or event
-name = "DeFi Meetup in Lisbon "The Winners of the Winter""
+name = "DeFi Meetup in Lisbon: The Winners of the Winter"
 
 # the name of the group organizing the event
 org = "Secured Finance"
@@ -43,10 +43,10 @@ difficulty = "All Welcome"
 tags = ["Talks"]
 
 # a color, to group key events visually. use sparingly
-# color="purple"
+# color=""
 
 # A small logomark for the corner of the event (logomark image can be placed in "/website/public/logomarks")
-# logomark = "/logomarks/securedfinance.square.png"
+logomark = "/logomarks/securedfinance.square.png"
 
 # a description of the event.
 # will show up when the user clicks the event card.
