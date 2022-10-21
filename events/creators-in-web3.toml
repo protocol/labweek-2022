@@ -1,0 +1,79 @@
+# the name of your track or event
+name = "Creators in Web3 - Meetup @ Lisbon"
+
+# the name of the group organizing the event
+org = "Numbers Protocol"
+
+# the github handle of the directly responsible individual for this event
+# (this person will coordinate with devent organizers)
+dri = "Florencia Barreiro"
+
+# the website of the event
+# make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
+website = "https://www.eventbrite.com/e/creators-in-web3-meetup-lisbon-tickets-445110937797"
+
+# the start date of the event
+date = "2022-10-30"
+
+# how many days the event lasts (1 - N)
+days = 1
+
+# the event times (shows up in the event card)
+times = "13:00 - 15:00"
+
+# the event venue name (will show up on the event card - TODO)
+venueName = "[Hacker Base @ Garagem Lisboa](https://goo.gl/maps/LB4TsVA1dkEjaKTo7)"
+
+# the event venue address (will show up on a map -- TODO)
+venueAddress = "Garagem Lisboa, Jardim 9 de Abril, 1200-736 Lisboa, Portugal"
+
+# the max number of attendees of the event
+attendees = ""
+
+
+# these is unsued:
+# tickets = ""
+
+# the "difficulty" of the event -- one of:
+# ["Beginner", "Intermediate", "Advanced", "All Welcome"]
+difficulty = "All Welcome"
+
+# tags for the event, will show up as labels.
+# pick 1-4
+tags = ["Meetup"]
+
+# a color, to group key events visually. use sparingly
+# color=""
+
+# A small logomark for the corner of the event (logomark image can be placed in "/website/public/logomarks")
+# logomark = "/logomarks/numbers-square.png"
+
+# a description of the event.
+# will show up when the user clicks the event card.
+description = """
+A﻿re you a creator/visual designer/photographer/developer interested in knowing more about Web3? Come to join the meetup, network with people in Web3, and see what opportunities you may explore in the field!
+🗒A﻿genda:
+Opening: Short Intro / Sofia, cofounder of Numbers Protocol
+The bottleneck for creator economy in Web2 / Moderator: Sofia, Format: Open mic, share your thought with the community
+A﻿bout Decentralized Digital Asset Network / Sofia, cofounder of Numbers Protocol
+The new opportunity (or new problem) for creator economy in Web3 / Moderator: Sofia, Format: Open mic, share your thought with the community
+Afternoon tea n﻿etworking time! Enjoy the Taiwanese snacks and chat with the community!
+-﻿-
+🎁P﻿articipant Gift:
+We will prepare some cool/secret gifts for participants who join the meetup 😉
+-﻿-
+📱What should you bring to the event?
+I﻿f you're a creator/visual designer/photographer, bring your mobile phone (which we think you will bring it anyway 😇) so that you can try our brilliant Capture App and start your Capture NFT journey right away!
+I﻿f you're a developer, feel free to bring your laptop and try our web3 register tool to "Commit the Asset History" 🧑‍💻and share your feedback with us!
+I﻿f you're interested in knowing more about Numbers, feel free to bring your questions :)!
+I﻿f you're just someone who wants to spend time with the community, just bring your happy mood 😀
+-﻿-
+A﻿bout the Host: Numbers Protocol
+Numbers Protocol: The first asset-centric Web3 protocol to empower the creator economy and bring trust back to the internet.
+Numbers Protocol is the first asset-centric protocol designed for the digital content industry and is also the library of digital media files. It supports the entire lifecycle of modern digital content – from Web registration and decentralized storage to NFT minting and royalty sharing. With so much manipulation, theft, and censorship, Numbers Protocol makes the goal of bringing trust back to digital media a top priority.
+Numbers Protocol has been successfully implemented in many relevant use cases, such as Reuters coverage of the 2020 US presidential election and in Ukraine cataloging and preserving the world’s first Web3 war crime evidence. Besides, Numbers Protocol is also the foundation of the Web3 creator economy. By making digital media traceable and verifiable, we will be able to address the core problems, including but not limited to Copyright, Ownership, Asset History, and Royalty Distributions.
+"""
+
+# the priority in the schedule table, leave commented if you don't need to control this
+# 1 will appear at the top, higher numbers appear closer to bottom
+# priority =
