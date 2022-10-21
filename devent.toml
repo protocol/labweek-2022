@@ -112,6 +112,7 @@ teams = [
   ["Starboard", "https://www.starboard.ventures/", "./teams/starboard.png"],
   ["Status", "https://status.im/", "./teams/status.png"],
   ["Supranational", "https://www.supranational.net/", "./teams/supranational.png"],
+  ["TalentLayer", "https://talentlayer.org", "./teams/TalentLayer Dark Lg.png"],
   ["Talent Protocol", "https://www.talentprotocol.com", "./teams/talent-protocol.png"],
   ["Textile", "https://linktr.ee/textileio", "./teams/Textile_Logo.png"],
   ["Yatima", "https://github.com/yatima-inc", "./teams/yatima.png"],
