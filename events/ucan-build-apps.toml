@@ -1,0 +1,70 @@
+# the name of your track or event
+name = "UCAN Build Apps with IPFS"
+
+# the name of the group organizing the event
+org = "web3.storage team"
+
+# the github handle of the directly responsible individual for this event
+# (this person will coordinate with devent organizers)
+dri = "Florencia Barreiro"
+
+# the website of the event
+# make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
+website = "https://UCANbuildAppswithIPFS.eventbrite.com"
+
+# the start date of the event
+date = "2022-10-28"
+
+# how many days the event lasts (1 - N)
+days = 1
+
+# the event times (shows up in the event card)
+times = "10:00 - 12:00"
+
+# the event venue name (will show up on the event card - TODO)
+venueName = "[Hacker Base @ Garagem Lisboa](https://goo.gl/maps/LB4TsVA1dkEjaKTo7)"
+
+# the event venue address (will show up on a map -- TODO)
+venueAddress = "Garagem Lisboa, Jardim 9 de Abril, 1200-736 Lisboa, Portugal"
+
+# the max number of attendees of the event
+attendees = ""
+
+
+# these is unsued:
+# tickets = ""
+
+# the "difficulty" of the event -- one of:
+# ["Beginner", "Intermediate", "Advanced", "All Welcome"]
+difficulty = "All Welcome"
+
+# tags for the event, will show up as labels.
+# pick 1-4
+tags = ["Workshop"]
+
+# a color, to group key events visually. use sparingly
+# color="green"
+
+# A small logomark for the corner of the event (logomark image can be placed in "/website/public/logomarks")
+# logomark = "/logomarks/web3storage.square.jpg"
+
+# a description of the event.
+# will show up when the user clicks the event card.
+description = """
+"web3.storage team is excited to show how content addressed user-centric protocols like IPFS, DID, and UCAN will change the web, and how to build Node.js applications using them.
+
+The web3.storage team will share the latest APIs and walk you through building your own application data model. Start with DID-based self-sovereign auth, a great opportunity to learn about the next wave of digital identity, and write code to upload files as well as JSON objects.
+
+We'll discuss IPFS data structures like IPLD trees and graphs, and how they can be used in applications, as well as walk you through setting up UCAN delegations to enable both user-pays and application-pays web3.storage account models.
+
+Agenda:
+- Web3 storage intro
+- Discussion on use cases
+- Interactive code-along workshop
+
+Learn more about what the web3.storage team is building by visiting web3.storage and/or following @web3storage on Twitter!"
+"""
+
+# the priority in the schedule table, leave commented if you don't need to control this
+# 1 will appear at the top, higher numbers appear closer to bottom
+# priority =
