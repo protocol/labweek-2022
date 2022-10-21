@@ -49,7 +49,9 @@ logomark = "/logomarks/FIL Lisbon_3.png"
 
 # a description of the event.
 # will show up when the user clicks the event card.
-description = """Daily talks at Filecoin's Web Summit Station, times and topics coming soon...along with a Web Summit discount code for Filecoin Ecosystem!
+description = """Touch down at the Filecoin Web Summit Station to learn and network in a totally intergalactic fashion.
+
+Web Summit registration required.
 """
 
 # the priority in the schedule table, leave commented if you don't need to control this
