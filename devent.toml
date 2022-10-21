@@ -99,6 +99,7 @@ teams = [
   ["Mona", "https://www.mona.gallery", "./teams/mona.jpg"],
   ["Nois Network", "https://nois.network/", "./teams/noisnetwork.png"],
   ["Number0", "https://n0.computer", "./teams/number0.png"],
+  ["NumbersProtocol", "https://www.numbersprotocol.io", "./teams/numbers.protocol.png"],
   ["Celo", "https://celo.org/", "./teams/ocelo.png"],
   ["Outercore", "https://ecosystem-wg.notion.site/public-Ecosystem-Working-Groups-607302c142e14ba3becdf7eb251e2b8b", "./teams/outercore.jpeg"],
   ["Ownership Labs", "https://ownershiplabs.com/", "./teams/ownershipLabs.jpg"],
