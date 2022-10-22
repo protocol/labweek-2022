@@ -22,7 +22,7 @@ days = 5
 times = "10/24 16:00 - 18:00, 10/25 - 10/27 17:00 - 19:00"
 
 # the event venue name (will show up on the event card - TODO)
-venueName = "10/24 [Convento do Beato](https://goo.gl/maps/2yDdwVSHfgs1mYhL7), 10/25 - 10/28 [SUD Lisboa](https://g.page/sudlisboa?share)"
+venueName = "10/24 [Convento do Beato](https://goo.gl/maps/2yDdwVSHfgs1mYhL7), 10/25 - 10/27 [SUD Lisboa](https://g.page/sudlisboa?share)"
 
 # the event venue address (will show up on a map -- TODO)
 # venueAddress = ""
