@@ -108,6 +108,7 @@ const Pin = ({ size = 30 }) => {
 export default function VenueMap() {
   const [activeDates, setActiveDates] = useState(['10/24', '10/25', '10/26', '10/27', '10/28', '10/29', '10/30', '10/31', '11/1', '11/2', '11/3', '11/4'])
   const [activeVenues, setActiveVenues] = useState(allVenues)
+  const [showFilters, setShowFilters] = useState(false)
   const [popupInfo, setPopupInfo] = useState(null);
 
   const switchDates = (date) => {
@@ -172,7 +173,7 @@ export default function VenueMap() {
 
   return (
     <div id="map" className={`mt-40 lg:px-6`}>
-      <div className="relative mx-auto max-w-6xl lg:rounded-xl overflow-hidden">
+      <div className="relative mx-auto max-w-6xl lg:rounded-xl overflow-hidden h-112 lg:h-152">
         <Map
           initialViewState={{
             latitude: 38.7220166,
@@ -183,7 +184,7 @@ export default function VenueMap() {
             pitch: 0,
             touchAction: 'pan-y',
           }}
-          style={{ width: "100%", height: 600 }}
+          style={{ width: "100%", height: "100%" }}
           mapStyle="mapbox://styles/mapbox/light-v9"
           mapboxAccessToken={t}
         >
@@ -222,10 +223,10 @@ export default function VenueMap() {
             </Popup>
           )}
         </Map>
-        <div className='absolute left-0 top-0 bottom-0 w-80 p-8 hidden lg:block'>
+        <div className={`absolute lg:left-0 top-0 bottom-0 w-80 p-8 lg:block transition-all ${showFilters ? 'left-0' : '-left-80'}`}>
           <div className='absolute inset-0 bg-blue-500 opacity-80'></div>
           <div className='relative z-20'>
-            <div className="text-white text-sm font-bold font-1 flex flex-col gap-4">
+            <div className="text-white text-sm font-bold font-1 flex flex-col gap-3 lg:gap-4">
               {allDates.map((date, index) => {
                 return (
                   <div onClick={() => { switchDates(date) }} className="relative cursor-pointer" key={index}>
@@ -235,7 +236,17 @@ export default function VenueMap() {
                 )
               })}
             </div>
-            <button onClick={() => { showAllDates() }} className="bg-white text-blue-400 rounded w-full py-2 mt-8 font-1 font-bold">Show All Days</button>
+            <button onClick={() => { showAllDates() }} className="bg-white text-blue-500 rounded w-full py-2 mt-8 font-1 font-bold">Show All Days</button>
+            <a onClick={() => { setShowFilters(true) }} className={`lg:hidden absolute -top-4 w-12 h-10 rounded-r-full bg-blue-500 shadow-md transition-all ${showFilters ? '-right-8 opacity-0' : '-right-20 opacity-100'}`}>
+              <svg className="w-5 h-5 mt-2.5 ml-3" fill="white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <path d="M3.9 54.9C10.5 40.9 24.5 32 40 32H472c15.5 0 29.5 8.9 36.1 22.9s4.6 30.5-5.2 42.5L320 320.9V448c0 12.1-6.8 23.2-17.7 28.6s-23.8 4.3-33.5-3l-64-48c-8.1-6-12.8-15.5-12.8-25.6V320.9L9 97.3C-.7 85.4-2.8 68.8 3.9 54.9z"/>
+              </svg>
+            </a>
+            <a onClick={() => { setShowFilters(false) }} className="lg:hidden absolute -top-4 -right-8 w-12 h-10 rounded-l-full bg-blue-500 shadow-md">
+              <svg className="w-6 h-6 mt-2 ml-4" fill="white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                <path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/>
+              </svg>
+            </a>
           </div>
         </div>
       </div>
