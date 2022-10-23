@@ -1,5 +1,5 @@
 # the name of your track or event
-name = "DeFi Meetup in Lisbon: The Winners of the Winter"
+name = "DeFi Meetup in Lisbon: The Winners of Tough Markets"
 
 # the name of the group organizing the event
 org = "Secured Finance"
@@ -10,7 +10,7 @@ dri = "Timo Lee"
 
 # the website of the event
 # make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
-website = "https://www.eventbrite.com/e/defi-meetup-in-lisbon-the-winners-of-the-winter-tickets-445537804567"
+website = "https://www.eventbrite.com/e/defi-meetup-in-lisbon-winners-of-tough-markets-tickets-445537804567"
 
 # the start date of the event
 date = "2022-10-28"
@@ -50,23 +50,9 @@ logomark = "/logomarks/securedfinance.square.png"
 
 # a description of the event.
 # will show up when the user clicks the event card.
-description = """Come join industry experts and professionals as Secured Finance hosts an immersive discussion as we dive into what ‘crypto winter’ means for investors, institutions, developers, miners, and DeFi startups. We’ll debate and opine on the industry's future in such a volatile environment and prep for what’s ahead for the future of decentralized finance.
+description = """Don't miss the DeFi MeetUp during LabWeek & FIL Lisbon 2022.
 
-H﻿ear the voice of ex-Goldman and HSBC people from Secured Finance and crypto industry leaders.
-
-I﻿f you want to share your thought, please sign-up as a speaker & panelist through this [form](https://airtable.com/)!
-
-​The capacity of the venue is limited, please sign up as soon as you decide to join!
-
-​Agenda:
-
-- ​Get together, drinks & snacks
-
-​- Talks
-
--﻿ Panel discussion
-
-​- Networking & socializing
+Come join industry experts and professionals as Secured Finance hosts an immersive discussion as we dive into what ‘crypto winter’ means for investors, institutions, developers, miners, and DeFi startups. We’ll debate and opine on the industry's future in such a volatile environment and prep for what’s ahead.
 """
 
 # the priority in the schedule table, leave commented if you don't need to control this
