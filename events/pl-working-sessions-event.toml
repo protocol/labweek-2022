@@ -22,10 +22,12 @@ days = 12
 times = "9:00 - 18:00"
 
 # the event venue name (will show up on the event card - TODO)
-venueName = "[Palacio de Tancos](https://goo.gl/maps/2YS3dYGoMkbLGszDA)"
+venueName = "[Palacio de Tancos](https://goo.gl/maps/2YS3dYGoMkbLGszDA), [Pestana Palace](https://g.page/Pestana-Palace-Lisboa?share), and [Suspenso](https://g.page/Suspenso_Lisboa?share)"
 
 # the event venue address (will show up on a map -- TODO)
-venueAddress = "Calçada do Marquês de Tancos 2, 1100-340 Lisboa, Portugal"
+venueAddress = "Palacio de Tancos:  Calçada do Marquês de Tancos 2, 1100-340 Lisboa, Portugal
+Pestana Palace:  R. Jau 54, 1300-314 Lisboa, Portugal
+Suspenso:  R. de Santiago 19, 1100-001 Lisboa, Portugal"
 
 # the max number of attendees of the event
 attendees = ""
