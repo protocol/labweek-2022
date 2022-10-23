@@ -13,10 +13,10 @@ dri = "Timothy Gibbons"
 website = ""
 
 # the start date of the event
-date = "2022-10-26"
+date = "2022-10-24"
 
 # how many days the event lasts (1 - N)
-days = 3
+days = 12
 
 # the event times (shows up in the event card)
 times = "9:00 - 18:00"
@@ -50,7 +50,7 @@ logomark = "/logomarks/Protocol Labs.jpeg"
 
 # a description of the event.
 # will show up when the user clicks the event card.
-description = """For those teams looking to meet in person while they’re in Lisbon, the PL Working Sessions space is available! It’s also available if you just need a place to work out of -- whether that's for an hour or for a day. Learn more about the spaces available [here](https://docs.google.com/presentation/d/1IP_Ob_KppK9Y1WUPqkmNl4cj27nEwhrY/edit#slide=id.g1619dd19493_0_64) and be sure to click the [link](https://bit.ly/PLWorkingSessionsReservations) to reserve your spot.
+description = """For those teams looking to meet in person while they’re in Lisbon, the PL Working Sessions space is available! It’s also available if you just need a place to work out of -- whether that's for an hour or for a day. Be sure to click the [link](https://bit.ly/PLWorkingSessionsReservations) to reserve your spot.
 """
 
 # the priority in the schedule table, leave commented if you don't need to control this
