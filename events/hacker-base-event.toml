@@ -51,6 +51,26 @@ logomark = "/logomarks/ffandfission.png"
 # a description of the event.
 # will show up when the user clicks the event card.
 description = """We've got the perfect home base for your stay in Lisbon. Visit our co-working space to catch a lightning talk or participate in workshops with developers and the web3 community.
+
+Please register here to use the space when not in use for private events. You are more than welcome to join other events at the Hacker Base, but need to register individually to those events. See below the full list of events happening at the Hacker Base or visit FIL Lisbon website to see the full schedule of events during Oct. 25 - Nov. 4.
+
+The Hacker Base is open daily from 9AM to 6PM, starting on Oct. 25.
+
+Events open for anyone that registers on the current site:
+Oct. 26 | 4PM - 5PM: Decentralize All The Things! An FFDW View of Decentralization Beyond Filecoin. A talk by Danny O'Brien | About
+Nov. 1 | 10AM - 12PM: Private Data on Filecoin
+Nov. 2 | 10AM - 12PM: Technical Workshop: Building Interoperable Gig Marketplaces with TalentLayer | About
+
+Private events with separate registration link:
+Oct. 25 | 1PM - 6PM: Open Metaverse meetup with MONA Galleries
+Oct. 26 | 10AM - 12PM: FIL Accounts Working Group
+Oct. 27 | 3PM - 6PM: Web 3.0 chess meetup
+Oct. 28 | 10AM - 12PM: UCAN Build Apps with IPFS
+Oct. 28 | 1PM - 5PM: DeFi Meetup in Lisbon "The Winners of the Winter"
+Oct. 29 | 11AM - 6PM: FVM Open Hack Day
+Oct. 30 | 1PM - 3PM: Creators in Web3 - Meetup @ Lisbon 
+Nov. 2 | 2PM - 5PM: Orbit Ambassador Meetup (invite only)
+Nov. 3 | 6PM - 9PM: FIL x NEAR Happy Hour
 """
 
 # the priority in the schedule table, leave commented if you don't need to control this
