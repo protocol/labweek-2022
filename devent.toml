@@ -112,6 +112,7 @@ teams = [
   ["Spice AI", "https://spice.ai", "./teams/spice-ai.jpeg"],
   ["Starboard", "https://www.starboard.ventures/", "./teams/starboard.png"],
   ["Status", "https://status.im/", "./teams/status.png"],
+  ["TVCC", "https://tvcc.kr", "./teams/tvcc.png"],
   ["Supranational", "https://www.supranational.net/", "./teams/supranational.png"],
   ["TalentLayer", "https://talentlayer.org", "./teams/TalentLayer Dark Lg.png"],
   ["Talent Protocol", "https://www.talentprotocol.com", "./teams/talent-protocol.png"],
