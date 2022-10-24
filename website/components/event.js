@@ -78,8 +78,8 @@ export function EventCard({ event }) {
               ))}
             </div>
             {event.logomark &&
-              <div className="logomark w-12">
-                <img height="48" className="w-full h-12 object-contain" src={event.logomark} />
+              <div className="logomark inline-block">
+                <img height="48" className="w-auto h-12 object-contain" src={event.logomark} />
               </div>
             }
           </div>
