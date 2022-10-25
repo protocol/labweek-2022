@@ -2,7 +2,7 @@
 name = "Filecoin Network Analytics Day"
 
 # the name of the group organizing the event
-org = "Starboard"
+org = "Starboard Ventures"
 
 # the github handle of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
@@ -19,13 +19,13 @@ date = "2022-10-31"
 days = 1
 
 # the event times (shows up in the event card)
-times = "13:00-18:00"
+times = "15:00-20:00"
 
 # the event venue name (will show up on the event card - TODO)
-venueName = "To be confirmed"
+venueName = "[Broteria](https://goo.gl/maps/TMJm7TZKUu8SQ5cDA)"
 
 # the event venue address (will show up on a map -- TODO)
-venueAddress = "To be confirmed"
+venueAddress = "R. de São Pedro de Alcântara 3, 1250-237 Lisboa, Portugal"
 
 # the max number of attendees of the event
 attendees = "All Welcome"
