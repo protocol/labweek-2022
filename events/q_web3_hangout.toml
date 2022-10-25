@@ -1,37 +1,37 @@
 # the name of your track or event
-name = "My Track Name"
+name = "Web3 Hangout with Q: Websummit Chapter"
 
 # the name of the group organizing the event
-org = "Your Org"
+org = "Q"
 
 # the github handle of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
-dri = "@yourname"
+dri = "@gerritma"
 
 # the website of the event
 # make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
-website = "https://ipfs-althing.io"
+website = "https://www.eventbrite.de/e/web3-hangout-with-q-blockchain-web-summit-chapter-tickets-444543781417
 
 # the start date of the event
-date = "2022-07-11"
+date = "2022-11-01"
 
 # how many days the event lasts (1 - N)
 days = 1
 
 # the event times (shows up in the event card)
-times = "09:00 - 17:00"
+times = "9:00 - 21:00"
 
 # the event venue name (will show up on the event card - TODO)
-venueName = ""
+venueName = "[A Taça Cafe] (https://goo.gl/maps/8x7CCWA6x2Mfykqu5)"
 
 # the event venue address (will show up on a map -- TODO)
-venueAddress = ""
+venueAddress = "R. Cais das Naus 2E, 1990-304 Lisboa, Portugal"
 
 # the max number of attendees of the event
 attendees = "100"
 
 # these is unsued:
-# tickets = "Waitlist"
+tickets = "NFT"
 
 # the "difficulty" of the event -- one of:
 # ["Beginner", "Intermediate", "Advanced", "All Welcome"]
@@ -39,21 +39,47 @@ difficulty = "All Welcome"
 
 # tags for the event, will show up as labels.
 # pick 1-4
-tags = ["Talks", "Workshops"]
+tags = ["Cowork", "Meetup","Food","Networking"]
 
 # a color, to group key events visually. use sparingly
-# color="purple"
+color="blue"
 
 # A small logomark for the corner of the event (logomark image can be placed in "/website/public/logomarks")
-# logomark = "/logomarks/filecoin.png"
+# logomark = "/logomarks/q.png"
 
 # a description of the track.
 # will show up when the user clicks the event card.
 description = """
 
-This is a track
+The Q team invites you to join them for breakfast, lunch, or aperitivo on November 3rd. A breath of fresh air, away from the Web Summit buzz and a chance to munch, network, and learn about Web3 governance that works for humans and societies.  
+
+Discover why good governance is a game changer for blockchain projects and how DAOs, DeFi Projects, and the Metaverse benefit from governance that bridges “code is law” with humanity's most established and equitable legal systems, making it possible for automated efficiency and human complexity to co-exist online. 
+
+To access the food and drinks, mint your NFT ticket for free. Minting will be enabled a few days before the event 
+
+Seats are limited! 
+
+
+About Q: 
+
+Q is the decentralized governance system for the Web3. 
+
+Its novel Layer-1 public blockchain offers a governance protocol meticulously designed for Web3 entities. Instead of building a governance system from scratch, any company, community, or DAO can integrate with Q. Its human-centred, ready-to-use, fully decentralised governance infrastructure makes it easy to launch bespoke, secure and fair processes for decision-making, enforcement and dispute resolution. Q’s modern governance approach bridges “code is law” with humanity's most established and equitable legal systems, making it possible for automated efficiency and human complexity to co-exist online. Q is an open-source project supported by the Q International Foundation.
+ 
+
+To learn more, visit https://q.org  
+
+Join the Discord: https://discord.com/invite/YTgkvJvZGD 
+
+Follow Q on Twitter: https://twitter.com/QBlockchain  
+
 
 """
+
+
+# the priority in the schedule table, leave commented if you don't need to control this
+# 1 will appear at the top, higher numbers appear closer to bottom
+priority = 2
 
 # schedule is an array of timeslots objects
 # schema:
@@ -70,78 +96,18 @@ This is a track
 # - use 15m breaks, one in the morning, one or two in the afternoon
 [[timeslots]]
 startTime="09:00"
-speakers=["@speaker_name", "@other_speaker_name"]
-title="Welcome standup discussion"
-description=""
-
-[[timeslots]]
-startTime="09:30"
-speakers=["@yourname"]
-title="Track Intro"
-description=""
-
-[[timeslots]]
-startTime="10:00"
 speakers=[]
-title="Open Slot"
+title="Breakfast"
 description=""
 
 [[timeslots]]
-startTime="10:45"
+startTime="12:00"
 speakers=[]
-title="Open Slot"
+title="Brunch"
 description=""
 
 [[timeslots]]
-startTime="11:30"
+startTime="15:00"
 speakers=[]
-title="Break"
-description=""
-
-[[timeslots]]
-startTime="11:45"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="12:30"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="13:00"
-speakers=[]
-title="Lunch Break"
-description=""
-
-[[timeslots]]
-startTime="14:00"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="14:45"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="15:30"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="16:15"
-speakers=[]
-title="Break"
-description=""
-
-[[timeslots]]
-startTime="16:30"
-speakers=[]
-title="Open Slot"
+title="Cocktails and networking"
 description=""
