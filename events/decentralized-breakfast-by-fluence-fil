@@ -13,7 +13,7 @@ dri = "@mariakruglova"
 website = "https://lu.ma/fluence_breakfast"
 
 # the start date of the event
-date = "2022-01-11"
+date = "2022-11-01"
 
 # how many days the event lasts (1 - N)
 days = 1
