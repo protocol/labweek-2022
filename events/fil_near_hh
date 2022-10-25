@@ -1,34 +1,34 @@
 # the name of your track or event
-name = "Your Event Name"
+name = "FIL x NEAR Happy Hour"
 
 # the name of the group organizing the event
-org = "Your Org"
+org = "Filecion Foundation"
 
 # the github handle of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
-dri = "@yourname"
+dri = "Florencia Bareira"
 
 # the website of the event
 # make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
-website = "https://ipfs-althing.io"
+website = "https://www.eventbrite.com/e/fil-x-near-happy-hour-tickets-445987218777"
 
 # the start date of the event
-date = "2022-07-11"
+date = "2022-11-03"
 
 # how many days the event lasts (1 - N)
-days = 2
+days = 1
 
 # the event times (shows up in the event card)
-times = "11:00 - 19:00"
+times = "18:00 - 21:00"
 
 # the event venue name (will show up on the event card - TODO)
-venueName = ""
+venueName = "[Garagem Lisboa](https://goo.gl/maps/3sBDs29NqX1NZxkK9)"
 
 # the event venue address (will show up on a map -- TODO)
-venueAddress = ""
+venueAddress = "Jardim 9 de Abril, 1200-736 Lisboa"
 
 # the max number of attendees of the event
-attendees = "150"
+attendees = ""
 
 
 # these is unsued:
@@ -40,19 +40,18 @@ difficulty = "All Welcome"
 
 # tags for the event, will show up as labels.
 # pick 1-4
-tags = ["Talks", "Workshops"]
+tags = ["Happy Hour"]
 
 # a color, to group key events visually. use sparingly
 # color="purple"
 
 # A small logomark for the corner of the event (logomark image can be placed in "/website/public/logomarks")
-# logomark = "/logomarks/filecoin.png"
+logomark = "/logomarks/FF.circle.png"
 
 # a description of the event.
 # will show up when the user clicks the event card.
 description = """
-This is a day of technical talks and workshops about projects across computing and innovation systems. 
-Check out the line up on the website. Social gathering 17:00 - 19:00.
+Join us for a Happy -3- Hour at the Hacker Base @ Garagem Lisboa. Hosted by Filecoin Foundation and NEAR.
 """
 
 # the priority in the schedule table, leave commented if you don't need to control this
