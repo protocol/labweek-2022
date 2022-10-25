@@ -13,7 +13,7 @@ dri = "@gerritma"
 website = "https://www.eventbrite.de/e/web3-hangout-with-q-blockchain-web-summit-chapter-tickets-444543781417
 
 # the start date of the event
-date = "2022-11-01"
+date = "2022-11-03"
 
 # how many days the event lasts (1 - N)
 days = 1
