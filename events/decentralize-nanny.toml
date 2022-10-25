@@ -1,0 +1,61 @@
+# the name of your track or event
+name = "Danny O'Brien:  Decentralize All The Things!"
+
+# the name of the group organizing the event
+org = "Filecoin Foundation"
+
+# the github handle of the directly responsible individual for this event
+# (this person will coordinate with devent organizers)
+dri = "Florencia Barreiro"
+
+# the website of the event
+# make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
+website = "https://hackerbase.eventbrite.com"
+
+# the start date of the event
+date = "2022-10-26"
+
+# how many days the event lasts (1 - N)
+days = 1
+
+# the event times (shows up in the event card)
+times = "16:00 - 17:00"
+
+# the event venue name (will show up on the event card - TODO)
+venueName = "[Hacker Base @ Garagem Lisboa](https://goo.gl/maps/LB4TsVA1dkEjaKTo79)"
+
+# the event venue address (will show up on a map -- TODO)
+venueAddress = "Garagem Lisboa, Jardim 9 de Abril, 1200-736 Lisboa, Portugal"
+
+# the max number of attendees of the event
+attendees = ""
+
+
+# these is unsued:
+# tickets = ""
+
+# the "difficulty" of the event -- one of:
+# ["Beginner", "Intermediate", "Advanced", "All Welcome"]
+difficulty = "All Welcome"
+
+# tags for the event, will show up as labels.
+# pick 1-4
+tags = ["talk"]
+
+# a color, to group key events visually. use sparingly
+color="blue"
+
+# A small logomark for the corner of the event
+logomark = "/logomarks/FF.circle.png"
+
+# a description of the event.
+# will show up when the user clicks the event card.
+description = """Decentralize All The Things! An FFDW View of Decentralization Beyond Filecoin. A talk by Danny O'Brien
+We're working to build a resilient platform for distributed storage and computation with Filecoin: but there are plenty of other challenges to redecentralizing the web. The Filecoin Foundation for the Decentralized Web's Danny O'Brien talks about lessons learned from past decentralization projects, and some hot areas of research and practice just a few friendly hops away from our ecosystem.
+
+Check the website for more information!
+"""
+
+# the priority in the schedule table, leave commented if you don't need to control this
+# 1 will appear at the top, higher numbers appear closer to bottom
+# priority =
