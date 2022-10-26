@@ -57,8 +57,8 @@ Alongside the FVM (Filecoin Virtual Machine), the Filecoin Retrieval Market is o
 The Retrieval Markets Working Group (RMWG) consists of many teams around the globe, all working on building blocks of a decentralised CDN for the Filecoin Network. The Retrieval Markets Summit in Lisbon will give each team the chance to present what they have built so far and their vision for the future. It will also allow the teams a chance to meet each other and discuss how their solutions can work together. Head to retrieval.market to find out more about the teams and their work.
 
 There will be two tracks at this event.
-  1. RMWG 2022 launches and updates
-  2. Retrieval Incentives for the Filecoin Network
+  1. RMWG 2022 launches and updates - Watch the live stream [here](https://youtu.be/Ms0nF9qEnWQ)!
+  2. Retrieval Incentives for the Filecoin Network - Watch the live stream [here](https://youtu.be/BStrPDhBjx0)!
 
 This event will include time at the beginning and the end to talk to each other more informally over some food and drinks.
 """
@@ -66,3 +66,6 @@ This event will include time at the beginning and the end to talk to each other 
 # the priority in the schedule table, leave commented if you don't need to control this
 # 1 will appear at the top, higher numbers appear closer to bottom
 priority = 3
+
+# if event has a livestream uncomment the following line
+isLive = true
