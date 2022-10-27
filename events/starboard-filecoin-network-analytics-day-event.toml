@@ -13,19 +13,19 @@ dri = "sylvan"
 website = ""
 
 # the start date of the event
-date = "2022-10-31"
+date = "Monday October 31st 2022"
 
 # how many days the event lasts (1 - N)
 days = 1
 
 # the event times (shows up in the event card)
-times = "13:00-18:00"
+times = "15:00 - 20:00 (3:00 PM - 8:00 PM Western European Time - Lisbon)"
 
 # the event venue name (will show up on the event card - TODO)
-venueName = "To be confirmed"
+venueName = "Brotéria, Rua de São Pedro de Alcântara, Lisboa, Portugal"
 
 # the event venue address (will show up on a map -- TODO)
-venueAddress = "To be confirmed"
+venueAddress = "Brotéria, Rua de São Pedro de Alcântara, Lisboa, Portugal"
 
 # the max number of attendees of the event
 attendees = "All Welcome"
@@ -47,14 +47,15 @@ tags = ["Talks", "Workshops"]
 
 # a description of the event.
 # will show up when the user clicks the event card.
-description = "Descriptions:
-               What informs the Filecoin Network’s most important decisions? Join us as we dive into the network analytics that continually define and shape Filecoin.
+description = "Description:
+               Join us as we dive into the network analytics that continuously spark conversations and inform network’s decisions.
                On the Filecoin Network Analytics Day, you will hear insightful talks and discussions covering important topics on Filecoin network analytics, including:
                The importance of network analytics to Web3 governance and improvement
                Conducting effective network analytics for Filecoin - what's needed?
                Demystifying Filecoin circulating supply
                Analyzing key health metrics of Filecoin
-               Storage provider reputation analytics"
+               Storage provider reputation analytics
+               And more..."
 
 # the priority in the schedule table, leave commented if you don't need to control this
 # 1 will appear at the top, higher numbers appear closer to bottom
