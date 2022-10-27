@@ -53,13 +53,12 @@ logomark = "/logomarks/starboard.jpg"
 description = """
 Join us as we dive into the network analytics that continuously spark conversations and inform network’s decisions.
 On the Filecoin Network Analytics Day, you will hear insightful talks and discussions covering important topics on Filecoin network analytics, including:
-                The importance of network analytics to Web3 governance and improvement
-                Conducting effective network analytics for Filecoin - what's needed?
-                Demystifying Filecoin circulating supply
-                Analyzing key health metrics of Filecoin
-                Storage provider reputation analytics"
-                Storage provider reputation analytics
-                And more...
+The importance of network analytics to Web3 governance and improvement
+Conducting effective network analytics for Filecoin - what's needed?
+Demystifying Filecoin circulating supply
+Analyzing key health metrics of Filecoin
+Storage provider reputation analytics
+And more...
 """
 
 # the priority in the schedule table, leave commented if you don't need to control this
