@@ -56,8 +56,12 @@ Lurk Day: Lurk, Applications, Nova, and Hardware Acceleration
 Lurk is a Turing-complete language for recursive zk-SNARKs. This event will feature talks from Chhi'mèd Künzang (Protocol Labs and Lurk Lab), John Burnham (Yatima, Inc.), Marcin Grzybowski (Mutual Knowledge Systems), Srinath Setty (Microsoft Research), and Kelly Olson (Supranational).
  
 Event will end with a lightly catered social hour for attendees. 
+
+Talks will be live streamed on the [@LurkLab](https://twitter.com/LurkLab/media) Twitter account.
 """
 
 # the priority in the schedule table, leave commented if you don't need to control this
 # 1 will appear at the top, higher numbers appear closer to bottom
 # priority =
+
+isLive = true
