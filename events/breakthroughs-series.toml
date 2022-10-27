@@ -16,7 +16,7 @@ website = "https://breakthroughs-in-computing.labweek.io/"
 date = "2022-10-24"
 
 # how many days the event lasts (1 - N)
-days = 5
+days = 4
 
 # the event times (shows up in the event card)
 times = "10/24 16:00 - 18:00, 10/25 - 10/27 18:00 - 20:00"
@@ -50,7 +50,7 @@ logomark = "/logomarks/Protocol Labs.jpeg"
 
 # a description of the event.
 # will show up when the user clicks the event card.
-description = """‍This event is part of the Breakthroughs in Computing Speaker Series, on how technology will shape society in the next 5 to 25 years. Hosted by Protocol Labs, this series runs every evening from Oct 24-28. It's designed to bring people together, sharing convivial drinks, thoughtful discussions, and new connections.  The talks will begin at 6:00pm WEST!
+description = """‍This event is part of the Breakthroughs in Computing Speaker Series, on how technology will shape society in the next 5 to 25 years. Hosted by Protocol Labs, this series runs every evening from Oct 24-27. It's designed to bring people together, sharing convivial drinks, thoughtful discussions, and new connections.  The talks will begin at 6:00pm WEST!
 """
 
 # the priority in the schedule table, leave commented if you don't need to control this
