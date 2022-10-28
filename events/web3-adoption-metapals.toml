@@ -19,7 +19,7 @@ date = "2022-10-30"
 days = 1
 
 # the event times (shows up in the event card)
-times = "16:00 - 18:00"
+times = "16:00 - 17:30"
 
 # the event venue name (will show up on the event card - TODO)
 venueName = "[Garagem](https://goo.gl/maps/LB4TsVA1dkEjaKTo7)"
@@ -51,7 +51,14 @@ logomark = "/logomarks/Metapals.square.jpeg"
 # a description of the event.
 # will show up when the user clicks the event card.
 description = """Wanna find out what's the most effective way to onboard the next generation of non-crypto users? Tip: they're cute, cuddly, and love treats! 🐶
-The MetaPals team, along with notable speakers hailing from different backgrounds, will chat about the current web3 landscape and the challenges they face in driving adoption and educating users on its features, functionalities, and benefits.
+
+Come visit us to hear how the co-founders of MetaPals leveraged on the Tamagotchi effect to vastly improve the way people perceive and transition into the blockchain space in a way that no one has ever done before. Keep yer tails wagging for the sharing to come!
+
+Our CEO Max Giammario will first share about our MetaPals journey and vision to bridge web2 and web3 through the adoption of virtual pets. COO Daryl Lim, along with notable speakers hailing from different backgrounds, will chat about the current web3 landscape and the challenges they face in driving adoption and educating users on its features, functionalities, and benefits.
+
+Registration: 4:00 - 4:15pm
+CEO Presentation: 4:15 - 4:45pm
+Panel Discussion: 4:45 - 5:30pm
 """
 
 # the priority in the schedule table, leave commented if you don't need to control this
