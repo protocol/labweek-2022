@@ -19,7 +19,7 @@ date = "2022-10-30"
 days = 1
 
 # the event times (shows up in the event card)
-times = "12:00 - 17:00"
+times = "12:00 - 16:00"
 
 # the event venue name (will show up on the event card - TODO)
 venueName = "[Broteria](https://goo.gl/maps/Un1j8y3LQVHf8TaL9)"
