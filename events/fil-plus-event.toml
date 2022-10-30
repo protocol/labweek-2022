@@ -22,7 +22,7 @@ days = 1
 times = "09:00 - 13:00"
 
 # the event venue name (will show up on the event card - TODO)
-venueName = "[Vintage Hotel](https://goo.gl/maps/kbjjDL99aPkiNaxUA)"
+venueName = "[The Vintage Hotel & Spa Lisbon](https://goo.gl/maps/rD8RnZ6vyZBYQV4v5)"
 
 # the event venue address (will show up on a map -- TODO)
 venueAddress = "Rnet 10236, R. do Vale de Pereiro 19, 1250-270 Lisboa, Portugal"
