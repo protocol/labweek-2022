@@ -50,9 +50,12 @@ logomark = "/logomarks/Lotus.png"
 
 # a description of the event.
 # will show up when the user clicks the event card.
-description = """
+description = """  If you are unable to join in person, you can join the livestream [here](https://www.youtube.com/watch?v=TD-LsOpFeMU)!
 """
 
 # the priority in the schedule table, leave commented if you don't need to control this
 # 1 will appear at the top, higher numbers appear closer to bottom
 priority = 4
+
+# if event has a livestream uncomment the following line
+isLive = true
