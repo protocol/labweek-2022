@@ -53,7 +53,8 @@ logomark = "/logomarks/ipfscamp.png"
 description = """
 IPFS Camp 2022 is a gathering for the entire IPFS community: devs, operators, implementers, researchers – and you! 
 Join us for talks, workshops, discussion circles, hacking time, and more, all focused on celebrating and advancing IPFS.
-Live streaming available.  Please register to receive details.
+
+Watch the recordings [here](https://www.youtube.com/watch?v=yIbZUi7cTX8&list=PLuhRWgmPaHtSEv2DM9J7nSvN7dnVFMM6q&index=2)!
 """
 
 # the priority in the schedule table, leave commented if you don't need to control this
