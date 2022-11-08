@@ -53,7 +53,7 @@ logomark = "/logomarks/cryptoecon.png"
 description = """
 CryptoEconDay is a gathering of Web 3 researchers and practitioners sharing findings, lessons learned, and our most challenging questions around the topic of cryptoeconomics.Cryptoeconomics is an exciting, new field of incentive and mechanism design in cryptographically secured peer-to-peer networks. This interdisciplinary field of study is at the core of every Web3 project, and involves a constellation of knowledge including computer science, network science, statistics, economics, and systems engineering. In an increasingly networked and open world, cryptoeconomics will play a bigger role in coordinating human and machine activities and building a better future.Topics you will hear about are:        → Incentive & token design	     → Modeling & simulation     → Optimal pricing and resource allocation in distributed networks     → Governance process & principles	     → Formation, diffusion, and learning in networks     → Real-world experience & business impact	     → Network analytics & data-driven monitoring
 
-If you are unable to join in person, you can watch the livestream [here](https://www.youtube.com/watch?v=gGXOfKVxpDI)!
+Watch the recording [here](https://www.youtube.com/watch?v=gGXOfKVxpDI)!
 """
 
 # if event has a livestream uncomment the following line
