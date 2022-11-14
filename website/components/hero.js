@@ -49,7 +49,7 @@ export default function Hero({ config }) {
                     type="button"
                     className="inline-block px-5 py-3 mt-8 text-lg font-medium text-white bg-primary hover:bg-blue-400 px-8 py-3 rounded-lg rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                   >
-                    Recap and Videos
+                    Recap Video
                   </a>
                 </div>}
             </div>
