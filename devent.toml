@@ -29,11 +29,11 @@ siteUrl="https://labweek.io"
 link="https://labweek22.on.fleek.co"
 
 # a link to RSVP for the event
-rsvpLink="https://lu.ma/plsummit22"
+# rsvpLink="https://lu.ma/plsummit22"
 
 # a link to the recap and videos
 # Dependent on https://github.com/ipfs/ipfs-blog/issues/443 first.
-# recapLink="https://blog.ipfs.io/ipfs-ping-2022-recap/"
+recapLink="https://youtu.be/-y16TDxV5C0"
 
 # a link to a logo image for the event
 logo="logo-hex.svg"
