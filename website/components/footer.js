@@ -29,7 +29,7 @@ export default function Footer({config}) {
                 <ul className="text-gray-600 dark:text-gray-400">
                     { Object.keys(config.footer.legal).map((k, i) => (
                         <li className="mb-4" key={i}>
-                            <a href={config.footer.links[k]} className="hover:underline">{k}</a>
+                            <a href={config.footer.legal[k]} className="hover:underline">{k}</a>
                         </li>
                     ))}
                 </ul>

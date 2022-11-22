@@ -228,7 +228,8 @@ Events are color coded as follows: Blue is for FIL Lisbon related events, Green 
 
 [footer.legal]
 "Privacy Policy" = "https://protocol.ai/legal/#privacy-policy"
-"Terms & Conditions" = "https://protocol.ai/legal/#terms-of-service "
+"Terms of Use" = "https://protocol.ai/legal/#terms-of-service "
+"DMCA Policy" ="https://ipfs.tech/legal/"
 
 [footer.social]
 twitter = "ipfs"
